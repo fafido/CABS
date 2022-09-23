@@ -1,0 +1,30 @@
+USE [CDS]
+GO
+
+/****** Object:  View [dbo].[pendingtrans]    Script Date: 11/25/2020 1:02:17 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+
+
+
+ALTER VIEW [dbo].[pendingtrans]
+AS
+   
+
+
+select receiptid as receiptid, 'EWR No. '+ receiptID +' is in the process of a Withdrawal' as [status] from withdrawals where ApprovedBy is NULL and Rejected is NULL AND DELETED IS NULL
+UNION
+select receiptid as receiptid, 'EWR No. '+ ReceiptID  +' in the Process of Transfer' as [status] from share_transfer  where ApprovedBy is NULL and Rejected is NULL and Deleted is NULL
+union
+SELECT distinct OriginalWRNo as receiptid,'EWR No. ' + OriginalWRNo +' in the process of Split' as [status]  FROM tblWRSplits where [state]<>'A' AND Deleted IS NULL
+union
+select Collateral as receiptid, 'EWR No. ' + Collateral +' in the process of a Pledge' from BorrowingRequest where approved1 is NULL AND  approved is NULL AND Rejected IS NULL AND DELETED IS NULL
+GO
+
+

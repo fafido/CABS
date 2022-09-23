@@ -1,0 +1,449 @@
+@charset "ISO-8859-1";
+body {
+	line-height: 1.2em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	background-color: #000000;
+	background-image: url(images/Sharepower_Centrion_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding: 0;
+}
+#navigator {
+	background-color: #F0F0F0;
+	background-image: url(images/Centurion_Nigeria_Sharepower_03.png);
+	background-repeat: no-repeat;
+	height: 39px;
+	width: 1003px;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+}
+.registerBg {
+	background-image: url(images/Share_power_zambia_register.jpg);
+	background-repeat: no-repeat;
+	height: 234px;
+	width: 391px;
+	padding-top: 0px;
+	padding-left: 20px;
+}
+.logoBg {
+	background-image: url(images/Sharepower_Centrion_09.jpg);
+	background-repeat: no-repeat;
+	height: 138px;
+	width: 1041px;
+}
+.loginIn {
+	display: block;
+	height: 25px;
+	width: 250px;
+	text-align: right;
+	margin-bottom: 8px;
+}
+.logIn {
+	height: 30px;
+	width: 150px;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.registerOnline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #F00;
+	line-height: 30px;
+	display: block;
+	height: 20px;
+	width: 190px;
+	/* [disabled]margin-left: 90px; */
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+.companies {
+	display: block;
+	float: right;
+	height: 100px;
+	width: 100px;
+}
+#Table_01 tr .registerBg .registerOnline a {
+	color: #F00;
+}
+.registration {
+	background-image: url(images/Sharepower_Centrion_05.jpg);
+	background-repeat: no-repeat;
+	height: 234px;
+	width: 327px;
+}
+.registrationRules {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 250px;
+	width: 280px;
+}
+#navigator a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #F79832;
+	text-decoration: none;
+	display: block;
+	height: 15px;
+	width: 70px;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	float: right;
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+}
+.bannerhome {
+	background-image: url(images/Centurion_Nigeria_Sharepower_02.png);
+	background-repeat: no-repeat;
+	height: 219px;
+	width: 1005px;
+}
+.contenthome {
+	background-image: url(images/Sharepower_Centrion_06.jpg);
+	background-repeat: no-repeat;
+	height: 212px;
+	width: 719px;
+}
+.advert {
+	background-color: #FFF;
+	background-image: url(images/advert.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	height: 195px;
+	width: 212px;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+.content {
+	background-color:#E4E4E4;
+	background-image:url(images/CDS-System_03.png);
+	background-repeat: repeat-y;
+	width: 870px;
+}
+.sidemenu {
+	background-color: #E4E4E4;
+	background-image: url(images/CDS-System_02.png);
+	background-repeat: repeat-y;
+	width: 197px;
+}
+.contentP {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-right: 10px;
+	display: block;
+	padding-left: 40px;
+	text-align: left;
+	line-height: 16px;
+}
+.contentPCopy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-right: 10px;
+	display: block;
+	padding-left: 40px;
+	text-align: left;
+	line-height: 16px;
+}
+.contentPCopy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-right: 10px;
+	display: block;
+	padding-left: 40px;
+	text-align: center;
+	line-height: 16px;
+	width: 80px;
+	float: left;
+}
+#Table_01 tr .logoBg .logIn #txtUsername {
+}
+.h1 {
+	display: block;
+	padding-right: 0px;
+	padding-left: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #F79230;
+	font-size: 18px;
+	width: 200px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.h1Copy {
+	display: block;
+	padding-right: 10px;
+	padding-left: 40px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #F79230;
+	font-size: 18px;
+	width: 200px;
+}
+a:hover {
+	color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	background-image: url(images/menu_mouse_hover.png);
+	background-repeat: no-repeat;
+}.services {
+	background-color: #FCFCFC;
+	background-image: url(images/Services.jpg);
+	background-repeat: no-repeat;
+	height: 279px;
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-left: 90px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+.lowerMenu {
+	background-color: #CCC;
+	background-image: url(images/foter_menu.jpg);
+	background-repeat: no-repeat;
+}
+.printing {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #F00;
+	display: block;
+	height: 18px;
+	width: 100px;
+	float: left;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-decoration: underline;
+	margin-right: 30px;
+	list-style-type: none;
+	text-align: center;
+}
+a:hover {
+	color: #F00;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+.terms {
+	display: block;
+}
+.printingBtn {
+	background-image: url(images/printing_btn.png);
+	display: block;
+	height: 23px;
+	width: 107px;
+	margin-left: 50px;
+	margin-top: 8px;
+	margin-right: 136px;
+	margin-bottom: 20px;
+	float: left;
+}
+.graphicBtn {
+	background-image: url(images/graphics%20btn.png);
+	display: block;
+	background-repeat: no-repeat;
+	height: 23px;
+	width: 107px;
+}
+.footer {
+	background-image: url(images/footer.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	clip: rect(0px,0px,0px,0px);
+}
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #E6E6E6;
+	display: block;
+	height: 15px;
+	width: 700px;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 2px;
+	padding-bottom: 15px;
+}
+#lowerMenu {
+	background-image: url(images/foter_menu.jpg);
+	background-repeat: no-repeat;
+	height: 27px;
+}
+.aboutH {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+.aboutP {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	margin-right: 40px;
+	margin-left: 40px;
+	font-weight: normal;
+	text-align: left;
+}
+.location {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	display: block;
+	float: right;
+	height: 100px;
+	width: 300px;
+	clip: rect(0px,auto,auto,auto);
+	line-height: 18px;
+	padding-left: 15px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.locationCopy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	display: block;
+	float: right;
+	height: 70px;
+	width: 400px;
+	clip: rect(0px,auto,auto,auto);
+	line-height: 18px;
+	padding-left: 15px;
+	margin-right: 100px;
+	margin-top: 40px;
+	text-align: center;
+}
+.enter {
+	display: block;
+	float: right;
+	height: 20px;
+	width: 70px;
+	margin-right: 50px;
+}
+.locationRegister {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	display: block;
+	float: right;
+	height: 80px;
+	width: 180px;
+	margin-right: 250px;
+}
+.content {
+	background-image: url(images/Centurion_Nigeria_Sharepower_06.png);
+	background-repeat: repeat-y;
+	width: 100%;
+}
+.locationRegisterlogos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	display: block;
+	float: left;
+	height: 29px;
+	width: 103px;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+.locationRegisterlogosCopy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	display: block;
+	float: left;
+	height: 83px;
+	width: 98px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.changepassword {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #880915;
+	margin-left: 50px;
+	text-decoration: underline;
+	display: block;
+	height: 10px;
+	width: 100px;
+	float: left;
+}
+.footercopyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CCC;
+	margin-left: 20px;
+	text-decoration: none;
+	display: block;
+	height: 14px;
+	width: 280px;
+	float: left;
+	margin-top: 10px;
+}
+#Table_01 tr .sidemenu p img {
+	margin-left: 15px;
+}
+.footercopyright2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #F90;
+	margin-left: 10px;
+	text-decoration: underline;
+	display: block;
+	height: 14px;
+	width: 567px;
+	float: right;
+	text-align: right;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.enterin {
+	display: block;
+	height: 15px;
+	width: 80px;
+}
+.lowerheader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+}
+.footerBg {
+	background-image: url(images/CDS-System_06.png);
+	height: 41px;
+	width: 1069px;
+	background-repeat: no-repeat;
+	background-color:#094A76;
+	
+}
+.login {
+	height: 256px;
+	width: 564px;
+	background-image: url(images/Centurion_Nigeria_Sharepower_log_in_03.png);
+}

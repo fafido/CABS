@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="sw-KE">
+  <Title Text="Surveillance" />
+  <DataConnections>
+    <DataConnection Name="mcapconn" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="localhost" />
+        <Parameter Name="database" Value="CDS" />
+        <Parameter Name="useIntegratedSecurity" Value="True" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+    <DataConnection Name="atsconnectionnew" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="localhost" />
+        <Parameter Name="database" Value="testcds" />
+        <Parameter Name="useIntegratedSecurity" Value="True" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="trading_shareprices">
+      <DataProvider DataConnection="mcapconn" SupportSql="true" Sql="select distinct top 8 p.[counter], (select top 1 price from para_prices where [counter]=p.counter order by pricedate desc) as [Currentprice], isnull((SELECT price FROM (SELECT ROW_NUMBER() OVER (ORDER BY pricedate desc) AS RowNum, * FROM para_prices where [counter]=p.[counter]) sub WHERE RowNum = 2),0) as prev from para_prices p" />
+    </DataSource>
+    <DataSource ComponentName="dataSource2" Name="atsdatasource">
+      <DataProvider DataConnection="atsconnectionnew" SupportSql="true" Sql=" select sum(quantity) as Quantity, OrderType, Company from Audit_Order_Posted_Log WHERE Deal_Begin_Date&gt;=dateadd(day,-1000,getdate())  GROUP BY OrderType, company  ORDER BY SUM(QUANTITY) DESC&#xD;&#xA;" />
+    </DataSource>
+    <DataSource ComponentName="dataSource3" Name="tradedvalues">
+      <DataProvider DataConnection="atsconnectionnew" SupportSql="true" Sql="select getdate() as [Date Traded], sum(quantity) as [Volumes Traded], dealprice as [Price], dealPrice*Sum(quantity) as [Value of Traded Volumes] from cds.dbo.tbl_units_move where [status]='1' group by dealprice&#xD;&#xA;" />
+    </DataSource>
+    <DataSource ComponentName="dataSource4" Name="top1trading">
+      <DataProvider DataConnection="atsconnectionnew" SupportSql="true" Sql="  select top 2 Company, isnull((select sum(quantity) from Audit_Orders_Executed_Log where Company=para_company.Company ),30) as [Quantity],isnull((select top 1 ISNULL(price,1) from cds.dbo.para_Prices where [counter]=para_company.Company ),0) as [Current Price], isnull((select avg(price) from cds.dbo.para_Prices where [counter]=para_company.Company ),0) as [avg_price], isnull((select sum(quantity) from Audit_Orders_Executed_Log where Company=para_company.Company ),30)*isnull((select top 1 ISNULL(price,1) from cds.dbo.para_Prices where [counter]=para_company.Company ),0)  as val,  isnull((select sum(quantity) from Audit_Orders_Executed_Log where Company=para_company.Company ),30)*isnull((select avg(price) from cds.dbo.para_Prices where [counter]=para_company.Company ),0)  as val_on_avg   from para_company" />
+    </DataSource>
+  </DataSources>
+  <Items>
+    <Card ComponentName="cardDashboardItem1" Name="SharePrices" DataSource="dataSource1" ContentArrangementMode="FixedColumnCount" ContentLineCount="8">
+      <DataItems>
+        <Dimension DataMember="counter" Name="DataItem0" />
+        <Measure DataMember="Currentprice" Name="DataItem1" />
+        <Measure DataMember="prev" Name="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension Name="DataItem0" />
+      </SeriesDimensions>
+      <Card>
+        <ActualValue Name="DataItem1" />
+        <TargetValue Name="DataItem2" />
+      </Card>
+    </Card>
+    <Pie ComponentName="pieDashboardItem1" Name="Current Buys vs Sells" DataSource="dataSource2" PieType="Donut" LabelContentType="None" ShowPieCaptions="false">
+      <DataItems>
+        <Dimension DataMember="OrderType" Name="DataItem0" />
+        <Measure DataMember="Quantity" Name="DataItem1" />
+        <Dimension DataMember="Company" Name="DataItem2" />
+      </DataItems>
+      <Arguments>
+        <Argument Name="DataItem0" />
+        <Argument Name="DataItem2" />
+      </Arguments>
+      <Values>
+        <Value Name="DataItem1" />
+      </Values>
+      <Names>
+        <Name Value="DataItem1" Name="Quantity (Sum)" />
+      </Names>
+    </Pie>
+    <Grid ComponentName="gridDashboardItem1" Name="Traded Volumes(Back Dated 7 Days)" DataSource="dataSource3">
+      <DataItems>
+        <Measure DataMember="Value of Traded Volumes" Name="DataItem3" />
+        <Measure DataMember="Volumes Traded" Name="DataItem1">
+          <NumericFormat FormatType="General" />
+        </Measure>
+        <Dimension DataMember="Date Traded" Name="DataItem0" />
+        <Measure DataMember="Price" Name="DataItem2">
+          <NumericFormat FormatType="Currency" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension Name="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure Name="DataItem1" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure Name="DataItem2" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure Name="DataItem3" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions ShowVerticalLines="false" />
+    </Grid>
+    <Gauge ComponentName="gaugeDashboardItem1" Name="Top 2 Trading Securities" DataSource="dataSource4" ViewType="CircularThreeFourth">
+      <DataItems>
+        <Dimension DataMember="Company" Name="DataItem0" />
+        <Measure DataMember="val_on_avg" Name="DataItem2" />
+        <Measure DataMember="Quantity" Name="DataItem1" />
+        <Measure DataMember="val" Name="DataItem3" />
+        <Measure DataMember="Current Price" Name="DataItem4" />
+        <Measure DataMember="avg_price" Name="DataItem5" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension Name="DataItem0" />
+      </SeriesDimensions>
+      <GaugeElement Name="Quntities Traded">
+        <ActualValue Name="DataItem1" />
+      </GaugeElement>
+      <GaugeElement Name="Value of Quantities (AVG Price)">
+        <ActualValue Name="DataItem2" />
+      </GaugeElement>
+      <GaugeElement Name="Value (Current Price)">
+        <ActualValue Name="DataItem3" />
+      </GaugeElement>
+      <GaugeElement Name="Current Price">
+        <ActualValue Name="DataItem4" />
+      </GaugeElement>
+      <GaugeElement Name="Average Price">
+        <ActualValue Name="DataItem5" />
+      </GaugeElement>
+    </Gauge>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical">
+      <LayoutItem Weight="26.885644768856448" DashboardItem="cardDashboardItem1" />
+      <LayoutGroup Weight="73.114355231143549">
+        <LayoutItem Weight="34.677419354838712" DashboardItem="pieDashboardItem1" />
+        <LayoutItem Weight="34.61021505376344" DashboardItem="gridDashboardItem1" />
+        <LayoutItem Weight="30.712365591397848" DashboardItem="gaugeDashboardItem1" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

@@ -1,0 +1,125 @@
+<%@ Master Language="VB" CodeFile="CDSUser.master.vb" Inherits="CDSUser" %>
+
+<%@ Register assembly="DevExpress.Web.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxEditors" tagprefix="dx" %>
+<%@ Register assembly="DevExpress.Web.ASPxTreeList.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxTreeList" tagprefix="dx" %>
+
+<%@ Register assembly="DevExpress.Web.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web.ASPxTreeView" tagprefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .footer {
+
+    position: fixed; 
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background-color:#F4BE16;
+    height: 35px;
+    color:black;
+   text-align:center;
+ font-family:Calibri;
+ font-style:italic ;
+   
+ 
+
+}
+        .auto-style5 {
+            height: 63px;
+            width: 2509px;
+        }
+        .auto-style8 {
+            width: 198px;
+            height: 65px;
+        }
+        .auto-style10 {
+            width: 271px;
+        }
+    </style>
+    	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="Scripts/styles.css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <table class="auto-style1">
+            <tr>
+                <td   style="border-bottom:1pt solid #F4BE16; border-left-color: #F4BE16; border-right-color: #F4BE16; border-top-color: #F4BE16;" class="auto-style5">
+
+
+
+                    <asp:ImageButton ID="Image1" runat="server" Height="76px" imageurl="~/Images/naym.png" Width="246px" />
+
+
+                </td>
+                <td valign="top" style="border-bottom:1pt solid #F4BE16;border-color:#F4BE16;height:63px">
+
+
+                    <table class="auto-style8" >
+                        <tr>
+                            <td style="width:300px">
+                                <asp:Label ID="label1" runat="server" Font-Size="Smaller" Font-Names="Calibri" ForeColor="#005199"></asp:Label>
+
+                                <asp:ImageButton ID="ImageButton1" runat="server" Height="12px" ImageUrl="~/Images/exit.png" Width="13px" />
+
+                            </td>
+                            <td align="center" valign="center" rowspan="3" >
+                               <%-- <asp:Image ID="Image2" runat="server" Height="58px" ImageUrl="~/Images/index.png" Width="59px" />--%>
+                                <asp:ImageButton ID="image2" runat="server" Height="58px" ImageUrl="~/Images/index.png" Width="59px"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <asp:Label ID="lblrole" runat="server" Font-Size="Smaller" Font-Names="Calibri" ForeColor="#005199"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:Label ID="lbldate" runat="server" Font-Size="Smaller" Font-Names="Calibri" ForeColor="#005199"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                    </td>
+            </tr>
+            <tr>
+                <td    colspan="2">
+
+
+                    <table style="width:100%;height:800px">
+                        <tr>
+                            <td valign="top" align="left" style="border-right:1pt solid gray;border-color:lightgrey;" class="auto-style10">
+                                <asp:TreeView id="TreeView1"  Width="94%" runat="server" backcolor="White" 
+                                    font-names="Trebuchet MS" font-size="Small" forecolor="#333333" Font-Italic="True">
+                                    <HoverNodeStyle BackColor="#666666" />
+                                   
+
+                                </asp:TreeView>
+                            </td>
+                            <td valign="top">
+                                  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    
+    </div>
+        <div class="footer">Copyright Escrow Systems 2020</div>
+    </form>
+    </body>
+</html>

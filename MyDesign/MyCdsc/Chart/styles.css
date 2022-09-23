@@ -1,0 +1,162 @@
+/* -- WebChartControl -- */
+.dxchartsuiLoadingDiv_MyCdsc
+{
+	background-color:Gray;	
+	opacity: 0.01;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxchartsuiLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+    color: #201f35;
+    background: White;
+	border: 1px solid #9da0aa;
+}
+.dxchartsuiLoadingPanel_MyCdsc td.dx
+
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+
+/* -- Crosshair -- */
+.dxchartsuiCrosshairHLine_MyCdsc,
+.dxchartsuiCrosshairVLine_MyCdsc
+{
+    background-color: transparent;
+    border-color: #de39cd;
+}
+
+.dxchartsuiCrosshairLabel_MyCdsc,
+.dxchartsuiCrosshairHLine_MyCdsc,
+.dxchartsuiCrosshairVLine_MyCdsc
+{
+    position: absolute;
+    z-index: 41998;
+}
+
+.dxchartsuiCrosshairLabel_MyCdsc
+{
+    background-color: #de39cd;
+    color: White;
+	font: 11px Tahoma, Geneva, sans-serif;
+	padding: 1px 4px 1px 4px;
+    white-space: nowrap;    
+}
+
+.dxchartsuiCrosshairHLine_MyCdsc
+{
+    height: 0px;
+}
+
+.dxchartsuiCrosshairVLine_MyCdsc
+{
+    width: 0px;
+}
+
+/* -- Tooltip -- */
+.dxchartsuiTooltip_MyCdsc,
+.dxchartsuiTooltip_TopLeft_MyCdsc,
+.dxchartsuiTooltip_TopRight_MyCdsc,
+.dxchartsuiTooltip_BottomLeft_MyCdsc,
+.dxchartsuiTooltip_BottomRight_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid rgb(157, 160, 170);
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	padding: 6px 10px 6px 10px;
+	text-align: left;
+    position: absolute;
+    cursor: default;
+    white-space: nowrap;
+    -moz-box-shadow:    0px 2px 10px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.35);
+    box-shadow:         0px 2px 10px rgba(0, 0, 0, 0.35);
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    z-index: 41999;
+}
+.dxchartsuiTooltip_TopLeft_MyCdsc:before,
+.dxchartsuiTooltip_TopRight_MyCdsc:before,
+.dxchartsuiTooltip_BottomLeft_MyCdsc:before,
+.dxchartsuiTooltip_BottomRight_MyCdsc:before,
+.dxchartsuiTooltip_TopLeft_MyCdsc:after,
+.dxchartsuiTooltip_TopRight_MyCdsc:after,
+.dxchartsuiTooltip_BottomLeft_MyCdsc:after,
+.dxchartsuiTooltip_BottomRight_MyCdsc:after
+{
+    border-style: solid;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+}
+.dxchartsuiTooltip_TopLeft_MyCdsc:before,
+.dxchartsuiTooltip_TopRight_MyCdsc:before,
+.dxchartsuiTooltip_BottomLeft_MyCdsc:before,
+.dxchartsuiTooltip_BottomRight_MyCdsc:before
+{
+    border-width: 10px 5px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+.dxchartsuiTooltip_TopLeft_MyCdsc:after,
+.dxchartsuiTooltip_TopRight_MyCdsc:after,
+.dxchartsuiTooltip_BottomLeft_MyCdsc:after,
+.dxchartsuiTooltip_BottomRight_MyCdsc:after
+{
+    border-width: 8px 4px;
+}
+.dxchartsuiTooltip_TopLeft_MyCdsc:before
+{
+    border-color: transparent transparent rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35);
+    top: -20px;
+    left: 10px;
+}
+.dxchartsuiTooltip_TopLeft_MyCdsc:after
+{
+    border-color: transparent transparent White White;
+    top: -16px;
+    left: 11px;
+}
+.dxchartsuiTooltip_TopRight_MyCdsc:before
+{
+    border-color: transparent rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35) transparent;
+    top: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_TopRight_MyCdsc:after
+{
+    border-color: transparent White White transparent;
+    top: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomRight_MyCdsc:before
+{
+    border-color: rgba(139, 139, 139, 0.35) rgba(139, 139, 139, 0.35) transparent transparent;
+    bottom: -20px;
+    right: 10px;
+}
+.dxchartsuiTooltip_BottomRight_MyCdsc:after
+{
+    border-color: White White transparent transparent;
+    bottom: -16px;
+    right: 11px;
+}
+.dxchartsuiTooltip_BottomLeft_MyCdsc:before
+{
+    border-color: rgba(139, 139, 139, 0.35) transparent transparent rgba(139, 139, 139, 0.35);
+    bottom: -20px;
+    left: 10px;
+}
+.dxchartsuiTooltip_BottomLeft_MyCdsc:after
+{
+    border-color: White transparent transparent White;
+    bottom: -16px;
+    left: 11px;
+}

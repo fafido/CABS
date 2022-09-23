@@ -1,0 +1,27 @@
+alter table trans
+alter column shares numeric(18,2)
+
+alter table share_transfer
+alter column amount_to_transfer numeric(18,2)
+
+alter table borrowingrequest 
+alter column availablequantity numeric(18,2)
+
+alter table wr
+alter column quantity numeric(18,2)
+
+alter table warehoursedeliveries 
+alter column quantity numeric(18,2)
+
+
+alter table tblWRsplits
+alter column originalqty numeric(18,2)
+
+alter table tblWRsplits
+alter column childqty numeric(18,2)
+
+
+alter table withdrawals 
+alter column amount_to_withdraw numeric(18,2)
+
+

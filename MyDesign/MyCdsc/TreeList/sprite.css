@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_MyCdsc,
+.dxTreeList_CollapsedButtonRtl_MyCdsc,
+.dxTreeList_DragAndDropArrowDown_MyCdsc,
+.dxTreeList_DragAndDropArrowUp_MyCdsc,
+.dxTreeList_DragAndDropHide_MyCdsc,
+.dxTreeList_DragAndDropNode_MyCdsc,
+.dxTreeList_ExpandedButton_MyCdsc,
+.dxTreeList_ExpandedButtonRtl_MyCdsc,
+.dxTreeList_SortAsc_MyCdsc,
+.dxTreeList_SortDesc_MyCdsc
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_MyCdsc
+{
+    background-position: -23px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_CollapsedButtonRtl_MyCdsc
+{
+    background-position: -28px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_DragAndDropArrowDown_MyCdsc
+{
+    background-position: -51px -13px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_MyCdsc
+{
+    background-position: -51px 0px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_MyCdsc
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_MyCdsc
+{
+    background-position: -14px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_MyCdsc
+{
+    background-position: 0px -23px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButtonRtl_MyCdsc
+{
+    background-position: -37px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_SortAsc_MyCdsc
+{
+    background-position: -35px -17px;
+    width: 7px;
+    height: 5px;
+}
+.dxTreeList_SortDesc_MyCdsc
+{
+    background-position: -43px -17px;
+    width: 7px;
+    height: 5px;
+}
+

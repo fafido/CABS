@@ -1,0 +1,65 @@
+<%@ Master Language="VB" CodeFile="BrokerAdministration.master.vb" Inherits="BrokerAdministration" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Broker Administration</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table>
+            <tr>
+                <td style="width: 1084px">
+                    <table>
+                        <tr>
+                            <td colspan="4" style="width: 1080px; background-image: url(Images/SystemBanner.jpg);" valign="top">
+                                <asp:Image id="Image1" runat="server" ImageUrl="~/Images/SystemBanner.jpg" /></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td valign="top" style="height: 629px" bgcolor="#C0C0FF">
+                                <asp:TreeView id="TreeView1" runat="server" backcolor="#C0C0FF" font-names="Verdana" font-size="Small">
+                                    <Nodes>
+                                        <asp:TreeNode Text="Sign Out" Value="Sign Out" NavigateUrl="~/LoginSystem.aspx"></asp:TreeNode>
+                                        <asp:TreeNode Text="Account Maintenance" Value="Account Maintenance">
+                                            <asp:TreeNode Text="Create System Users Accounts" Value="Create System Users Accounts" NavigateUrl="~/Administration/AccountCreation.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="User Profile Maintenance" Value="User Profile Maintenance"></asp:TreeNode>
+                                            <asp:TreeNode Text="System User Permissions" Value="System User Permissions" NavigateUrl="~/Administration/AccountPermisions.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="User Activity Log" Value="User Activity Log">
+                                            <asp:TreeNode Text="System Access By User" Value="System Access By User"></asp:TreeNode>
+                                            <asp:TreeNode Text="User Activities" Value="User Activities"></asp:TreeNode>
+                                            <asp:TreeNode Text="User Permissions" Value="User Permisssions"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="System Usage Reporting" Value="Trading">
+                                            <asp:TreeNode Text="Active Accounts" Value="Dematirialization"></asp:TreeNode>
+                                            <asp:TreeNode Text="Blocked Accounts" Value="Batch Receipting"></asp:TreeNode>
+                                            <asp:TreeNode Text="System Users Schedule" Value="Accounts Immobilization"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                    </Nodes>
+                                    <HoverNodeStyle backcolor="MidnightBlue" />
+                                    <LeafNodeStyle font-names="Arial" font-size="Small" />
+                                </asp:TreeView>
+                            </td>
+                            <td valign="top" style="width: 1000px; height: 629px"><asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td style="width: 1082px" bgcolor="#C0C0FF" align="center">
+                                <asp:Label id="Label1" runat="server" font-bold="True" font-names="Arial" font-size="Small"
+                                    Text="Broker Administration Level Access"></asp:Label></td>
+                        </tr>
+                    </table>
+                    
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

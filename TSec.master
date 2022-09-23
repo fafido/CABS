@@ -1,0 +1,226 @@
+<%@ Master Language="VB" CodeFile="TSec.master.vb" Inherits="Tsec" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>T Sec</title>
+    
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="main.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #Table_01
+        {
+            width: 1074px;
+        }
+        .style1
+        {
+            background-color: #E4E4E4;
+            background-image: url('~/images/CDS-System_02.png');
+            background-repeat: repeat-y;
+            width: 201px;
+        }
+        .style2
+        {
+            width: 201px;
+             background-color: #E4E4E4;
+        }
+    </style>
+</head>
+ <form id="form1" runat="server">
+
+<table height="555" border="0" align="center" cellpadding="0" cellspacing="0" 
+     id="Table_01">
+	<tr>
+		<td colspan="2" align="left" valign="top">
+			<img src="../images/CDS-System_01.png" height="105" alt="" 
+                style="width: 1109px"></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style1">
+
+                                <asp:TreeView id="TreeView1" runat="server" backcolor="Gainsboro" 
+                                    font-names="Verdana" font-size="Small" forecolor="#095382">
+                                    <Nodes>
+                                        <asp:TreeNode Text="Sign Out" Value="Sign Out" NavigateUrl="~/LoginSystem.aspx"></asp:TreeNode>
+                                        <asp:TreeNode Text="Capture" Value="Capture">
+                                            <asp:TreeNode Text="Batches " Value="Batches " 
+                                                NavigateUrl="~/TSecMode/Batches.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="CDS" Value="CDS" NavigateUrl="~/TSecMode/CDSCapture.aspx"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/TSecMode/Indemnities.aspx" Text="Indemnities" 
+                                                Value="Indemnities"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/TSecMode/ChangeChequeNo.aspx" 
+                                                Text="Cheque Posting" Value="Cheque Posting"></asp:TreeNode>
+                                            <asp:TreeNode Text="Manual Cheque Replacement" 
+                                                Value="Manual Cheque Replacement"></asp:TreeNode>
+                                            <asp:TreeNode Text="HFC Update for cheques" Value="HFC Update for cheques">
+                                            </asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Receipting" Value="Trading">
+                                            <asp:TreeNode Text="Batch Receipting" Value="Batch Receipting" NavigateUrl="~/TSecTrading/BrokerBatchReceipt.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Batch Enquiry" Value="Batch Enquiry"></asp:TreeNode>
+                                            <asp:TreeNode Text="Immobilizations" Value="Immobilizations" NavigateUrl="~/TSecTrading/TSecBatchVerification.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Transfers" Value="Transfers" NavigateUrl="~/TSecTrading/TransferBatch.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Allotments" Value="Allotments" NavigateUrl="~/TSecTrading/AllotmentBatch.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Dividend " Value="Dividend ">
+                                            <asp:TreeNode NavigateUrl="~/DividendBroker/DividendInstructions.aspx" Text="Dividend Instructions"
+                                                Value="Dividend Instructions"></asp:TreeNode>
+                                            <asp:TreeNode Text="Control Summary" Value="Control Summary" 
+                                                NavigateUrl="~/TSecMode/DividendControlSummary.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Create Dividend" Value="Create Dividend" NavigateUrl="~/DividendBroker/DividendCreation.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Create Cheque Numbers" Value="Create Cheque Numbers" 
+                                                NavigateUrl="~/TSecMode/CreateDividendCheques.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Clear Cheque Numbers" Value="Clear Cheque Numbers">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Print Cheque Numbers" Value="Print Cheque Numbers" 
+                                                NavigateUrl="~/TSecMode/Printcheques.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Dividend Schedule" Value="Dividend Schedule" NavigateUrl="~/DividendBroker/DividendSchedule.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Dividend Labels" Value="Dividend Labels" 
+                                                NavigateUrl="~/TSecMode/DividendLabels.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="EFT File" Value="EFT File" NavigateUrl="~/DividendBroker/DividendEFTFile.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Dividend Instructions Enquiry" Value="Dividend Instructions Enquiry" NavigateUrl="~/DividendBroker/DividendControlSummary.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Shareholder Dividend Enquiry" Value="Shareholder Dividend Enquiry" NavigateUrl="~/DividendBroker/DividendEnquiryStatement.aspx">
+                                            </asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Dividend Reconciliation" Value="Dividend Reconciliation">
+                                            <asp:TreeNode Text="Create Recon Event" Value="Create Recon Event" 
+                                                NavigateUrl="~/TSecMode/DividendReconEvent.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Create Dividend Recon" Value="Create Dividend Recon" 
+                                                NavigateUrl="~/TSecMode/DividendReconciliation.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Dividend Summary Report" Value="Dividend Summary Report" 
+                                                NavigateUrl="~/TSecMode/DividendSummaryReport.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Cheques Summary" Value="Cheques Summary" 
+                                                NavigateUrl="~/TSecMode/DividendChequeSummary.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Electronic Recon Update" Value="Electronic Recon Update" 
+                                                NavigateUrl="~/TSecMode/ElectronicReconUpdate.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Manual Reconciliation" Value="Manual Reconciliation" 
+                                                NavigateUrl="~/TSecMode/ManualReconciliation.aspx">
+                                            </asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Enquiries" Value="Enquiries">
+                                            <asp:TreeNode NavigateUrl="~/TSecEnquiries/AccountEnquiry.aspx" 
+                                                Text="Account Details Enquiry" Value="Account Details Enquiry">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Enquiries/AccountEnquiryStatement.aspx" 
+                                                Text="Shareholder Trading Enquiry" Value="Shareholder Trading Enquiry">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Certificates" Value="Certificates" 
+                                                NavigateUrl="~/TSecEnquiries/CertificateEnquiry.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Transfers" Value="Transfers"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/TSecEnquiries/DividendHistoryEnquiry.aspx" 
+                                                Text="Dividend History Enquiry" Value="Dividend History Enquiry">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/TSecEnquiries/ChequeStatusEnquiry.aspx" 
+                                                Text="Cheque Status Enquiry" Value="Cheque Status Enquiry"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Rights" Value="Rights">
+                                            <asp:TreeNode Text="Rights Instructions" Value="Rights Instructions" NavigateUrl="~/Rights/frmInstrRights.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Create Rights" 
+                                                Value="Create Rights Instructions" NavigateUrl="~/Rights/frmRightsCreate.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="LA Schedule" Value="LA Schedule"></asp:TreeNode>
+                                            <asp:TreeNode Text="Rights Instructions Enquiry" Value="Rights Instructions Enquiry">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Shareholder Allocation Enquiry" Value="Shareholder Allocation Enquiry">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Split LA's" Value="Split LA's" 
+                                                NavigateUrl="~/Rights/frmRightsSplit.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Acceptence" Value="Acceptence" 
+                                                NavigateUrl="~/Rights/frmRightsAcceptance.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Bonus" Value="Bonus Enquiries">
+                                            <asp:TreeNode Text="Bonus Schedule" Value="Bonus Schedule"></asp:TreeNode>
+                                            <asp:TreeNode Text="Bonus Instructions Enquiry" Value="Bonus Instructions Enquiry"></asp:TreeNode>
+                                            <asp:TreeNode Text="Shareholder Bonus Enquiry" Value="Shareholder Bonus Enquiry"></asp:TreeNode>
+                                            <asp:TreeNode Text="Create Bonus Instructions" 
+                                                Value="Create Bonus Instructions" NavigateUrl="~/Bonus/frmBonusCreate.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Create Bonus" Value="Create Bonus" 
+                                                NavigateUrl="~/Bonus/frmBonus.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Batch Verification" Value="Batch Verification">
+                                            <asp:TreeNode Text="Verification" Value="Verification"></asp:TreeNode>
+                                            <asp:TreeNode Text="Verification Report" Value="Verification Report">
+                                            </asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Auditing" Value="Auditing">
+                                            <asp:TreeNode NavigateUrl="~/TSecMode/CDSAccountApproval.aspx" 
+                                                Text="New Created Accounts" Value="New Created Accounts"></asp:TreeNode>
+                                            <asp:TreeNode Text="Batch Verifications" Value="Batch Verifications" NavigateUrl="~/TSecTrading/BrokerBatchVerification.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Transfers" Value="Transfers" NavigateUrl="~/TSecTrading/TransferBatch.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Allotments" Value="Allotments"></asp:TreeNode>
+                                            <asp:TreeNode Text="Dividend Creation" Value="Dividend Creation" NavigateUrl="~/DividendBroker/DividendControlSummary.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Rights Creation" Value="Rights Creation"></asp:TreeNode>
+                                            <asp:TreeNode Text="Bonus Creation" Value="Bonus Creation"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="File Integration" Value="File Integration">
+                                            <asp:TreeNode Text="Member Accounts" Value="Member Accounts"></asp:TreeNode>
+                                            <asp:TreeNode Text="EFT Trades" Value="EFT Trades"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Reporting" Value="Reporting">
+                                            <asp:TreeNode Text="Company Schedule" Value="Company Schedule" 
+                                                NavigateUrl="~/TSecReports/CompanySchedule.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Company Stats" Value="Full Accounts Schedule" 
+                                                NavigateUrl="~/TSecReports/CompanyStats.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Top Holders Report" Value="Movement Report" 
+                                                NavigateUrl="~/TSecReports/CompanyTopHolder.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Summary of Ownership" Value="Summary of Ownership" 
+                                                NavigateUrl="~/TSecReports/SummaryOfOwnership.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Transaction Report" Value="Annual Return Report" 
+                                                NavigateUrl="~/TSecReports/TransactionReport.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Transactions Audit Summary" 
+                                                Value="Transactions Audit Summary" 
+                                                NavigateUrl="~/TSecAudit/AuditandReports.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Printing" Value="Printing">
+                                            <asp:TreeNode NavigateUrl="~/TSecPrinting/CertificatePrinting.aspx" 
+                                                Text="Print Certificates" Value="Print Certificates"></asp:TreeNode>
+                                            <asp:TreeNode Text="Consolidations Report" Value="Consolidations Report">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Cheque Replacement " Value="Cheque Replacement ">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Pending Certificates" Value="Pending Certificates">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Jumbo Certificates" Value="Jumbo Certificates">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Company Schedule" Value="Company Schedule"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                    </Nodes>
+                                    <HoverNodeStyle backcolor="MidnightBlue" />
+                                    <LeafNodeStyle font-names="Arial" font-size="Small" />
+                                </asp:TreeView>
+                               </td>
+		<td rowspan="3" align="left" valign="top" class="content"><p>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p style="width: 835px">&nbsp;</p></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style2">
+			<img src="../images/CDS-System_04.png" height="173" alt="" style="width: 237px"></td>
+	</tr>
+	<tr>
+		<td class="style2">
+			<img src="../images/CDS-System_05.png" width="197" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top" class="footerBg"><a href="#"><span class="footercopyright"><asp:Label 
+                id="Label1" runat="server" font-bold="True" font-names="Arial" 
+                font-size="x-Small" Text="TSec Level Access" visible="True"></asp:Label></span></a><em class="footercopyright">Copyright &copy; 2012 ecsrowsystems all rights reserved</em></td>
+	</tr>
+</table>
+
+</form>

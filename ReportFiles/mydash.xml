@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-ZW">
+  <Title Text="Dashboard" />
+  <DataConnections>
+    <DataConnection Name="DASHBOARD" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="WWW\ESCROWSYS" />
+        <Parameter Name="database" Value="CDS" />
+        <Parameter Name="useIntegratedSecurity" Value="True" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+    <DataConnection Name="localhost_testcdsConnection" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="WWW\ESCROWSYS" />
+        <Parameter Name="database" Value="testcds" />
+        <Parameter Name="useIntegratedSecurity" Value="True" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="DASH">
+      <DataProvider DataConnection="DASHBOARD" SupportSql="true" Sql="select top 3 &quot;trans&quot;.&quot;Company&quot;, &quot;trans&quot;.&quot;CDS_Number&quot;, &quot;trans&quot;.&quot;Date_Created&quot;, &quot;trans&quot;.&quot;Trans_Time&quot;,&#xD;&#xA;       &quot;trans&quot;.&quot;Shares&quot;, &quot;trans&quot;.&quot;Update_Type&quot;, &quot;trans&quot;.&quot;Created_By&quot;, &quot;trans&quot;.&quot;Batch_Ref&quot;, &quot;trans&quot;.&quot;Source&quot;,&#xD;&#xA;       &quot;trans&quot;.&quot;Trans_ID&quot;, &quot;trans&quot;.&quot;Pledge_shares&quot;, &quot;trans&quot;.&quot;Reference&quot;&#xD;&#xA;  from &quot;dbo&quot;.&quot;trans&quot; &quot;trans&quot; ">
+        <Selection>
+          <Table Name="trans">
+            <Columns>
+              <Column Name="Company" />
+              <Column Name="CDS_Number" />
+              <Column Name="Date_Created" />
+              <Column Name="Trans_Time" />
+              <Column Name="Shares" />
+              <Column Name="Update_Type" />
+              <Column Name="Created_By" />
+              <Column Name="Batch_Ref" />
+              <Column Name="Source" />
+              <Column Name="Trans_ID" />
+              <Column Name="Pledge_shares" />
+              <Column Name="Reference" />
+            </Columns>
+          </Table>
+          <Filters>
+            <Filter TableName="" FilterString="" />
+          </Filters>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+    <DataSource ComponentName="dataSource2" Name="datasource2">
+      <DataProvider DataConnection="localhost_testcdsConnection" SupportSql="true">
+        <Selection>
+          <Table Name="CompanyLivePrices">
+            <Columns>
+              <Column Name="COMPANY" />
+              <Column Name="BID" />
+              <Column Name="OFFER" />
+              <Column Name="CurrentPrice" />
+              <Column Name="ShareVOL" />
+              <Column Name="LastUpdated" />
+            </Columns>
+          </Table>
+          <Filters>
+            <Filter TableName="" FilterString="" />
+          </Filters>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+  </DataSources>
+  <Items>
+    <Card ComponentName="cardDashboardItem1" Name="Cards 1" DataSource="dataSource1" ContentArrangementMode="FixedRowCount" ContentLineCount="14">
+      <DataItems>
+        <Dimension DataMember="Company" Name="DataItem0" />
+        <Measure DataMember="Shares" Name="DataItem1" />
+        <Measure DataMember="Trans_ID" Name="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension Name="DataItem0" />
+      </SeriesDimensions>
+      <Card>
+        <ActualValue Name="DataItem1" />
+        <TargetValue Name="DataItem2" />
+      </Card>
+    </Card>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Horizontal">
+      <LayoutGroup>
+        <LayoutGroup Orientation="Horizontal">
+          <LayoutGroup>
+            <LayoutItem DashboardItem="cardDashboardItem1" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

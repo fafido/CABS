@@ -1,0 +1,85 @@
+.dxwscCheckedTextContainer_MyCdsc
+{
+	background-color: white;
+	font-size: 11px;
+	font-family: Verdana, Geneva, sans-serif;
+	border: 1px solid #9da0aa;
+	vertical-align: top;
+	overflow: auto;
+	height: 110px;
+	width: 340px;
+	padding: 5px;
+}
+.dxwscErrorWord_MyCdsc 
+{
+	background: url('scErrorUnderline.gif') repeat-x left bottom;
+	padding-bottom: 3px;
+	color: #201f35;
+	font-weight: bold;
+}
+/* -- Loading panel -- */
+.dxwscLoadingDiv_MyCdsc
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxwscLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+    color: #201f35;
+    background: White;
+	border: 1px solid #9da0aa;
+}
+.dxwscLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+/* -- Forms -- */
+.dxwsc-main .dxpcLite_MyCdsc .dxwscDlgFooter
+{
+    border-top: 1px solid #abacb9;
+    background-color: #ebecef;
+
+	padding: 12px 12px;
+	text-align: right;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_MyCdsc .dxwscDlgFooter
+{
+    text-align: left;
+}
+.dxwsc-main .dxpcLite_MyCdsc .dxwscDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxwsc-main.dxwsc-rtl .dxpcLite_MyCdsc .dxwscDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxwsc-main .dxpcLite_MyCdsc .dxwscDlgSpellCheckBtn
+{
+    width: 120px;
+}
+
+.dxwsc-main .dxpcLite_MyCdsc .dxwscDlgContentSCFormContainer
+{
+	padding: 9px 62px 0px;
+}
+.dxwsc-main .dxpcLite_MyCdsc .dxwscDlgMainSpellCheckOptionsFormTable .dxwscDlgContentSCOptionsFormContainer
+{
+	padding: 12px 12px 0px;
+}
+.dxwsc-main .dxpcLite_MyCdsc .dxwscDlgSpellCheckForm .dxwscDlgListBoxContainer
+{
+	padding-top: 5px;
+	padding-bottom: 12px;
+}
+.dxwsc-main .dxpcLite_MyCdsc .dxwscDlgOptionsForm .dxwscDlgLanguagePanel
+{
+	padding-top: 10px;
+	padding-bottom: 12px;
+}

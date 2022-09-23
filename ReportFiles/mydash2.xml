@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="sw-KE">
+  <Title Text="FINSEC" />
+  <DataConnections>
+    <DataConnection Name="ATS1" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="localhost" />
+        <Parameter Name="database" Value="" />
+        <Parameter Name="useIntegratedSecurity" Value="True" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+    <DataConnection Name="mcapconn" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="localhost" />
+        <Parameter Name="database" Value="CDS" />
+        <Parameter Name="useIntegratedSecurity" Value="True" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="ATS">
+      <DataProvider DataConnection="ATS1" SupportSql="true" Sql="select sum(quantity) as curr, company from Audit_Order_Posted_Log  GROUP BY COMPANY ORDER BY SUM(QUANTITY) DESC">
+        <Selection>
+          <Table Name="Audit_Order_Posted_Log">
+            <Columns>
+              <Column Name="Company" />
+              <Column Name="Quantity" />
+              <Column Name="BasePrice" />
+              <Column Name="AvailableShares" />
+              <Column Name="Inserted_datetime" />
+            </Columns>
+          </Table>
+          <Filters>
+            <Filter TableName="" FilterString="" />
+          </Filters>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+    <DataSource ComponentName="dataSource2" Name="ATS_BUYS_SELLS">
+      <DataProvider DataConnection="ATS1" SupportSql="true" Sql="select sum(quantity) as curr, OrderType from Audit_Order_Posted_Log WHERE Deal_Begin_Date&gt;=dateadd(day,-1000,getdate())  GROUP BY OrderType  ORDER BY SUM(QUANTITY) DESC">
+        <Selection>
+          <Table Name="Audit_Order_Posted_Log">
+            <Columns>
+              <Column Name="logid" />
+              <Column Name="OrderNo" />
+              <Column Name="OrderType" />
+              <Column Name="Company" />
+              <Column Name="Broker_Code" />
+              <Column Name="Client_Type" />
+              <Column Name="Tax" />
+              <Column Name="Shareholder" />
+              <Column Name="ClientName" />
+              <Column Name="TotalShareHolding" />
+              <Column Name="Deal_Begin_Date" />
+              <Column Name="Expiry_Date" />
+              <Column Name="Quantity" />
+              <Column Name="BasePrice" />
+              <Column Name="AvailableShares" />
+              <Column Name="Inserted_datetime" />
+            </Columns>
+          </Table>
+          <Filters>
+            <Filter TableName="" FilterString="" />
+          </Filters>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+    <DataSource ComponentName="dataSource3" Name="mcap">
+      <DataProvider DataConnection="mcapconn" SupportSql="true" Sql="select company, sum(shares) as [Shares], (select top 1 isnull(price,'') from para_prices where counter=trans.Company order by pricedate desc) as price, sum(shares)*(select top 1 isnull(price,'') from para_prices where counter=trans.Company order by pricedate desc) as [Market cap]  from trans group by company" />
+    </DataSource>
+    <DataSource ComponentName="dataSource4" Name="holdingstructure">
+      <DataProvider DataConnection="mcapconn" SupportSql="true" Sql="select country as hold, count(CDS_Number) as num from Accounts_Clients group by country" />
+    </DataSource>
+  </DataSources>
+  <Items>
+    <Chart ComponentName="chartDashboardItem1" Name="Issued Share Capital" DataSource="dataSource3">
+      <DataItems>
+        <Measure DataMember="shares" Name="DataItem1" />
+        <Dimension DataMember="company" Name="DataItem0" />
+        <Measure DataMember="Market cap" Name="DataItem2" />
+      </DataItems>
+      <Arguments>
+        <Argument Name="DataItem0" />
+      </Arguments>
+      <InteractivityOptions MasterFilterMode="Multiple" IsDrillDownEnabled="true" />
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value Name="DataItem1" />
+            </Simple>
+            <Simple>
+              <Value Name="DataItem2" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend OutsidePosition="TopLeftHorizontal" />
+    </Chart>
+    <Grid ComponentName="gridDashboardItem1" Name="Company Details" DataSource="dataSource3" IsMasterFilterCrossDataSource="true">
+      <DataItems>
+        <Measure DataMember="Market cap" Name="DataItem3" />
+        <Dimension DataMember="company" Name="DataItem0" />
+        <Dimension DataMember="shares" Name="DataItem1">
+          <NumericFormat FormatType="Number" IncludeGroupSeparator="true" />
+        </Dimension>
+        <Measure DataMember="price" Name="DataItem2" />
+      </DataItems>
+      <InteractivityOptions MasterFilterMode="Multiple" />
+      <GridColumns>
+        <GridDimensionColumn Name="Company">
+          <Dimension Name="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn Name="Issued Shares">
+          <Dimension Name="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Name="Share Price">
+          <Measure Name="DataItem2" />
+        </GridMeasureColumn>
+        <GridMeasureColumn Name="Current Market Cap">
+          <Measure Name="DataItem3" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions AllowGridCellMerge="true" ShowVerticalLines="false" />
+    </Grid>
+    <Chart ComponentName="chartDashboardItem2" Name="CDS Accounts Registrations (By Country)" DataSource="dataSource4" Rotated="true">
+      <DataItems>
+        <Dimension DataMember="hold" Name="DataItem0" />
+        <Measure DataMember="num" Name="DataItem1" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension Name="DataItem0" />
+      </SeriesDimensions>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY Title="Registrations" />
+          <Series>
+            <Simple>
+              <Value Name="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend Visible="false" />
+      <AxisX Visible="false" Title="Country" TitleVisible="true" />
+    </Chart>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical">
+      <LayoutGroup Weight="70.712909441233137">
+        <LayoutItem Weight="34.527687296416936" DashboardItem="chartDashboardItem1" />
+        <LayoutItem Weight="34.527687296416936" DashboardItem="chartDashboardItem2" />
+        <LayoutItem Weight="30.944625407166125" DashboardItem="gridDashboardItem1" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

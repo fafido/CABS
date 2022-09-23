@@ -1,0 +1,742 @@
+.dxEditors_caRefresh_MyCdsc,
+.dxEditors_edtCalendarFNNextYear_MyCdsc,
+.dxEditors_edtCalendarFNPrevYear_MyCdsc,
+.dxEditors_edtCalendarNextMonth_MyCdsc,
+.dxEditors_edtCalendarNextMonthDisabled_MyCdsc,
+.dxEditors_edtCalendarNextYear_MyCdsc,
+.dxEditors_edtCalendarNextYearDisabled_MyCdsc,
+.dxEditors_edtCalendarPrevMonth_MyCdsc,
+.dxEditors_edtCalendarPrevMonthDisabled_MyCdsc,
+.dxEditors_edtCalendarPrevYear_MyCdsc,
+.dxEditors_edtCalendarPrevYearDisabled_MyCdsc,
+.dxEditors_edtDETSClockFace_MyCdsc,
+.dxEditors_edtDETSHourHand_MyCdsc,
+.dxEditors_edtDETSMinuteHand_MyCdsc,
+.dxEditors_edtDETSSecondHand_MyCdsc,
+.dxEditors_edtDropDown_MyCdsc,
+.dxEditors_edtDropDownDisabled_MyCdsc,
+.dxEditors_edtEllipsis_MyCdsc,
+.dxEditors_edtEllipsisDisabled_MyCdsc,
+.dxEditors_edtError_MyCdsc,
+.dxEditors_edtRadioButtonChecked_MyCdsc,
+.dxEditors_edtRadioButtonCheckedDisabled_MyCdsc,
+.dxEditors_edtRadioButtonUnchecked_MyCdsc,
+.dxEditors_edtRadioButtonUncheckedDisabled_MyCdsc,
+.dxEditors_edtSpinEditDecrementImage_MyCdsc,
+.dxEditors_edtSpinEditDecrementImageDisabled_MyCdsc,
+.dxEditors_edtSpinEditIncrementImage_MyCdsc,
+.dxEditors_edtSpinEditIncrementImageDisabled_MyCdsc,
+.dxEditors_edtSpinEditLargeDecImage_MyCdsc,
+.dxEditors_edtSpinEditLargeDecImageDisabled_MyCdsc,
+.dxEditors_edtSpinEditLargeIncImage_MyCdsc,
+.dxEditors_edtSpinEditLargeIncImageDisabled_MyCdsc,
+.dxEditors_edtTBDecBtn_MyCdsc,
+.dxEditors_edtTBDecBtnDisabled_MyCdsc,
+.dxEditors_edtTBDecBtnHover_MyCdsc,
+.dxEditors_edtTBDecBtnPressed_MyCdsc,
+.dxEditors_edtTBIncBtn_MyCdsc,
+.dxEditors_edtTBIncBtnDisabled_MyCdsc,
+.dxEditors_edtTBIncBtnHover_MyCdsc,
+.dxEditors_edtTBIncBtnPressed_MyCdsc,
+.dxEditors_edtTokenBoxTokenRemoveButton_MyCdsc,
+.dxEditors_edtTokenBoxTokenRemoveButtonHover_MyCdsc,
+.dxEditors_fcadd_MyCdsc,
+.dxEditors_fcaddhot_MyCdsc,
+.dxEditors_fcgroupaddcondition_MyCdsc,
+.dxEditors_fcgroupaddgroup_MyCdsc,
+.dxEditors_fcgroupand_MyCdsc,
+.dxEditors_fcgroupnotand_MyCdsc,
+.dxEditors_fcgroupnotor_MyCdsc,
+.dxEditors_fcgroupor_MyCdsc,
+.dxEditors_fcgroupremove_MyCdsc,
+.dxEditors_fcopany_MyCdsc,
+.dxEditors_fcopbegin_MyCdsc,
+.dxEditors_fcopbetween_MyCdsc,
+.dxEditors_fcopblank_MyCdsc,
+.dxEditors_fcopcontain_MyCdsc,
+.dxEditors_fcopend_MyCdsc,
+.dxEditors_fcopequal_MyCdsc,
+.dxEditors_fcopgreater_MyCdsc,
+.dxEditors_fcopgreaterorequal_MyCdsc,
+.dxEditors_fcopless_MyCdsc,
+.dxEditors_fcoplessorequal_MyCdsc,
+.dxEditors_fcoplike_MyCdsc,
+.dxEditors_fcopnotany_MyCdsc,
+.dxEditors_fcopnotbetween_MyCdsc,
+.dxEditors_fcopnotblank_MyCdsc,
+.dxEditors_fcopnotcontain_MyCdsc,
+.dxEditors_fcopnotequal_MyCdsc,
+.dxEditors_fcopnotlike_MyCdsc,
+.dxEditors_fcremove_MyCdsc,
+.dxEditors_fcremovehot_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_MyCdsc,
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc,
+.dxeTBHSys .dxEditors_edtTBMainDH_MyCdsc,
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_MyCdsc,
+.dxeTBHSys .dxEditors_edtTBMainDHHover_MyCdsc,
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_MyCdsc,
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_MyCdsc,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_MyCdsc,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_MyCdsc,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc,
+.dxeTBVSys .dxEditors_edtTBMainDH_MyCdsc,
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_MyCdsc,
+.dxeTBVSys .dxEditors_edtTBMainDHHover_MyCdsc,
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_MyCdsc,
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_MyCdsc,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_MyCdsc,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_MyCdsc,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxEditors_caRefresh_MyCdsc
+{
+    background-position: -152px 0px;
+    width: 25px;
+    height: 25px;
+}
+.dxEditors_edtCalendarFNNextYear_MyCdsc
+{
+    background-position: -20px -140px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtCalendarFNPrevYear_MyCdsc
+{
+    background-position: -112px -120px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtCalendarNextMonth_MyCdsc
+{
+    background-position: -132px -120px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtCalendarNextMonthDisabled_MyCdsc
+{
+    background-position: -60px -140px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtCalendarNextYear_MyCdsc
+{
+    background-position: -152px -43px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtCalendarNextYearDisabled_MyCdsc
+{
+    background-position: -152px -62px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtCalendarPrevMonth_MyCdsc
+{
+    background-position: 0px -140px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtCalendarPrevMonthDisabled_MyCdsc
+{
+    background-position: -40px -140px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtCalendarPrevYear_MyCdsc
+{
+    background-position: -152px -81px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtCalendarPrevYearDisabled_MyCdsc
+{
+    background-position: -152px -120px;
+    width: 19px;
+    height: 18px;
+}
+.dxEditors_edtDETSClockFace_MyCdsc
+{
+    background-position: 0px 0px;
+    width: 119px;
+    height: 119px;
+}
+.dxEditors_edtDETSHourHand_MyCdsc
+{
+    background-position: -144px 0px;
+    width: 7px;
+    height: 70px;
+}
+.dxEditors_edtDETSMinuteHand_MyCdsc
+{
+    background-position: -136px 0px;
+    width: 7px;
+    height: 70px;
+}
+.dxEditors_edtDETSSecondHand_MyCdsc
+{
+    background-position: -120px 0px;
+    width: 7px;
+    height: 78px;
+}
+.dxEditors_edtDETSSecondHand_MyCdsc.
+{
+    background-position: -128px 0px \9;
+    width: 7px \9;
+    height: 78px \9;
+}
+.dxEditors_edtDropDown_MyCdsc
+{
+    background-position: -140px -220px;
+    width: 10px;
+    height: 13px;
+}
+.dxEditors_edtDropDownDisabled_MyCdsc
+{
+    background-position: -151px -220px;
+    width: 10px;
+    height: 13px;
+}
+.dxEditors_edtEllipsis_MyCdsc
+{
+    background-position: -168px -206px;
+    width: 11px;
+    height: 13px;
+}
+.dxEditors_edtEllipsisDisabled_MyCdsc
+{
+    background-position: -168px -159px;
+    width: 11px;
+    height: 13px;
+}
+.dxEditors_edtError_MyCdsc
+{
+    background-position: -153px -159px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtRadioButtonChecked_MyCdsc
+{
+    background-position: -105px -159px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonCheckedDisabled_MyCdsc
+{
+    background-position: -73px -159px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUnchecked_MyCdsc
+{
+    background-position: -137px -159px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_MyCdsc
+{
+    background-position: -89px -159px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtSpinEditDecrementImage_MyCdsc
+{
+    background-position: -172px -49px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_MyCdsc
+{
+    background-position: -172px -31px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditIncrementImage_MyCdsc
+{
+    background-position: -172px -37px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_MyCdsc
+{
+    background-position: -172px -43px;
+    width: 7px;
+    height: 5px;
+}
+.dxEditors_edtSpinEditLargeDecImage_MyCdsc
+{
+    background-position: -136px -72px;
+    width: 5px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_MyCdsc
+{
+    background-position: -142px -71px;
+    width: 5px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditLargeIncImage_MyCdsc
+{
+    background-position: -172px -63px;
+    width: 5px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_MyCdsc
+{
+    background-position: -172px -55px;
+    width: 5px;
+    height: 7px;
+}
+.dxEditors_edtTBDecBtn_MyCdsc
+{
+    background-position: 0px -159px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtTBDecBtnDisabled_MyCdsc
+{
+    background-position: -156px -140px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtTBDecBtnHover_MyCdsc
+{
+    background-position: -38px -159px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtTBDecBtnPressed_MyCdsc
+{
+    background-position: -118px -140px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtTBIncBtn_MyCdsc
+{
+    background-position: -80px -140px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtTBIncBtnDisabled_MyCdsc
+{
+    background-position: -137px -140px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtTBIncBtnHover_MyCdsc
+{
+    background-position: -19px -159px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtTBIncBtnPressed_MyCdsc
+{
+    background-position: -99px -140px;
+    width: 18px;
+    height: 18px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_MyCdsc
+{
+    background-position: -121px -159px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButtonHover_MyCdsc
+{
+    background-position: -57px -159px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_fcadd_MyCdsc
+{
+    background-position: 0px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcaddhot_MyCdsc
+{
+    background-position: -112px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddcondition_MyCdsc
+{
+    background-position: -42px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddgroup_MyCdsc
+{
+    background-position: -84px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupand_MyCdsc
+{
+    background-position: -126px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotand_MyCdsc
+{
+    background-position: -56px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotor_MyCdsc
+{
+    background-position: -98px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupor_MyCdsc
+{
+    background-position: -98px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupremove_MyCdsc
+{
+    background-position: -150px -192px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopany_MyCdsc
+{
+    background-position: 0px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopbegin_MyCdsc
+{
+    background-position: -42px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopbetween_MyCdsc
+{
+    background-position: -80px -192px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopblank_MyCdsc
+{
+    background-position: -14px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcontain_MyCdsc
+{
+    background-position: -84px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopend_MyCdsc
+{
+    background-position: -28px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopequal_MyCdsc
+{
+    background-position: -56px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopgreater_MyCdsc
+{
+    background-position: -14px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopgreaterorequal_MyCdsc
+{
+    background-position: -164px -192px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopless_MyCdsc
+{
+    background-position: -126px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplessorequal_MyCdsc
+{
+    background-position: -28px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplike_MyCdsc
+{
+    background-position: -122px -192px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotany_MyCdsc
+{
+    background-position: -108px -192px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotbetween_MyCdsc
+{
+    background-position: -154px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotblank_MyCdsc
+{
+    background-position: -136px -192px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotcontain_MyCdsc
+{
+    background-position: -112px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotequal_MyCdsc
+{
+    background-position: -94px -192px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotlike_MyCdsc
+{
+    background-position: -70px -220px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremove_MyCdsc
+{
+    background-position: -140px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremovehot_MyCdsc
+{
+    background-position: -70px -206px;
+    width: 13px;
+    height: 13px;
+}
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_MyCdsc
+{
+    background-position: -152px -100px;
+    width: 13px;
+    height: 19px;
+}
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_MyCdsc
+{
+    background-position: -138px -100px;
+    width: 13px;
+    height: 19px;
+}
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_MyCdsc
+{
+    background-position: -136px -80px;
+    width: 13px;
+    height: 19px;
+}
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_MyCdsc
+{
+    background-position: -28px -120px;
+    width: 13px;
+    height: 19px;
+}
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_MyCdsc
+{
+    background-position: 0px -120px;
+    width: 13px;
+    height: 19px;
+}
+.dxeFocused_MyCdsc .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc
+{
+    background-position: -56px -120px;
+    width: 13px;
+    height: 19px;
+}
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_MyCdsc
+{
+    background-position: -160px -178px;
+    width: 19px;
+    height: 13px;
+}
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_MyCdsc
+{
+    background-position: 0px -192px;
+    width: 19px;
+    height: 13px;
+}
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_MyCdsc
+{
+    background-position: -140px -178px;
+    width: 19px;
+    height: 13px;
+}
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_MyCdsc
+{
+    background-position: -20px -178px;
+    width: 19px;
+    height: 13px;
+}
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_MyCdsc
+{
+    background-position: -60px -178px;
+    width: 19px;
+    height: 13px;
+}
+.dxeFocused_MyCdsc .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc
+{
+    background-position: -60px -192px;
+    width: 19px;
+    height: 13px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDH_MyCdsc
+{
+    background-position: -14px -120px;
+    width: 13px;
+    height: 19px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_MyCdsc
+{
+    background-position: -120px -80px;
+    width: 13px;
+    height: 19px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHHover_MyCdsc
+{
+    background-position: -98px -120px;
+    width: 13px;
+    height: 19px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_MyCdsc
+{
+    background-position: -166px -100px;
+    width: 13px;
+    height: 19px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_MyCdsc
+{
+    background-position: -124px -100px;
+    width: 13px;
+    height: 19px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_MyCdsc
+{
+    background-position: -42px -120px;
+    width: 13px;
+    height: 19px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_MyCdsc
+{
+    background-position: -84px -120px;
+    width: 13px;
+    height: 19px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc
+{
+    background-position: -70px -120px;
+    width: 13px;
+    height: 19px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDH_MyCdsc
+{
+    background-position: -120px -178px;
+    width: 19px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_MyCdsc
+{
+    background-position: -40px -178px;
+    width: 19px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHHover_MyCdsc
+{
+    background-position: -20px -192px;
+    width: 19px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_MyCdsc
+{
+    background-position: -100px -178px;
+    width: 19px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_MyCdsc
+{
+    background-position: -40px -192px;
+    width: 19px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_MyCdsc
+{
+    background-position: 0px -178px;
+    width: 19px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_MyCdsc
+{
+    background-position: -80px -178px;
+    width: 19px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc
+{
+    background-position: -152px -29px;
+    width: 19px;
+    height: 13px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_MyCdsc,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc
+{
+	z-index: 7;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_MyCdsc,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_MyCdsc
+{
+	z-index: 7;
+}
+.dxEditors_edtError_MyCdsc,
+.dxEditors_edtCalendarPrevYear_MyCdsc,
+.dxEditors_edtCalendarPrevYearDisabled_MyCdsc,
+.dxEditors_edtCalendarPrevMonth_MyCdsc,
+.dxEditors_edtCalendarPrevMonthDisabled_MyCdsc,
+.dxEditors_edtCalendarNextMonth_MyCdsc,
+.dxEditors_edtCalendarNextMonthDisabled_MyCdsc,
+.dxEditors_edtCalendarNextYear_MyCdsc,
+.dxEditors_edtCalendarNextYearDisabled_MyCdsc,
+.dxEditors_edtCalendarFNPrevYear_MyCdsc,
+.dxEditors_edtCalendarFNNextYear_MyCdsc,
+.dxEditors_edtEllipsis_MyCdsc,
+.dxEditors_edtEllipsisDisabled_MyCdsc,
+.dxEditors_edtDropDown_MyCdsc,
+.dxEditors_edtDropDownDisabled_MyCdsc,
+.dxEditors_edtSpinEditIncrementImage_MyCdsc,
+.dxEditors_edtSpinEditIncrementImageDisabled_MyCdsc,
+.dxEditors_edtSpinEditDecrementImage_MyCdsc,
+.dxEditors_edtSpinEditDecrementImageDisabled_MyCdsc,
+.dxEditors_edtSpinEditLargeIncImage_MyCdsc,
+.dxEditors_edtSpinEditLargeIncImageDisabled_MyCdsc,
+.dxEditors_edtSpinEditLargeDecImage_MyCdsc,
+.dxEditors_edtSpinEditLargeDecImageDisabled_MyCdsc
+{
+	display:block;
+    margin:auto;
+}
+

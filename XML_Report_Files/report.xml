@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="para_cust">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Company_name" type="xs:string" minOccurs="0" />
+                <xs:element name="Company_Code" type="xs:string" minOccurs="0" />
+                <xs:element name="Company_type" type="xs:string" minOccurs="0" />
+                <xs:element name="AccountManager" type="xs:string" minOccurs="0" />
+                <xs:element name="Account_Pass" type="xs:string" minOccurs="0" />
+                <xs:element name="Adress_1" type="xs:string" minOccurs="0" />
+                <xs:element name="Adress_2" type="xs:string" minOccurs="0" />
+                <xs:element name="Adress_3" type="xs:string" minOccurs="0" />
+                <xs:element name="Adress_4" type="xs:string" minOccurs="0" />
+                <xs:element name="adress_5" type="xs:string" minOccurs="0" />
+                <xs:element name="contact_email" type="xs:string" minOccurs="0" />
+                <xs:element name="contact_phone" type="xs:decimal" minOccurs="0" />
+                <xs:element name="contact_person" type="xs:string" minOccurs="0" />
+                <xs:element name="Job" type="xs:string" minOccurs="0" />
+                <xs:element name="status" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <para_cust>
+    <Company_name>Custody and  Registrars Services</Company_name>
+    <Company_Code>CUST002</Company_Code>
+    <Company_type>CUSTODIAN</Company_type>
+    <Account_Pass>password</Account_Pass>
+    <Adress_1>TEST</Adress_1>
+    <Adress_2>TEST</Adress_2>
+    <Adress_3>TEST</Adress_3>
+    <Adress_4>TEST</Adress_4>
+    <adress_5>TEST</adress_5>
+    <contact_email>test@graffiti.net</contact_email>
+    <contact_phone>73462654</contact_phone>
+    <contact_person>CALVIN</contact_person>
+    <status>true</status>
+    <ID>2</ID>
+  </para_cust>
+  <para_cust>
+    <Company_name>BARCLAYS</Company_name>
+    <Company_Code>BARC</Company_Code>
+    <Company_type>CUSTODIAN</Company_type>
+    <Account_Pass>password</Account_Pass>
+    <Adress_1>test</Adress_1>
+    <Adress_2>test</Adress_2>
+    <Adress_3>test</Adress_3>
+    <Adress_4>test4</Adress_4>
+    <adress_5>test5</adress_5>
+    <contact_email>test@testing.com</contact_email>
+    <contact_phone>-4567890</contact_phone>
+    <contact_person>test</contact_person>
+    <status>true</status>
+    <ID>13</ID>
+  </para_cust>
+  <para_cust>
+    <Company_name>ZB Asset</Company_name>
+    <Company_Code>zabg</Company_Code>
+    <Company_type>CUSTODIAN</Company_type>
+    <AccountManager />
+    <Account_Pass>password</Account_Pass>
+    <Adress_1>1 ZB LIFE TOWERS</Adress_1>
+    <Adress_2>2nd street and speke ave</Adress_2>
+    <Adress_3 />
+    <Adress_4 />
+    <adress_5>ZAMBIA</adress_5>
+    <contact_email />
+    <contact_phone>98397537</contact_phone>
+    <contact_person />
+    <status>true</status>
+    <ID>17</ID>
+  </para_cust>
+  <para_cust>
+    <Company_name>Taps Taps</Company_name>
+    <Company_Code>009858668</Company_Code>
+    <Company_type>CUSTODIAN</Company_type>
+    <AccountManager>Clive</AccountManager>
+    <Account_Pass>password</Account_Pass>
+    <Adress_1>BEGAMONT CRES</Adress_1>
+    <Adress_2>Harare</Adress_2>
+    <Adress_3>Zimbabwe</Adress_3>
+    <Adress_4 />
+    <adress_5 />
+    <contact_email>clive@escrogroup.com</contact_email>
+    <contact_phone>69865769678</contact_phone>
+    <contact_person>Clive</contact_person>
+    <status>true</status>
+    <ID>1021</ID>
+  </para_cust>
+</NewDataSet>

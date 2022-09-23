@@ -1,0 +1,42 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Consolidated.aspx.vb" Inherits="Consolidated" %>
+<%@ Register Assembly="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
+
+<%@ Register Assembly="BasicFrame.WebControls.BasicDatePicker" Namespace="BasicFrame.WebControls"
+    TagPrefix="BDP" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+          <div>
+            <img src="../images/CDS-System_01.png" height="105" alt=""
+                style="width: 100%">
+        </div>
+        <div>
+            <table runat="server">
+                <tr>
+                    <td>Date From</td>
+                    <td>
+                        <BDP:BasicDatePicker ID="ddateFrom" runat="server" ReadOnly="True">
+                        </BDP:BasicDatePicker>
+                    </td>
+                    <td>Date To</td>
+                    <td>
+                        <BDP:BasicDatePicker ID="ddateTo" runat="server" ReadOnly="True">
+                        </BDP:BasicDatePicker>
+                    </td>
+                    <td>
+                        <asp:Button ID="Button1" runat="server" Text="Load" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="true" EnableDatabaseLogonPrompt="False" EnableParameterPrompt="False" ReuseParameterValuesOnRefresh="True" />
+        </div>
+    </form>
+</body>
+</html>

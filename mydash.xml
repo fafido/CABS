@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-ZW">
+  <Title Text="Dashboard" />
+  <DataConnections>
+    <DataConnection Name="DASHBOARD" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="localhost" />
+        <Parameter Name="database" Value="CDS" />
+        <Parameter Name="useIntegratedSecurity" Value="True" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+    <DataConnection Name="localhost_testcdsConnection" ProviderKey="MSSqlServer">
+      <Parameters>
+        <Parameter Name="server" Value="localhost" />
+        <Parameter Name="database" Value="testcds" />
+        <Parameter Name="useIntegratedSecurity" Value="True" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="DASH">
+      <DataProvider DataConnection="DASHBOARD" SupportSql="true">
+        <Selection>
+          <Table Name="trans">
+            <Columns>
+              <Column Name="Company" />
+              <Column Name="CDS_Number" />
+              <Column Name="Date_Created" />
+              <Column Name="Trans_Time" />
+              <Column Name="Shares" />
+              <Column Name="Update_Type" />
+              <Column Name="Created_By" />
+              <Column Name="Batch_Ref" />
+              <Column Name="Source" />
+              <Column Name="Trans_ID" />
+              <Column Name="Pledge_shares" />
+              <Column Name="Reference" />
+            </Columns>
+          </Table>
+          <Filters>
+            <Filter TableName="" FilterString="" />
+          </Filters>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+    <DataSource ComponentName="dataSource2" Name="datasource2">
+      <DataProvider DataConnection="localhost_testcdsConnection" SupportSql="true">
+        <Selection>
+          <Table Name="CompanyLivePrices">
+            <Columns>
+              <Column Name="COMPANY" />
+              <Column Name="BID" />
+              <Column Name="OFFER" />
+              <Column Name="CurrentPrice" />
+              <Column Name="ShareVOL" />
+              <Column Name="LastUpdated" />
+            </Columns>
+          </Table>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+  </DataSources>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" DataSource="dataSource2">
+      <DataItems>
+        <Dimension DataMember="COMPANY" Name="DataItem0" />
+        <Measure DataMember="CurrentPrice" Name="DataItem1" />
+        <Dimension DataMember="LastUpdated" Name="DataItem2" />
+        <Dimension DataMember="ShareVOL" Name="DataItem3" />
+      </DataItems>
+      <HiddenDimensions>
+        <Dimension Name="DataItem3" />
+      </HiddenDimensions>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension Name="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure Name="DataItem1" />
+        </GridMeasureColumn>
+        <GridDimensionColumn>
+          <Dimension Name="DataItem2" />
+        </GridDimensionColumn>
+      </GridColumns>
+      <GridOptions />
+    </Grid>
+    <Chart ComponentName="chartDashboardItem1" Name="Chart 1" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="Company" Name="DataItem0" />
+        <Measure DataMember="Shares" Name="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument Name="DataItem0" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value Name="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Card ComponentName="cardDashboardItem1" Name="Cards 1" DataSource="dataSource1">
+      <DataItems>
+        <Measure DataMember="Company" SummaryType="Count" Name="DataItem0" />
+        <Measure DataMember="Pledge_shares" Name="DataItem1" />
+        <Measure DataMember="Created_By" SummaryType="Count" Name="DataItem2" />
+        <Measure DataMember="Reference" SummaryType="Count" Name="DataItem3" />
+        <Measure DataMember="Batch_Ref" Name="DataItem4" />
+        <Measure DataMember="Shares" Name="DataItem5" />
+      </DataItems>
+      <Card>
+        <ActualValue Name="DataItem0" />
+        <TargetValue Name="DataItem1" />
+      </Card>
+      <Card>
+        <ActualValue Name="DataItem2" />
+        <TargetValue Name="DataItem3" />
+      </Card>
+      <Card>
+        <ActualValue Name="DataItem4" />
+        <TargetValue Name="DataItem5" />
+      </Card>
+    </Card>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical">
+      <LayoutGroup Weight="25">
+        <LayoutItem Weight="12.5" DashboardItem="gridDashboardItem1" />
+        <LayoutItem Weight="25" DashboardItem="cardDashboardItem1" />
+      </LayoutGroup>
+      <LayoutGroup Weight="25">
+        <LayoutItem Weight="25.01678979180658" DashboardItem="chartDashboardItem1" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

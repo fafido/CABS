@@ -1,0 +1,272 @@
+<%@ Master Language="VB" CodeFile="TSecUser.master.vb" Inherits="TSecUser" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>CDS Loginh</title>
+    
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="main.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #Table_01
+        {
+            width: 1074px;
+        }
+        .style1
+        {
+            background-color: #E4E4E4;
+            background-image: url('~/images/CDS-System_02.png');
+            background-repeat: repeat-y;
+            width: 201px;
+        }
+        .style2
+        {
+            width: 201px;
+             background-color: #E4E4E4;
+        }
+        .style3
+        {
+            height: 106px;
+        }
+    </style>
+</head>
+ <form id="form1" runat="server">
+<table height="555" border="0" align="center" cellpadding="0" cellspacing="0" 
+     id="Table_01">
+	<tr>
+		<td colspan="2" align="left" valign="top" class="style3">
+			<img src="../images/CDS-System_01.png" height="105" alt="" 
+                style="width: 1109px"></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style1">
+                                <asp:TreeView id="TreeView1" runat="server" backcolor="Gainsboro" 
+                                    font-names="Verdana" font-size="Small" ExpandDepth="0" forecolor="#095382" 
+                                    ShowLines="True">
+                                    <Nodes>
+                                        <asp:TreeNode Text="Sign Out" Value="Sign Out" NavigateUrl="~/LoginSystem.aspx"></asp:TreeNode>
+                                        <asp:TreeNode Text="Batching" Value="2">
+                                            <asp:TreeNode Text="Batch Receipting" Value="Batch Receipting" NavigateUrl="~/TransferSec/BatchReceipting.aspx"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/TransferSec/BatchVerifications.aspx" Text="Batch Verifications" Value="Batch Verifications"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/TransferSec/BatchProcessing.aspx" Text="Batch Processing" Value="Batch Processing"></asp:TreeNode>
+                                            <asp:TreeNode Text="Register Upload" 
+                                                Value="Register Upload" NavigateUrl="~/Trading/RegisterImport.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Accounts Maintenance" Value="Accounts Maintenance">
+                                            <asp:TreeNode Text="New Accounts" Value="New Accounts" NavigateUrl="~/CDSMode/AccountCreation.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Accounts Update" Value="Accounts Update" NavigateUrl="~/CDSMode/AccountUpdate.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Enquiries" Value="1">
+                                            <asp:TreeNode NavigateUrl="~/TransferSec/StaticDetailsEnquiry.aspx" Text="Account Details Enquiry" Value="Account Details Enquiry"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/TransferSec/PortfolioDetailsEnquiry.aspx" Text="Account Portfolio Enquiry" Value="Shareholder Trading Enquiry"></asp:TreeNode>
+                                            <asp:TreeNode Text="Corporate Actions" Value="Corporate Actions" NavigateUrl="~/TransferSec/CoporateActionsEnquiry.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Corporate Events" 
+                                            Value="Corporate Events">
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/DividendEnquiries.aspx" Text="Dividend " 
+                                                Value="Divinded ">
+                                               <%-- <asp:TreeNode Text="Dividend Instructions" Value="Dividend Instructions" NavigateUrl="~/TSecMode/CreateDividendInstructions.aspx"></asp:TreeNode>
+                                                <asp:TreeNode Text="Dividend Computation" Value="Dividend Computation"></asp:TreeNode>
+                                                <asp:TreeNode Text="Dividend Schedule" Value="Dividend Schedule"></asp:TreeNode>
+                                                <asp:TreeNode Text="Dividend Cheques" Value="Dividend Cheques"></asp:TreeNode>--%>
+                                                <asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/DividentInstr.aspx" target="_Blank" Text="Dividend Instructions" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/DividendCalculation.aspx" target="_Blank" Text="Dividend Control Summary" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/CreateDividend.aspx" target="_Blank" Text="Create Dividend" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/CreateDivCheqnumber.aspx" target="_Blank" Text="Create Cheque Numbers" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/CheckChequenumbers.aspx" target="_Blank" Text="Check Cheque Numbers" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/ClearChequeNumber.aspx" target="_Blank" Text="Clear Cheque Numbers" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/PrintCheques.aspx" target="_Blank" Text="Print Cheques" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/DividendSchedule.aspx" target="_Blank" Text="Dividend Schedule" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/DividendTotals.aspx" target="_Blank" Text="Dividend Totals" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/DividendLabels.aspx" target="_Blank" Text="Dividend Labels" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/CreateBarclaysEFT.aspx" target="_Blank" Text="BI EFT File Creation" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/CreateEFT.aspx" target="_Blank" Text="Create EFT" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/DividendEFT.aspx" target="_Blank" Text="EFT Details" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/EFTPRINT.aspx" target="_Blank" Text="EFT Print" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/CreateScriptBatch.aspx" target="_Blank" Text="Create Scrip Batch" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/CreateScriptBatch.aspx" target="_Blank" Text="Create Scrip Batch" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/EditScriptDetails.aspx" target="_Blank" Text="Edit Scrip Details" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/PrintScriptAccepted.aspx" target="_Blank" Text="Print Scrip" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/HoldingReport.aspx" target="_Blank" Text="Holding Report" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/RefreshNames.aspx" target="_Blank" Text="Refresh Names" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/RemoveBanks.aspx" target="_Blank" Text="Remove Banks" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/AmalgamateChequesByind.aspx" target="_Blank" Text="Amalgamate Cheqs By Ind" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Dividend/ViewSupressed.aspx" target="_Blank" Text="View Suppressed" Value="test2e"></asp:TreeNode>
+                                            </asp:TreeNode>
+
+
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/DividendEnquiries.aspx" Text="Dividend Recon" 
+                                                Value="Divinded ">
+                                               <asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Cheque Recon/addcheqmaster.aspx" target="_Blank" Text="Create Reconciliation Event" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Cheque Recon/CreateChequeRecon.aspx" target="_Blank" Text="Create Dividend Reconciliation" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Cheque Recon/SummaryReportForDividend.aspx" target="_Blank" Text="Dividend Summary Report" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Cheque Recon/ChequeSchedule.aspx" target="_Blank" Text="Cheque Schedules" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Cheque Recon/ChequeSummary.aspx" target="_Blank" Text="Cheque Summary" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/BankReconcilation/ImportFormCDS.aspx" target="_Blank" Text="Electronic Statement Update" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/BankReconcilation/ErrorReport.aspx" target="_Blank" Text="Error Report" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Cheque Recon/ChequeReconcillation.aspx" target="_Blank" Text="Manual Reconciliation" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Reports(Normal)/FullReport.aspx" target="_Blank" Text="Unclaimed Summaries" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Cheque Recon/MergeCheque.aspx" target="_Blank" Text="Merge Cheque" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Cheque Recon/PrintChanged.aspx" target="_Blank" Text="Print Changed" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Cheque Recon/CheqReplacementReport.aspx" target="_Blank" Text="Cheque Replacement Report" Value="test2e"></asp:TreeNode>
+                                                </asp:TreeNode>
+
+
+
+                                           <%-- <asp:TreeNode NavigateUrl="~/CDSMode/RightsIssuesEnquiries.aspx" 
+                                                Text="Rights Issue" Value="Rights Issue">
+                                               <asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/CreateRights.aspx" target="_Blank" Text="Rights Instructions" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/rightsInstr.aspx" target="_Blank"  Text="Create Rights" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/frmAccept.aspx" target="_Blank" Text="Acceptance" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/productionstats.aspx" target="_Blank" Text="Production Stats" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/frmSplitRights.aspx" target="_Blank"  Text="Split L/As" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/Rightsbatchprint.aspx" target="_Blank" Text="Print Rights Batch" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/ViewRightsInstr.aspx" target="_Blank"  Text="Rights Instructions" Value="test2e"></asp:TreeNode>
+                                           
+                                            
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/RightsOfferSchd.aspx" target="_Blank" Text="Rights Schedule" Value="test2e"></asp:TreeNode>
+                                           
+                                           
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/RightsAcceptence.aspx" target="_Blank" Text="Acceptance Schedule" Value="test2e"></asp:TreeNode>
+                                           
+                                           
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/RightsLAltr.aspx" target="_Blank" Text="LA Statements" Value="test2e"></asp:TreeNode>
+                                           
+                                           
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/RightsLAByHolder.aspx" target="_Blank" Text="Shareholder LA's" Value="test2e"></asp:TreeNode>
+                                           
+                                           
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/BatchBalance.aspx" target="_Blank"  Text="Batch Balancing" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_ZIM/Rights/frmPrintRightsLabels.aspx" target="_Blank"  Text="Print Labels" Value="test2e"></asp:TreeNode>
+                                            </asp:TreeNode>--%>
+
+
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/BonusIssueEnquiries.aspx" 
+                                                Text="Bonus Issue" Value="Bonus Issue">
+                                                <asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Bonus/BonusInstruction.aspx" target="_Blank" Text="Bonus Instruction" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Bonus/BonusCreationForm.aspx" target="_Blank" Text="Create Bonus" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Bonus/ViewCreatedBonusBatch.aspx" target="_Blank" Text="Bonus Schedule and Batching" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Bonus/frmUpdateCertprint.aspx" target="_Blank" Text="Bonus Certificates" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Bonus/CreateBonusFile.aspx" target="_Blank" Text="Bonus Download File" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Bonus/BonusSchedule.aspx" target="_Blank" Text="Bonus Control Summary" Value="test2e"></asp:TreeNode>
+                                            </asp:TreeNode>
+
+
+                                            <asp:TreeNode NavigateUrl="" 
+                                                Text="Splits" Value="Splits">
+                                                <asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/SplitDiv/BonusInstruction.aspx" target="_Blank" Text="Split Instruction" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/SplitDiv/AuditCreatesBonus.aspx" target="_Blank" Text="Create Split" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/SplitDiv/ViewCreatedBonusBatch.aspx" target="_Blank" Text="Split Schedule and Batching" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/SplitDiv/frmUpdateCertprint.aspx" target="_Blank" Text="Split Certificates" Value="test2e"></asp:TreeNode>
+
+<asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/SplitDiv/CreateBonusFile.aspx" target="_Blank" Text="Download Split Fie" Value="test2e"></asp:TreeNode>
+
+
+                                            </asp:TreeNode>
+
+                                            <asp:TreeNode NavigateUrl="http://localhost/ESCROSHARE_CNR/Rightsmainpage.aspx" target="_Blank" Text="Rights" Value="test2e"></asp:TreeNode>
+
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Authorizations" Value="Utilities">
+                                            
+                                            <asp:TreeNode Text="Accounts Creation" Value="Events Calender"></asp:TreeNode>
+                                            <asp:TreeNode Text="Accounts Updates" Value="Accounts Updates">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Batch Processing" Value="Batch Processing"></asp:TreeNode>
+<asp:TreeNode Text="Notifications for users" Value="Notifications for users"></asp:TreeNode>
+                                            <asp:TreeNode 
+                                                Text="Dividend Instructions" Value="Dividend Instructions"></asp:TreeNode>
+                                            <asp:TreeNode Text="Rights Instructions" Value="Rights Instructions"></asp:TreeNode>
+                                            <asp:TreeNode Text="Bonus Instructions" Value="Bonus Instructions"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Reports" Value="Reports">
+                                        <asp:TreeNode 
+                                                Text="Company Schdule" Value="Company Schdule"></asp:TreeNode>
+                                            <asp:TreeNode 
+                                                Text="Company Top" Value="Company Top"></asp:TreeNode>
+                                            <asp:TreeNode 
+                                                Text="Company Analysis" 
+                                                Value="Company Analysis"></asp:TreeNode>
+                                            
+                                        </asp:TreeNode>
+                                      
+                                      
+                                    </Nodes>
+                                   <HoverNodeStyle backcolor="Gray" />
+                                    <LeafNodeStyle font-names="Arial" font-size="Small" />
+                                </asp:TreeView>
+                            </td>
+		<td rowspan="3" align="left" valign="top" class="content"><p>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p style="width: 835px">&nbsp;</p></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style2">
+			<img src="../images/CDS-System_04.png" height="173" alt="" style="width: 237px"></td>
+	</tr>
+	<tr>
+		<td class="style2">
+			<img src="../images/CDS-System_05.png" width="197" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top" class="footerBg"><a href="#"><span class="footercopyright"><asp:Label 
+                id="Label1" runat="server" font-bold="True" font-names="Arial" 
+                font-size="x-Small" Text="CDS Level Access" visible="True"></asp:Label></span></a><em class="footercopyright">Copyright &copy; 2012 ecsrowsystems all rights reserved</em></td>
+	</tr>
+</table>
+
+</form>

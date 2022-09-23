@@ -1,0 +1,33 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxm" Namespace="DevExpress.Web.ASPxMenu" Assembly="DevExpress.Web.v13.2, Version=13.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxm:ASPxMenu runat="server" CssFilePath="{0}/styles.css" SpriteCssFilePath="{0}/sprite.css" CssPostfix="MyCdsc"
+	ShowPopOutImages="True" AutoSeparators="RootOnly">
+	<ItemStyle PopOutImageSpacing="10" DropDownButtonSpacing="10" />
+	<SubMenuStyle GutterWidth="3" GutterImageSpacing="9" />
+	<ItemSubMenuOffset FirstItemX="2" LastItemX="2" X="2" />
+	<LoadingPanelStyle ImageSpacing="5" />
+    <LoadingPanelImage Url="Web/Loading.gif" />
+</dxm:ASPxMenu>
+
+<dxm:ASPxMenu runat="server" SkinID="MenuToolBar" CssFilePath="{0}/styles.css"  ShowPopOutImages="True"
+    CssPostfix="MyCdsc" SpriteCssFilePath="{0}/sprite.css" SeparatorHeight="100%"
+    AutoSeparators="None" Width="100%" ItemAutoWidth="False">
+    <SubMenuStyle GutterWidth="0px" />
+    <RootItemSubMenuOffset FirstItemX="-1" X="-1" FirstItemY="-1" Y="-1"/>
+    <LoadingPanelStyle ImageSpacing="5" />
+    <LoadingPanelImage Url="Web/Loading.gif" />
+</dxm:ASPxMenu>
+<dxm:ASPxMenu runat="server" SkinID="MenuButtons" SpriteCssFilePath="{0}/sprite.css" CssFilePath="{0}/styles.css" AutoSeparators="None" ItemSpacing="5px" ShowPopOutImages="True" CssPostfix="MyCdsc" CssClass="menuButtons_MyCdsc"  SeparatorHeight="0px">
+    <Border BorderWidth="0px" />
+    <RootItemSubMenuOffset X="-1" LastItemX="-1" FirstItemX="-1"></RootItemSubMenuOffset>
+    <SubMenuItemStyle Wrap="False" />
+    <LoadingPanelStyle ImageSpacing="5" />
+    <LoadingPanelImage Url="Web/Loading.gif" />
+</dxm:ASPxMenu>
+<dxm:ASPxMenu runat="server" SkinID="MenuLinks" CssFilePath="{0}/styles.css" ShowPopOutImages="True" 
+    CssPostfix="MyCdsc" SeparatorHeight="100%" SpriteCssFilePath="{0}/sprite.css" SeparatorWidth="1px"  
+    CssClass="menuLinks_MyCdsc">
+    <LoadingPanelStyle ImageSpacing="5" />
+    <LoadingPanelImage Url="Web/Loading.gif" />
+</dxm:ASPxMenu>

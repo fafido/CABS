@@ -1,0 +1,4558 @@
+/* -- CheckBox -- */
+.dxICBFocused_MyCdsc 
+{
+	background-color: #d8caff;
+}
+.dxICheckBox_MyCdsc 
+{
+    cursor: default;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* -- ASPxCallbackPanel -- */
+.dxcpLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+}
+.dxcpLoadingPanel_MyCdsc td.dx,
+.dxcpLoadingPanelWithContent_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxcpLoadingPanelWithContent_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxcpLoadingDiv_MyCdsc
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+/* Disabled */
+.dxcpDisabled_MyCdsc
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+/* -- ASPxCloudControl -- */
+.dxccControl_MyCdsc
+{
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	color: #1b3f91;
+	background-color: White;
+	border-style: none;
+}
+.dxccControl_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none!important;
+}
+.dxccControl_MyCdsc a:hover
+{
+	text-decoration: underline!important;
+}
+
+/* Disabled */
+.dxccDisabled_MyCdsc
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	border: 1px solid #9da0aa;
+}
+.dxdvControl_MyCdsc td.dxdvCtrl
+{
+	padding: 0;
+	background-color: #f1f2f6;
+}
+.dxdvLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxdvLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxdvLoadingDiv_MyCdsc
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxdvContent_MyCdsc
+{
+	background-color: #f1f2f6;
+	padding: 4px;
+}
+.dxdvItem_MyCdsc,
+.dxdvFlowItem_MyCdsc
+{
+	border: 1px solid #a9acb5;
+	background-color: White;
+	padding: 20px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_MyCdsc
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_MyCdsc
+{
+}
+.dxdvEmptyItem_MyCdsc
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 20px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_MyCdsc
+{
+	padding: 2px 9px;
+	background: #f1f2f6 url('dvPagerPanelBack.png') repeat-x left top;
+}
+.dxdvControl_MyCdsc .dxdvPPSpacing
+{
+	background: url('dvPagerPanelSpacingBack.png') no-repeat center top;
+}
+.dxdvEmptyData_MyCdsc
+{
+	color: #201f35;
+	padding: 12px 40px;
+}
+.dxdvEPContainer_MyCdsc
+{
+    height: 48px;
+	text-align: center;
+}
+.dxdvEPContainer_MyCdsc div
+{
+	padding-top: 12px;
+}
+.dxdvEPContainer_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxdvEPContainer_MyCdsc a:hover
+{
+	text-decoration: underline;
+}
+/* Disabled */
+.dxdvDisabled_MyCdsc
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+
+/* -- ASPxHeadline -- */
+.dxhlControl_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+}
+.dxhlControl_MyCdsc a
+{
+	color: #1b3f91;
+}
+.dxhlContent_MyCdsc
+{
+	padding-left: 2px;
+} 
+.dxhlDate_MyCdsc
+{
+	font-size: 15px;
+	white-space: nowrap;
+}
+.dxhlHeader_MyCdsc
+{
+	font-size: 15px;
+	padding: 1px 1px 6px;
+}
+
+.dxhlDateHeader_MyCdsc
+{
+	font-size: 15px;
+	font-weight: normal;
+}
+.dxhlLeftPanel_MyCdsc
+{
+}
+.dxhlRightPanel_MyCdsc
+{
+}
+.dxhlDateLeftPanel_MyCdsc
+{
+	white-space: nowrap;
+}
+.dxhlDateRightPanel_MyCdsc
+{
+	white-space: nowrap;
+}
+.dxhlTail_MyCdsc
+{
+	color: #1b3f91;
+}
+.dxhlTailDiv_MyCdsc
+{
+	color: #1b3f91;
+}
+/* Disabled */
+.dxhlDisabled_MyCdsc,
+.dxhlDisabled_MyCdsc a,
+.dxhlDisabled_MyCdsc a:hover
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxlpLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxlpLoadingDiv_MyCdsc
+{
+	background-color: White;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+
+/* -- ASPxMenu Lite -- */
+.dxmLite_MyCdsc .dxm-main
+{
+	background: #f1f2f6 url('mItemBack.png') repeat-x left top;
+	border: 1px solid #9da0aa;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-item
+{
+	background-color: #f9fafb;
+}
+
+.dxmLite_MyCdsc .dxm-vertical
+{
+	width: 150px;
+	padding: 0;
+}
+
+.dxmLite_MyCdsc .dxm-popup
+{
+	background-color: White;
+	border: 1px solid #9da0aa;
+	padding: 1px;
+}
+
+.dxmBrdCor_MyCdsc
+{
+	background-color: white;
+}
+
+.dxmLite_MyCdsc ul.dx
+{
+	font: 11px Verdana, Geneva, sans-serif;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-gutter
+{
+	background-image: none;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-popup .dxm-gutter
+{
+	background-image: none;
+}
+
+.dxmLite_MyCdsc .dxm-item
+{
+	cursor: default;
+    text-align: left;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-item
+{
+	text-align: right;
+}
+.dxmLite_MyCdsc .dxm-image-t .dxm-item,
+.dxmLite_MyCdsc .dxm-image-b .dxm-item
+{
+	text-align: center;
+}
+
+.dxmLite_MyCdsc .dxm-content
+{
+    display: block;
+	white-space: nowrap;
+}
+
+.dxmLite_MyCdsc,
+.dxmLite_MyCdsc .dxm-item a.dx
+{
+	color: #201f35;
+	text-decoration: none;
+}
+.dxmLite_MyCdsc .dxm-disabled,
+.dxmLite_MyCdsc .dxm-disabled a.dx
+{
+	color: #b1b1b8;
+}
+
+.dxmLite_MyCdsc .dxm-item
+{
+	border-width: 0px;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-item
+{
+	border-width: 1px;
+}
+.dxmLite_MyCdsc.dxm-ltr .dxm-popOut,
+.dxmLite_MyCdsc.dxm-rtl .dxm-image-l .dxm-popOut
+{
+	border-width: 0 0 0 1px;
+}
+.dxmLite_MyCdsc.dxm-ltr .dxm-image-r .dxm-popOut,
+.dxmLite_MyCdsc.dxm-rtl .dxm-popOut
+{
+	border-width: 0 1px 0 0;
+}
+.dxmLite_MyCdsc .dxm-item,
+.dxmLite_MyCdsc .dxm-popOut
+{
+	border-color: Transparent;
+	border-style: solid;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_MyCdsc .dxm-popup .dxm-selected
+{
+	border-color: #d4d6db;
+}
+.dxmLite_MyCdsc .dxm-main .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_MyCdsc .dxm-main .dxm-dropDownMode.dxm-checked .dxm-popOut
+{
+	border-color: #9da0aa;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-hovered
+{
+	border-width: 1px;
+	padding: 0;
+}
+
+.dxmLite_MyCdsc .dxm-main .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #9da0aa;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-hovered,
+.dxmLite_MyCdsc .dxm-popup .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #d4d6db;
+}
+.dxmLite_MyCdsc .dxm-main .dxm-checked,
+.dxmLite_MyCdsc .dxm-main .dxm-selected
+{
+	background: #e9eaee url('mItemSBack.png') repeat-x left top;
+}
+.dxmLite_MyCdsc .dxm-main .dxm-hovered
+{
+	background: #edeff7 url('mItemHBack.png') repeat-x left top;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-selected
+{
+	background: #e9eaee url('mItemSBack.png') repeat-x left top;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-hovered
+{
+	background: #e3ebff url('mSubItemHBack.png') repeat-x left top;
+}
+
+/* Content */
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 4px 12px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 4px 12px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-right: 9px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-right: 9px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+	padding-left: 9px;
+	padding-right: 12px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-left: 10px;
+	padding-right: 11px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-right: 10px;
+}
+
+.dxmLite_MyCdsc.dxm-ltr .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_MyCdsc.dxm-ltr .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 4px 19px 4px 8px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_MyCdsc.dxm-rtl .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 4px 8px 4px 19px;
+}
+.dxmLite_MyCdsc.dxm-ltr .dxm-popup .dxm-content
+{
+	padding: 3px 33px 3px 8px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 3px 8px 3px 33px;
+}
+.dxmLite_MyCdsc.dxm-ltr .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_MyCdsc.dxm-ltr .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_MyCdsc.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-right: 12px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_MyCdsc.dxm-rtl .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_MyCdsc.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-content
+{
+	padding-left: 12px;
+}
+
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-noSubMenu .dxm-content,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-right: 5px;
+	padding-left: 7px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 6px 10px;
+}
+
+/* Image */
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-l .dxm-image,
+.dxmLite_MyCdsc.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 4px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-r .dxm-image,
+.dxmLite_MyCdsc.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image,
+.dxmLite_MyCdsc.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 4px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-l .dxm-image,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-r .dxm-image
+{
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+.dxmLite_MyCdsc .dxm-image-t .dxm-image
+{
+	margin-bottom: 4px;
+}
+.dxmLite_MyCdsc .dxm-image-b .dxm-image
+{
+	margin-top: 4px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-l .dxm-image
+{
+	margin-right: 7px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-image
+{
+	margin-left: 7px;
+}
+.dxmLite_MyCdsc.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 9px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 9px;
+}
+
+/* Image replacement */
+.dxmLite_MyCdsc.dxm-ltr .dxm-vertical .dxm-image-l.dxm-noImages .dxm-content,
+.dxmLite_MyCdsc.dxm-ltr .dxm-vertical .dxm-image-r.dxm-noImages .dxm-content
+{
+	padding-left: 7px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-vertical .dxm-image-l.dxm-noImages .dxm-content,
+.dxmLite_MyCdsc.dxm-rtl .dxm-vertical .dxm-image-r.dxm-noImages .dxm-content
+{
+	padding-right: 7px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 22px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-l .dxm-noImage.dxm-hovered
+{
+	padding-left: 22px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 22px;
+}
+.dxmLite_MyCdsc.dxm-ltr .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_MyCdsc.dxm-ltr .dxm-popup .dxm-noImage
+{
+	padding-left: 24px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_MyCdsc.dxm-rtl .dxm-popup .dxm-noImage
+{
+	padding-right: 24px;
+}
+
+/* PopOut */
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 9px;
+	padding-bottom: 8px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 9px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 9px;
+}  
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 11px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_MyCdsc.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 8px;
+}
+
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-popOut
+{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-popOut,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-left: 8px;
+	padding-right: 9px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-dropDownMode .dxm-popOut,
+.dxmLite_MyCdsc .dxm-vertical .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-popOut
+{
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-left: 8px;
+}
+
+/* PopOut replacement */
+.dxmLite_MyCdsc.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 19px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxm-popup .dxm-noSubMenu
+{
+	padding-left: 16px;
+}
+/* Spacings */
+.dxmLite_MyCdsc .dxm-horizontal .dxm-spacing
+{
+	width: 2px;
+	height: 1px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-l .dxm-spacing,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-spacing,
+.dxmLite_MyCdsc .dxm-popup .dxm-spacing
+{
+	height: 1px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-t .dxm-spacing,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-b .dxm-spacing
+{
+	height: 2px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-separator
+{
+	padding: 0;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-l .dxm-separator,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-r .dxm-separator,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-t .dxm-separator,
+.dxmLite_MyCdsc .dxm-vertical .dxm-image-b .dxm-separator
+{
+	padding: 0;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-separator
+{
+	padding: 1px;
+}
+.dxmLite_MyCdsc.dxm-ie7 .dxm-vertical .dxm-image-l .dxm-separator,
+.dxmLite_MyCdsc.dxm-ie7 .dxm-vertical .dxm-image-r .dxm-separator,
+.dxmLite_MyCdsc.dxm-ie7 .dxm-vertical .dxm-image-t .dxm-separator,
+.dxmLite_MyCdsc.dxm-ie7 .dxm-vertical .dxm-image-b .dxm-separator
+{
+	padding-top: -3px;
+}
+
+/* Separator */
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-l .dxm-separator b,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-r .dxm-separator b
+{
+	background: url('mHorzItemSepBack.png') no-repeat left top;
+	height: 19px;
+	width: 1px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t .dxm-separator b,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b .dxm-separator b
+{
+	background: url('mHorzLargeItemSepBack.png') no-repeat left top;
+	height: 41px;
+	width: 1px;
+}
+.dxmLite_MyCdsc .dxm-vertical .dxm-separator b
+{
+	background: #f8f8fa url('mVertItemSepBack.png') no-repeat center top;
+	height: 1px;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-separator b
+{
+	background: url('mSubItemSepBack.png') no-repeat left top;
+	height: 1px;
+}
+
+.dxmLite_MyCdsc .dxm-horizontal .dxm-separator b,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-separator b,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-separator b
+{
+	margin-top: 1px;
+}
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-t .dxm-separator b,
+.dxmLite_MyCdsc .dxm-horizontal .dxm-image-b .dxm-separator b
+{
+	margin-top: 8px;
+}
+.dxmLite_MyCdsc .dxm-popup .dxm-gutter .dxm-separator
+{
+	padding-left: 25px;
+}
+/* Scroll elements */
+.dxmLite_MyCdsc .dxm-scrollUpBtn,
+.dxmLite_MyCdsc .dxm-scrollDownBtn
+{
+	border-style: none;
+	cursor: pointer;
+	font-size: 0px;
+	padding: 1px;
+	text-align: center;
+}
+.dxmLite_MyCdsc .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+}
+.dxmLite_MyCdsc .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+}
+.dxmLite_MyCdsc .dxm-scrollBtnHovered,
+.dxmLite_MyCdsc .dxm-scrollBtnPressed
+{
+	border: 1px solid #a6a9b2;
+	padding: 0;
+}
+.dxmLite_MyCdsc .dxm-scrollBtnHovered
+{
+	background: #e2e9ff url('mScrollHBack.png') repeat-x left top;
+}
+.dxmLite_MyCdsc .dxm-scrollBtnPressed
+{
+	background: #f2f2f6 url('mScrollPBack.png') repeat-x left top;
+}
+.dxmLite_MyCdsc .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_MyCdsc .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/* -- ASPxMenu Lite Toolbar mode -- */
+.dxmLite_MyCdsc .dxm-main.dxmtb
+{
+	padding: 1px;
+}
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-item
+{
+	border: 0 solid #abaeb6;
+	padding: 1px;
+}
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-item.dxm-hovered,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-item.dxm-selected,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-item.dxm-checked
+{
+	border-width: 1px;
+	padding: 0;
+}
+/* has image */
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-r .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-b .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding: 4px 4px 3px;
+}
+
+/* no image */
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-l .dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-r .dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 4px 4px 3px;
+}
+/* dd has image */
+/* dd no image */
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage .dxm-content 
+{
+	padding: 4px 4px 3px;
+}
+
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-popOut,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-dropDownMode .dxm-popOut
+{
+	padding: 7px 3px;
+}
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image
+{
+	margin: -1px 0 0 0;
+}
+.dxmLite_MyCdsc.dxm-ltr .dxmtb.dxm-popup .dxm-image
+{
+	margin-right: 15px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxmtb.dxm-popup .dxm-image
+{
+	margin-left: 15px;
+}
+.dxmLite_MyCdsc.dxm-ltr .dxmtb.dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_MyCdsc.dxm-ltr .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-left: 31px;
+}
+.dxmLite_MyCdsc.dxm-rtl .dxmtb.dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_MyCdsc.dxm-rtl .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-right: 31px;
+}
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-spacing
+{
+	width: 1px;
+}
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-separator
+{
+	padding: 0 1px;
+}
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-l .dxm-separator b,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-r .dxm-separator b
+{
+	padding-top: 3px;
+}
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-t .dxm-separator b,
+.dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-image-b .dxm-separator b
+{
+	padding-top: 0;
+}
+.dxmLite_MyCdsc .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem
+{
+	border-width: 0;
+	padding: 2px 2px 1px !important;
+}
+
+/* --- ASPxMenu Lite skins for XAF --- */
+.menuLinks_MyCdsc,
+.menuLinks_MyCdsc .dxm-item,
+.menuLinks_MyCdsc .dxm-hovered,
+.menuLinks_MyCdsc .dxm-disabled
+{
+    background: none !important;
+    border-style: none !important;
+}
+
+.menuLinks_MyCdsc .dxm-popOut
+{
+    border-style: none !important;
+}
+
+.menuLinks_MyCdsc .dxm-item a.dx
+{
+    color: #1b3f91;
+}
+
+.menuLinks_MyCdsc .dxm-hovered a.dx > span
+{
+    text-decoration: underline !important;
+}
+
+.menuLinks_MyCdsc .dxm-item.dxm-hovered
+{
+    padding: 1px !important;
+}
+
+.menuButtons_MyCdsc,
+.menuButtons_MyCdsc .dxm-tmpl
+{
+    color: #201f35;
+    background: none !important;
+}
+
+.menuButtons_MyCdsc .dxm-popOut
+{
+    padding: 6px 4px 6px !important;
+}
+
+.menuButtons_MyCdsc .dxm-content
+{
+    padding: 2px 8px 1px 8px !important;
+    height:16px!important;
+}
+
+.menuButtons_MyCdsc .dxm-item
+{
+    background: #ebedf2 url('../Editors/edtBtnBack.png') repeat-x left top;
+    border: 1px solid #a9acb5 !important;
+    padding: 0 4px 0 4px !important;
+}
+
+.menuButtons_MyCdsc .dxm-item.dxm-hovered
+{
+    background: #dde6fe url('../Editors/edtBtnHBack.png') repeat-x left top;
+}
+
+.menuButtons_MyCdsc .dxm-item.dxm-tmpl
+{
+    border-color: transparent !important;
+}
+
+.menuButtons_MyCdsc .dxm-item.dxm-tmpl > *
+{
+    margin: -1px 0;
+}
+/* Loading panel */
+.dxmLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxmLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}   
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_MyCdsc
+{
+	color: #201f35;
+	background-color: White;
+	font: 11px Verdana, Geneva, sans-serif;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+}
+.dxnbLite_MyCdsc a
+{
+	color: #201f35;
+	text-decoration: none!important;
+}
+.dxnbLite_MyCdsc .dxnb-gr
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_MyCdsc.dxnb-noHeads .dxnb-gr
+{
+	margin-bottom: 12px;
+}
+.dxnbLite_MyCdsc .dxnb-header,
+.dxnbLite_MyCdsc .dxnb-headerCollapsed
+{
+	background: #f0f1f3 url('nbHBack.png') repeat-x left top;
+	border: 1px solid #b8bac2;
+	padding: 6px;
+	overflow: hidden;
+	cursor: pointer;
+	clear: both;
+}
+.dxnbLite_MyCdsc .dxnb-header a,
+.dxnbLite_MyCdsc .dxnb-headerCollapsed a
+{
+	color: #1b3f91;
+	text-decoration: underline!important;
+}
+.dxnbLite_MyCdsc .dxnb-content
+{
+	list-style: none none outside;
+	background-color: #f4f5f6;
+	margin: 0;
+	padding: 1px 0 0;
+	overflow: hidden;
+}
+
+.dxnbLite_MyCdsc .dxnb-item,
+.dxnbLite_MyCdsc .dxnb-large,
+.dxnbLite_MyCdsc .dxnb-bullet
+{
+	clear: both;
+	overflow: hidden;
+	cursor: default;
+}
+.dxnbLite_MyCdsc .dxnb-item,
+.dxnbLite_MyCdsc .dxnb-large,
+.dxnbLite_MyCdsc .dxnb-tmpl
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_MyCdsc .dxnb-link
+{
+    display: block;
+}
+.dxnbLite_MyCdsc .dxnb-item,
+.dxnbLite_MyCdsc .dxnb-item .dxnb-link
+{
+	padding: 6px 7px;
+}
+.dxnbLite_MyCdsc .dxnb-large,
+.dxnbLite_MyCdsc .dxnb-large .dxnb-link
+{
+	padding: 6px 7px;
+}
+.dxnbLite_MyCdsc .dxnb-bullet,
+.dxnbLite_MyCdsc .dxnb-bulletHover,
+.dxnbLite_MyCdsc .dxnb-bulletSelected
+{
+	padding: 0 5px;
+	overflow: visible;
+	margin: 5px 0;
+}
+.dxnbLite_MyCdsc .dxnb-itemSelected,
+.dxnbLite_MyCdsc .dxnb-itemSelected .dxnb-link,
+.dxnbLite_MyCdsc .dxnb-itemHover,
+.dxnbLite_MyCdsc .dxnb-itemHover .dxnb-link
+{
+	padding: 5px 6px;
+}
+.dxnbLite_MyCdsc .dxnb-largeSelected,
+.dxnbLite_MyCdsc .dxnb-largeSelected .dxnb-link,
+.dxnbLite_MyCdsc .dxnb-largeHover,
+.dxnbLite_MyCdsc .dxnb-largeHover .dxnb-link
+{
+	padding: 5px 6px;
+}
+.dxnbLite_MyCdsc .dxnb-itemSelected,
+.dxnbLite_MyCdsc .dxnb-largeSelected
+{
+	background: #e9eaee url('nbISBack.png') repeat-x left top;
+	border: 1px solid #a6a9b2;
+}
+.dxnbLite_MyCdsc .dxnb-itemHover,
+.dxnbLite_MyCdsc .dxnb-largeHover
+{
+	background: #e3eafe url('nbIHBack.png') repeat-x left top;
+	border: 1px solid #a6a9b2;
+}
+.dxnbLite_MyCdsc .dxnb-header,
+.dxnbLite_MyCdsc .dxnb-headerCollapsed, 
+.dxnbLite_MyCdsc .dxnb-item,
+.dxnbLite_MyCdsc .dxnb-itemHover,
+.dxnbLite_MyCdsc .dxnb-itemSelected,
+.dxnbLite_MyCdsc .dxnb-bullet,
+.dxnbLite_MyCdsc .dxnb-bulletHover,
+.dxnbLite_MyCdsc .dxnb-bulletSelected 
+{
+	text-align: left;
+}
+.dxnbLite_MyCdsc .dxnb-large,
+.dxnbLite_MyCdsc .dxnb-largeHover,
+.dxnbLite_MyCdsc .dxnb-largeSelected
+{
+	text-align: center;
+}
+
+.dxnbLite_MyCdsc .dxnb-headerHover
+{
+}
+.dxnbLite_MyCdsc .dxnb-headerCollapsedHover
+{
+}
+.dxnbLite_MyCdsc .dxnb-last,
+.dxnbLite_MyCdsc.dxnb-noHeads .dxnb-last
+{
+	margin-bottom: 0;
+}
+.dxnbLite_MyCdsc .dxnb-btn,
+.dxnbLite_MyCdsc .dxnb-btnLeft,
+.dxnbLite_MyCdsc .dxnb-img
+{
+	border-width: 0;
+}
+
+.dxnbLite_MyCdsc .dxnb-btn
+{
+	float: right;
+	margin: 0 0 0 4px;
+}
+.dxnbLite_MyCdsc .dxnb-btnLeft,
+.dxnbLite_MyCdsc .dxnb-rtlHeader .dxnb-btn 
+{
+	float: left;
+	margin: 0 4px 0 0;
+}
+.dxnbLite_MyCdsc .dxnb-img
+{
+	margin: 0 6px 0 0;
+}
+.dxnbLite_MyCdsc .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_MyCdsc .dxnb-rtlHeader .dxnb-img
+{
+	margin: 0 0 0 6px;
+}
+.dxnbLite_MyCdsc .dxnb-header.dxnb-header-left,
+.dxnbLite_MyCdsc .dxnb-headerCollapsed.dxnb-header-left,
+.dxnbLite_MyCdsc .dxnb-rtlHeader
+{
+	text-align: right;
+}
+.dxnbLite_MyCdsc .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 5px;
+}
+.dxnbLite_MyCdsc .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 5px;
+}
+.dxnbLite_MyCdsc .dxnb-large .dxnb-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dxnbLiteDisabled_MyCdsc,
+.dxnbLite_MyCdsc .dxnbLiteDisabled_MyCdsc,
+.dxnbLiteDisabled_MyCdsc a,
+.dxnbLiteDisabled_MyCdsc .dxnb-item,
+.dxnbLiteDisabled_MyCdsc .dxnb-large,
+.dxnbLiteDisabled_MyCdsc .dxnb-bullet,
+.dxnbLiteDisabled_MyCdsc .dxnb-header,
+.dxnbLiteDisabled_MyCdsc .dxnb-headerCollapsed
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+/* Loading panel */
+.dxnbLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxnbLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}   
+
+/* -- ASPxNewsControl -- */
+.dxncControl_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	border: 1px solid #9da0aa;
+}
+.dxncControl_MyCdsc a
+{
+	color: #1b3f91;
+}
+.dxncControl_MyCdsc td.dxncCtrl
+{
+	padding: 0;
+}
+.dxncLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxncLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxncLoadingDiv_MyCdsc
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxncContent_MyCdsc
+{
+	background-color: White;
+	padding: 18px 20px 6px;
+}
+.dxncPagerPanel_MyCdsc
+{
+	padding: 2px 9px;
+	background-color: White;
+}
+.dxncControl_MyCdsc .dxncPPSpacing
+{
+	background: url('ncPagerPanelSpacingBack.png') no-repeat center top;
+}
+.dxncItem_MyCdsc
+{
+	vertical-align: top;
+	border-style: none;
+	padding: 7px 0 9px;
+}
+.dxncEmptyItem_MyCdsc
+{
+	vertical-align: top;
+	padding: 12px 12px 12px 14px;
+}
+.dxncBackToTop_MyCdsc
+{
+	color: #1b3f91;
+}
+.dxncEPContainer_MyCdsc
+{
+    height: 48px;
+	text-align: center;
+}
+.dxncEPContainer_MyCdsc div
+{
+	padding-top: 12px;
+}
+.dxncEPContainer_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxncEPContainer_MyCdsc a:hover
+{
+	text-decoration: underline;
+}
+/* Headline */
+.dxncItemContent_MyCdsc
+{
+	color: Black;
+	padding-left: 2px;
+}
+.dxncItemDate_MyCdsc
+{
+    font-size: 15px;
+	color: #201f35;
+	padding-bottom: 1px;
+}
+.dxncItemHeader_MyCdsc
+{
+    font-size: 15px;    
+	padding: 1px 1px 6px;
+}
+.dxncItemHeader_MyCdsc .dxncItemDate_MyCdsc
+{
+    font-size: 15px;    
+	font-weight: normal;
+}
+.dxncItemLeftPanel_MyCdsc
+{
+}
+.dxncItemRightPanel_MyCdsc
+{
+}
+.dxncItemDateLeftPanel_MyCdsc
+{
+	white-space: nowrap;
+}
+.dxncItemDateRightPanel_MyCdsc
+{
+	white-space: nowrap;
+}
+.dxncItemTailDiv_MyCdsc
+{
+	color: #1b3f91;
+}
+.dxncEmptyData_MyCdsc
+{
+	color: #201f35;
+}
+/* Disabled */
+.dxncDisabled_MyCdsc,
+.dxncDisabled_MyCdsc a,
+.dxncDisabled_MyCdsc a:hover
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	padding: 5px 2px;
+	float: left;
+}
+
+.dxpLite_MyCdsc .dxp-summary,
+.dxpLite_MyCdsc .dxp-sep,
+.dxpLite_MyCdsc .dxp-button,
+.dxpLite_MyCdsc .dxp-pageSizeItem,
+.dxpLite_MyCdsc .dxp-num,
+.dxpLite_MyCdsc .dxp-current,
+.dxpLite_MyCdsc .dxp-ellip
+{
+	display: block;
+	float: left;
+	margin-left: 2px;
+	font-weight: normal;
+}
+.dxpLite_MyCdsc .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_MyCdsc a
+{
+	color: #201f35;
+	text-decoration: none;
+}
+.dxpLite_MyCdsc a:hover,
+.dxpLite_MyCdsc a.dxp-button:hover span
+{
+	text-decoration: underline;
+}
+
+.dxpLite_MyCdsc .dxp-button
+{
+	color: #201f35;
+	white-space: nowrap;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+.dxpLite_MyCdsc .dxp-button img
+{
+	border: none;
+	text-decoration: none;
+}
+.dxpLite_MyCdsc .dxp-button span
+{
+    margin-top: -1px;
+}
+.dxpLite_MyCdsc .dxp-button.dxp-bt 
+{
+	padding: 2px 5px 1px;
+}
+.dxpLite_MyCdsc .dxp-button.dxp-bti 
+{
+	padding: 0 5px;
+}
+@-moz-document url-prefix() {
+    .dxpLite_MyCdsc .dxp-button.dxp-bi,
+    .dxpLite_MyCdsc .dxp-button.dxp-bti
+    {
+	    margin-top: 1px;
+    }
+}
+.dxpLite_MyCdsc .dxp-disabledButton,
+.dxpLite_MyCdsc .dxp-disabledButton span
+{
+	text-decoration: none;
+	color: #b1b1b8;
+	cursor: default;
+}
+
+.dxpLite_MyCdsc .dxp-pageSizeItem
+{
+    padding: 0 4px;
+    white-space: nowrap;
+}
+.dxpLite_MyCdsc .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    white-space: nowrap;
+}
+.dxpLite_MyCdsc .dxp-comboBox
+{
+    background-color: White;
+    display: block;
+    float: left;
+    border-color: #9DA0AA #C2C4CB #D9DAE0;
+    border-style: solid;
+    border-width: 1px;
+    margin: -2px 0px;
+}
+.dxpLite_MyCdsc .dxp-comboBox input
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    display: block;
+    float: left;
+    background-color: transparent;
+    border-width: 0px;
+    padding: 0px;
+    margin: 3px 2px 0px;
+    width: 25px;
+}
+.dxpLite_MyCdsc .dxp-hoverComboBox
+{
+}
+.dxpLite_MyCdsc .dxp-pressedComboBox
+{
+}
+.dxpLite_MyCdsc .dxp-dropDownButton
+{
+    font-size: 0px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    padding: 6px 3px 5px;
+    border-color: Transparent;
+    -border-color: White;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+}
+.dxpLite_MyCdsc .dxp-hoverDropDownButton
+{
+    background: #e6edfe url('pDropDownButtonHoverBack.png') repeat-x left top;
+    border-color: #c0c9e3;
+}
+.dxpLite_MyCdsc .dxp-pressedDropDownButton
+{
+    background: #e3e5e8 url('pDropDownButtonPressedBack.png') repeat-x left top;
+    border-color: #c2c4cb;
+}
+.dxpLite_MyCdsc .dxp-dropDownButton img
+{
+    border: none;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.dxpLite_MyCdsc .dxp-disabledComboBox
+{
+}
+.dxpLite_MyCdsc .dxp-disabledComboBox input
+{
+    color: #b1b1b8;
+}
+.dxpLite_MyCdsc .dxp-disabledDropDownButton
+{
+    cursor: default;
+}
+
+.dxpLite_MyCdsc .dxp-num
+{
+	color: #201f35;
+	text-decoration: none;
+	padding: 2px 6px;
+	cursor: pointer;
+}
+
+.dxpLite_MyCdsc .dxp-current
+{
+	color: #201f35;
+	text-decoration: none;
+	background-color: #e2eafd;
+	padding: 1px 4px 2px;
+	cursor: text;
+	border: 1px solid #c9d7fb;
+}
+
+.dxpLite_MyCdsc .dxp-summary,
+.dxpLite_MyCdsc .dxp-ellip
+{
+	white-space: nowrap;
+	padding: 2px 4px;
+}
+
+.dxpLite_MyCdsc .dxp-sep
+{
+	background-image: url('pSepBack.png');
+	width: 1px;
+	height: 15px;
+	margin-top: 1px!important;
+	padding: 0;
+}
+
+.dxpLiteDisabled_MyCdsc,
+.dxpLiteDisabled_MyCdsc a,
+.dxpLiteDisabled_MyCdsc .dxp-summary,
+.dxpLiteDisabled_MyCdsc .dxp-sep, 
+.dxpLiteDisabled_MyCdsc .dxp-button,
+.dxpLiteDisabled_MyCdsc .dxp-num,
+.dxpLiteDisabled_MyCdsc .dxp-current,
+.dxpLiteDisabled_MyCdsc .dxp-ellip
+{
+	color: #b1b1b8;
+	border-color: #f2f2f4;
+	cursor: default;
+}
+.dxpLite_MyCdsc .dxp-pageSizeItem label /*Bootstrap correction*/
+{
+    font-size: 11px;
+}
+
+/* -- ASPxPopupControl Lite -- */
+.dxpcLite_MyCdsc,
+.dxdpLite_MyCdsc 
+{
+	width: 200px;
+	left: 0;
+	top: 0;
+	display: none;
+	position: absolute;
+	visibility: hidden;
+	border-spacing: 0;
+}
+
+.dxpcLite_MyCdsc .dxpc-mainDiv,
+.dxpcLite_MyCdsc.dxpc-mainDiv,
+.dxdpLite_MyCdsc .dxpc-mainDiv,
+.dxdpLite_MyCdsc.dxpc-mainDiv  
+{
+	top: 0;
+	left: 0;
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: white;
+	border: 1px solid #9da0aa;
+}
+
+.dxpcLite_MyCdsc a.dxpc-link,
+.dxdpLite_MyCdsc a.dxpc-link 
+{
+	color: #1b3f91;
+}
+.dxpcLite_MyCdsc a.dxpc-link *,
+.dxdpLite_MyCdsc a.dxpc-link * 
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.dxpcLite_MyCdsc .dxpc-closeBtn,
+.dxdpLite_MyCdsc .dxpc-closeBtn,
+.dxpcLite_MyCdsc .dxpc-pinBtn,
+.dxdpLite_MyCdsc .dxpc-pinBtn,
+.dxpcLite_MyCdsc .dxpc-refreshBtn,
+.dxdpLite_MyCdsc .dxpc-refreshBtn,
+.dxpcLite_MyCdsc .dxpc-collapseBtn,
+.dxdpLite_MyCdsc .dxpc-collapseBtn,
+.dxpcLite_MyCdsc .dxpc-maximizeBtn,
+.dxdpLite_MyCdsc .dxpc-maximizeBtn
+{
+	padding: 1px 2px 2px 1px;
+	float: right;
+}
+
+.dxpcLite_MyCdsc.dxRtl  .dxpc-closeBtn,
+.dxdpLite_MyCdsc.dxRtl  .dxpc-closeBtn,
+.dxpcLite_MyCdsc.dxRtl  .dxpc-pinBtn,
+.dxdpLite_MyCdsc.dxRtl  .dxpc-pinBtn,
+.dxpcLite_MyCdsc.dxRtl  .dxpc-refreshBtn,
+.dxdpLite_MyCdsc.dxRtl  .dxpc-refreshBtn,
+.dxpcLite_MyCdsc.dxRtl  .dxpc-collapseBtn,
+.dxdpLite_MyCdsc.dxRtl  .dxpc-collapseBtn,
+.dxpcLite_MyCdsc.dxRtl  .dxpc-maximizeBtn,
+.dxdpLite_MyCdsc.dxRtl  .dxpc-maximizeBtn
+{
+	float: left;
+}
+
+.dxpcLite_MyCdsc .dxpc-closeBtnHover,
+.dxdpLite_MyCdsc .dxpc-closeBtnHover,
+.dxpcLite_MyCdsc .dxpc-pinBtnHover,
+.dxdpLite_MyCdsc .dxpc-pinBtnHover,
+.dxpcLite_MyCdsc .dxpc-refreshBtnHover,
+.dxdpLite_MyCdsc .dxpc-refreshBtnHover,
+.dxpcLite_MyCdsc .dxpc-collapseBtnHover,
+.dxdpLite_MyCdsc .dxpc-collapseBtnHover,
+.dxpcLite_MyCdsc .dxpc-maximizeBtnHover,
+.dxdpLite_MyCdsc .dxpc-maximizeBtnHover
+{
+}
+
+.dxpcLite_MyCdsc .dxpc-header,
+.dxdpLite_MyCdsc .dxpc-header 
+{
+	color: #5d5c6d;
+	background: #c8c9d0 url('pcHBack.png') repeat-x left top;
+	border-bottom: 1px solid #a8aab4;
+	padding: 4px 2px 7px 7px;
+}
+
+.dxpcLite_MyCdsc .dxpc-header.dxpc-withBtn,
+.dxdpLite_MyCdsc .dxpc-header.dxpc-withBtn
+{
+	padding-bottom: 3px;
+	padding-right: 2px;
+}
+
+.dxpcLite_MyCdsc.dxRtl .dxpc-header,
+.dxdpLite_MyCdsc.dxRtl .dxpc-header 
+{
+	padding-left: 2px;
+	padding-right: 12px;
+}
+
+.dxpcLite_MyCdsc .dxpc-headerText,
+.dxdpLite_MyCdsc .dxpc-headerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_MyCdsc .dxpc-withBtn .dxpc-headerText,
+.dxdpLite_MyCdsc .dxpc-withBtn .dxpc-headerText
+{
+	margin-top: -4px;
+}
+
+.dxpcLite_MyCdsc .dxpc-headerImg,
+.dxdpLite_MyCdsc .dxpc-headerImg
+{
+	margin: 0 6px 0 0;
+}
+
+.dxpcLite_MyCdsc.dxRtl .dxpc-headerImg,
+.dxdpLite_MyCdsc.dxRtl .dxpc-headerImg
+{
+	margin: 0 0 0 6px;
+}
+
+.dxpcLite_MyCdsc .dxpc-content,
+.dxdpLite_MyCdsc .dxpc-content
+{
+	white-space: normal;
+	padding: 9px 12px 10px;
+}
+
+.dxpcLite_MyCdsc .dxpc-footer,
+.dxdpLite_MyCdsc .dxpc-footer
+{
+	color: #80838f;
+	background: #c9cad1 url('pcFBack.png') repeat-x left top;
+	border-top: 1px solid #a8aab4;
+}
+
+.dxpcLite_MyCdsc .dxpc-footerContent,
+.dxdpLite_MyCdsc .dxpc-footerContent
+{
+	padding: 6px 20px 6px 12px;
+	min-height: 8px;
+}
+
+.dxpcLite_MyCdsc.dxRtl .dxpc-footerContent,
+.dxdpLite_MyCdsc.dxRtl .dxpc-footerContent
+{
+	padding: 6px 12px 6px 20px;
+}
+
+.dxpcLite_MyCdsc .dxpc-footerText,
+.dxdpLite_MyCdsc .dxpc-footerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_MyCdsc .dxpc-footerImg,
+.dxdpLite_MyCdsc .dxpc-footerImg
+{
+	margin: -1px 4px 0 0;
+}
+
+.dxpcLite_MyCdsc.dxRtl .dxpc-footerImg,
+.dxdpLite_MyCdsc.dxRtl .dxpc-footerImg
+{
+	margin: -1px 0 0 4px;
+}
+
+.dxpcLite_MyCdsc .dxpc-sizeGrip,
+.dxdpLite_MyCdsc .dxpc-sizeGrip
+{
+	float: right;
+}
+
+.dxpcLite_MyCdsc.dxRtl .dxpc-sizeGrip,
+.dxdpLite_MyCdsc.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_MyCdsc,
+.dxdpModalBackLite_MyCdsc
+{
+	background-color: White;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+.dxpcLiteDisabled_MyCdsc,
+.dxdpLiteDisabled_MyCdsc
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+/* Loading panel */
+.dxpcLoadingPanel_MyCdsc td.dx,
+.dxdpLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxpcLoadingPanel_MyCdsc,
+.dxdpLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxpcLoadingDiv_MyCdsc
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+
+/* -- ASPxRoundPanel -- */
+.dxrpControl_MyCdsc td.dxrp,
+.dxrpControlGB_MyCdsc td.dxrp,
+.dxrpControl_MyCdsc .dxrpHeader_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+}
+.dxrpControl_MyCdsc .dxrpCI
+{
+	display:block;
+}
+/* Header */
+.dxrpControl_MyCdsc .dxrpHeader_MyCdsc,
+.dxrpControl_MyCdsc .dxrpHeader_MyCdsc span.dxrpHT,
+.dxrpControlGB_MyCdsc span.dxrpHeader_MyCdsc
+{
+	color: #5d5c6d;
+	background: #C0C0FF;
+}
+.dxrpControl_MyCdsc .dxrpHeader_MyCdsc > a,
+.dxrpControl_MyCdsc .dxrpHeader_MyCdsc > a > span.dxrpHT,
+.dxrpControlGB_MyCdsc span.dxrpHeader_MyCdsc a
+{
+    color: #1B3F91;
+}
+.dxrpControl_MyCdsc .dxrpHeader_MyCdsc,
+.dxrpControl_MyCdsc .dxrpHLE,
+.dxrpControl_MyCdsc .dxrpHRE
+{
+	border-bottom: 1px solid #d0d2d8;
+}
+.dxrpControl_MyCdsc .dxrpHI,
+.dxrpControl_MyCdsc .dxrpHeader_MyCdsc,
+.dxrpControl_MyCdsc .dxrpHeader_MyCdsc td.dxrp
+{
+	vertical-align: top;
+	white-space: nowrap;
+}
+/* Header image */
+.dxrpControl_MyCdsc .dxrpHI
+{
+	margin-right: 4px;
+}
+.dxrpControl_MyCdsc .dxrpHIR
+{
+	margin-left: 4px;
+}
+/* Content */
+.dxrpControl_MyCdsc .dxrpcontent,
+.dxrpControlGB_MyCdsc .dxrpcontent
+{
+	vertical-align: top;
+    background-image: none;
+}
+.dxrpControl_MyCdsc .dxrpcontent
+{
+    background: #f1f2f6;
+    background-image: none;
+}
+/* Edges */
+.dxrpControl_MyCdsc .dxrpTE,
+.dxrpControl_MyCdsc .dxrpNHTE,
+.dxrpControlGB_MyCdsc .dxrpNHTE
+{
+	border-top: 1px solid #a8aab4;
+}
+.dxrpControl_MyCdsc .dxrpLE,
+.dxrpControl_MyCdsc .dxrpHLE,
+.dxrpControlGB_MyCdsc .dxrpLE,
+.dxrpControlGB_MyCdsc .dxrpHLE
+{
+	border-left: 1px solid #a8aab4;
+}
+.dxrpControl_MyCdsc .dxrpRE,
+.dxrpControl_MyCdsc .dxrpHRE,
+.dxrpControlGB_MyCdsc .dxrpRE
+{
+	border-right: 1px solid #a8aab4;
+}
+.dxrpControl_MyCdsc .dxrpBE,
+.dxrpControlGB_MyCdsc .dxrpBE
+{
+	border-bottom: 1px solid #a8aab4;
+}
+.dxrpControl_MyCdsc .dxrpNHTE,
+.dxrpControl_MyCdsc .dxrpLE,
+.dxrpControl_MyCdsc .dxrpRE,
+.dxrpControl_MyCdsc .dxrpBE,
+.dxrpControlGB_MyCdsc .dxrpHeader_MyCdsc,
+.dxrpControlGB_MyCdsc .dxrpcontent,
+.dxrpControlGB_MyCdsc .dxrpNHTE,
+.dxrpControlGB_MyCdsc .dxrpLE,
+.dxrpControlGB_MyCdsc .dxrpRE,
+.dxrpControlGB_MyCdsc .dxrpBE
+{
+    background-color: #f1f2f6;
+    background-image: none;
+}
+.dxrpControl_MyCdsc .dxrpTE
+{
+	background: #f8f9fa url('rpTEdgeBack.png') repeat-x left top;
+}
+.dxrpControl_MyCdsc .dxrpHLE, 
+.dxrpControl_MyCdsc .dxrpHRE,
+.dxrpControl_MyCdsc .dxrpHeader_MyCdsc
+{
+	background: #f0f1f5 url('rpHBack.png') repeat-x left top;
+}
+
+/* Disabled */
+.dxrpDisabled_MyCdsc,
+.dxrpDisabled_MyCdsc td.dxrp
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_MyCdsc a:hover
+{
+	text-decoration: underline;
+}
+.dxsmControl_MyCdsc a:visited
+{
+	color: #8684ed;
+}
+
+.dxsmControl_MyCdsc
+{
+	color: #201f35;
+	background-color: White;
+	font: 11px Verdana, Geneva, sans-serif;
+	border-style: none;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_MyCdsc, 
+.dxsmCategoryLevel_MyCdsc a
+{
+	color: #201f35;
+	background-color: White;
+	text-decoration: none;
+}
+.dxsmCategoryLevel_MyCdsc
+{
+	white-space: nowrap;
+	padding: 0px 0px 5px;
+}
+.dxsmCategoryLevel_MyCdsc
+{
+	border-bottom: 1px solid #9da0aa;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_MyCdsc,
+.dxsmLevelCategoryFlow_MyCdsc a 
+{
+	color: #201f35;
+	text-decoration: underline;
+}
+/* - Level 0 - */
+.dxsmLevel0_MyCdsc,
+.dxsmLevel0_MyCdsc a,
+.dxsmLevel0Categorized_MyCdsc a,
+.dxsmLevel0Categorized_MyCdsc
+{
+	color: #201f35;
+	text-decoration: none;
+}
+.dxsmLevel0_MyCdsc,
+.dxsmLevel0Categorized_MyCdsc
+{
+	white-space: nowrap;
+	padding: 0px 0px 2px;
+}
+.dxsmLevel0_MyCdsc 
+{
+	padding-bottom: 5px;
+}
+ /*flow layout*/
+.dxsmLevel0Flow_MyCdsc,
+.dxsmLevel0Flow_MyCdsc a,
+.dxsmLevel0CategorizedFlow_MyCdsc a,
+.dxsmLevel0CategorizedFlow_MyCdsc
+{
+	color: #201f35;
+	font-weight: bold;
+	text-decoration: none;
+}
+.dxsmLevel0Flow_MyCdsc
+{
+	padding: 0;
+}
+
+.dxsmLevel0_MyCdsc a:hover,
+.dxsmLevel0Categorized_MyCdsc a:hover,
+.dxsmLevel0Flow_MyCdsc a:hover,
+.dxsmLevel0CategorizedFlow_MyCdsc a:hover
+{
+	color: #201f35;
+	text-decoration: underline;
+}
+.dxsmLevel0_MyCdsc a:visited,
+.dxsmLevel0Categorized_MyCdsc a:visited,
+.dxsmLevel0Flow_MyCdsc a:visited,
+.dxsmLevel0CategorizedFlow_MyCdsc a:visited
+{
+	color: #201f35;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_MyCdsc,
+.dxsmLevel1_MyCdsc a,
+.dxsmLevel1Categorized_MyCdsc a,
+.dxsmLevel1Categorized_MyCdsc 
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxsmLevel1_MyCdsc,
+.dxsmLevel1Categorized_MyCdsc
+{
+	white-space: nowrap;
+	padding-bottom: 3px;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_MyCdsc,
+.dxsmLevel1Flow_MyCdsc a,
+.dxsmLevel1CategorizedFlow_MyCdsc,
+.dxsmLevel1CategorizedFlow_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxsmLevel1Flow_MyCdsc
+{
+	padding: 0;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_MyCdsc,
+.dxsmLevel2_MyCdsc a,
+.dxsmLevel2Categorized_MyCdsc a,
+.dxsmLevel2Categorized_MyCdsc
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxsmLevel2_MyCdsc,
+.dxsmLevel2Categorized_MyCdsc
+{
+	white-space: nowrap;
+	padding-bottom: 6px;
+}
+/*flow layout*/
+.dxsmLevel2Flow_MyCdsc,
+.dxsmLevel2Flow_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxsmLevel2Flow_MyCdsc
+{
+	padding: 0;
+}
+/* - Level 3 - */
+.dxsmLevel3_MyCdsc,
+.dxsmLevel3_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxsmLevel3_MyCdsc
+{
+	white-space: nowrap;
+	padding-bottom: 6px;
+}
+/*flow layout*/
+.dxsmLevel3Flow_MyCdsc,
+.dxsmLevel3Flow_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+/* - Level 4 - */
+.dxsmLevel4_MyCdsc,
+.dxsmLevel4_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxsmLevel4_MyCdsc
+{
+	white-space: nowrap;
+	padding-bottom: 6px;
+}
+/*flow layout*/ 
+.dxsmLevel4Flow_MyCdsc,
+.dxsmLevel4Flow_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxsmLevel4Flow_MyCdsc
+{
+	padding: 0;
+}
+/* - Other Levels - */
+.dxsmLevelOther_MyCdsc,
+.dxsmLevelOther_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxsmLevelOther_MyCdsc
+{
+	white-space: nowrap;
+	padding-bottom: 6px;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_MyCdsc,
+.dxsmLevelOtherFlow_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+/* Disabled */
+.dxsmDisabled_MyCdsc
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_MyCdsc
+{
+	overflow: hidden;
+	float: left;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-strip
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+	_overflow: hidden;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	display: block;
+	margin: 0;
+	float: left;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid #9da0aa;
+	overflow: hidden;
+	_border-top-color: #000001;
+	_zoom: 1;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MyCdsc.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MyCdsc.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border: 1px solid #9da0aa;
+}
+.dxtcLite_MyCdsc.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MyCdsc.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-style: none;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: #ebebee url('tcTabBack.png') repeat-x center top;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-activeTab
+{
+	background: White;
+	border-bottom: 1px solid White;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-tab a
+{
+	text-decoration: none;
+	color: #1b3f91;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-tabHover
+{
+	background: #e1e8fd url('tcTabHoverBack.png') repeat-x center top;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-spacer 
+{
+	width: 1px;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-rightIndent
+{
+	width: 5px;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 12px;
+	display: block;
+	font-size: 0;
+	text-decoration: none;
+	height: 100%;
+	_float: left;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-text,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-rightIndent
+{
+	color: #201f35;
+	font: normal 11px Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-img
+{
+	border-style: none;
+	margin: 0 3px 0 0;
+}
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-img
+{
+	margin: 0 0 0 3px;
+} 
+.dxtcLite_MyCdsc > .dxtc-content
+{
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+	font: 11px Verdana, Geneva, sans-serif;
+	float: left;
+	clear: left;
+	overflow: hidden;
+	padding: 11px;
+}
+.dxtcLite_MyCdsc.dxtc-top > .dxtc-content
+{
+	border-top-style: none!important;
+}
+/* Rtl */
+.dxtcLite_MyCdsc.dxtc-rtl,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-content,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-strip,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	float: right;
+}
+.dxtc-top.dxtc-rtl > .dxtc-content,
+.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer,
+.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	clear: right!important;
+}
+.dxtc-left.dxtc-rtl > .dxtc-strip,
+.dxtc-left.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	float: left;
+}
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-content,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	*float: left;
+}
+.dxtcLite_MyCdsc.dxtc-rtl > .dxtc-content
+{
+	*clear: left!important;
+}
+/* Scrolling */
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-sb
+{
+	border-style: none;
+	cursor: pointer;
+	font-size: 0;
+	margin: 3px 0 0;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-sb img
+{
+	border: none;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	width: 1px;
+}
+/* Multi-row */
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtc-n
+{
+	_display: inline;
+}
+.dxtcLiteDisabled_MyCdsc,
+.dxtcLiteDisabled_MyCdsc > .dxtc-stripContainer .dxtc-text,
+.dxtcLiteDisabled_MyCdsc > .dxtc-stripContainer .dxtc-activeTab .dxtc-text,
+.dxtcLiteDisabled_MyCdsc > .dxtc-content,
+.dxtcLite_MyCdsc > .dxtc-stripContainer .dxtcLiteDisabled_MyCdsc .dxtc-text
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+/* bottom  */
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer,
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	clear: left;
+	*float: none;
+}
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-tab
+{
+	border-top: 1px solid #9da0aa;
+	border-bottom-style: none;
+	_border-bottom-color: #000001;
+	_zoom: 1;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-tab,
+.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border: 1px solid #9da0aa;
+}
+.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left-style: none;
+}
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab,
+.dxtc-bottom.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border-top: 1px solid White;
+}
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-content
+{
+	clear: right;
+	border-top: 1px solid #9da0aa;
+	border-right: 1px solid #9da0aa;
+	border-bottom-color: #9da0aa;
+	border-left: 1px solid #9da0aa;
+	border-bottom-width: 1px;
+	border-bottom-style: none!important;
+}
+.dxtcLite_MyCdsc.dxtc-bottom > .dxtc-stripContainer .dxtc-sb
+{
+	margin: 4px 0 0;
+}
+/* left */
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent 
+{
+	float: none;
+	*float: left;
+	clear: none;
+	*clear: both;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border: 1px solid #9da0aa;
+}
+.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtc-left.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-right: 1px solid White;
+}
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 13px 4px 12px;
+}
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent 
+{
+	border: none;
+	border-right: 1px solid #9da0aa;
+	border-left: 1px solid transparent;
+	width: auto;
+	_border-left-color: #000001;
+	_zoom: 1;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_MyCdsc.dxtc-left > .dxtc-content
+{
+	border-left-style: none!important;
+	float: left;
+	clear: none;
+}
+/* right */
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	*float: left;
+	clear: none;
+	*clear: both;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab.dxtc-lead,
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+	border: 1px solid #9da0aa;
+}
+.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-tab,
+.dxtc-right.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-left: 1px solid White;
+}
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 13px 4px 12px;
+}
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-left: 1px solid #9da0aa;
+	border-right: 1px solid transparent;
+	_border-right-color: #000001;
+	_zoom: 1;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_MyCdsc.dxtc-right > .dxtc-content
+{
+	border-top: 1px solid #9da0aa;
+	border-right-color: #9da0aa;
+	border-bottom: 1px solid #9da0aa;
+	border-left: 1px solid #9da0aa;
+	border-right-width: 1px;
+	border-right-style: none!important;
+	float: left;
+	clear: none;
+}
+/* Services rules */
+.dxtcLite_MyCdsc.dxtc-noTabs > .dxtc-content
+{
+	border: 1px solid #9da0aa!important;
+}
+/* Loading panel */
+.dxtcLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxtcLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_MyCdsc 
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #1b3f91;
+	background-color: White;
+	border-style: none;
+}
+.dxtiControl_MyCdsc a
+{
+	color: #1b3f91;
+}
+.dxtiLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxtiLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxtiLoadingDiv_MyCdsc
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxtiItem_MyCdsc
+{
+	color: #1b3f91;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtiGroupHeader_MyCdsc,
+.dxtiGroupHeaderCategorized_MyCdsc
+{
+	font-size: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+}
+.dxtiGroupHeader_MyCdsc,
+.dxtiGroupHeaderCategorized_MyCdsc
+{
+	background-color: White;
+	white-space: nowrap;
+}
+.dxtiGroupHeaderCategorized_MyCdsc
+{
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_MyCdsc
+{
+	color: #5d5c6d;
+	background: #eeeff2 url('tiHBack.png') repeat-x left top;
+	padding: 0 4px 1px;
+	border: 1px solid #d3d4da;
+}
+.dxtiGroupHeaderTextCategorized_MyCdsc
+{
+	color: #5d5c6d;
+	font-size: 21px;
+}
+.dxtiGroupHeaderTextCategorized_MyCdsc
+{
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+}
+/* - FilterBox - */
+.dxtiFilterBox_MyCdsc
+{
+	font: normal 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background: #eff1f3 url('tiFBBack.png') repeat-x left top;
+	padding: 10px;
+}
+.dxtiFilterBoxInfoText_MyCdsc
+{
+}
+.dxtiFilterBoxEdit_MyCdsc
+{
+	font-size: 11px;
+	width: 165px;
+	border-top: 1px solid #9da0aa;
+	border-left: 1px solid #c2c4cb;
+	border-right: 1px solid #c2c4cb;
+	border-bottom: 1px solid #d9dae0;
+	padding-left: 3px;
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_MyCdsc
+{
+	background-color: White;
+	padding: 5px 0;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_MyCdsc,
+.dxtiCurrentIndexPanelItem_MyCdsc,
+.dxtiIndexPanelItem_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_MyCdsc a:hover
+{
+	text-decoration: underline;
+}
+
+.dxtiIndexPanelItem_MyCdsc,
+.dxtiCurrentIndexPanelItem_MyCdsc
+{
+	padding: 2px 4px;
+}
+.dxtiCurrentIndexPanelItem_MyCdsc
+{
+	color: #8684ed;
+}
+/* - BackToTop - */
+.dxtiBackToTop_MyCdsc,
+.dxtiBackToTopRtl_MyCdsc
+{
+	padding: 4px 4px 0;
+	border-top: 1px solid #e3e3e7;
+}
+/* Disabled */
+.dxtiDisabled_MyCdsc
+{
+	color: #b1b1b8;
+	cursor: default;
+}
+
+/* -- ASPxUploadControl -- */
+.dxucControl_MyCdsc,
+.dxucEditArea_MyCdsc,
+input[type="text"].dxucEditArea_MyCdsc /*Bootstrap correction*/
+{
+	font: 11px Verdana, Geneva, sans-serif;
+}
+.dxucEditArea_MyCdsc,
+input[type="text"].dxucEditArea_MyCdsc /*Bootstrap correction*/
+{
+    padding: 1px;
+}
+input[type="text"].dxucEditArea_MyCdsc /*Bootstrap correction*/
+{
+    display: block;
+    height: auto;
+    line-height: normal;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+body input.dxucEditArea_MyCdsc /*Bootstrap correction*/
+{
+    color: black;
+}
+.dxucControl_MyCdsc .dxucInputs_MyCdsc
+{
+}
+.dxucTextBox_MyCdsc
+{
+	background-color: white;
+	border-top: 1px solid #9DA0AA;
+	border-right: 1px solid #C2C4CB;
+	border-bottom: 1px solid #D9DAE0;
+	border-left: 1px solid #C2C4CB;
+	padding: 1px 2px;
+}
+.dxucTextBox_MyCdsc .dxucEditArea_MyCdsc
+{
+	margin: 0px;
+	background-color: white;
+}
+.dxucNullText_MyCdsc .dxucEditArea_MyCdsc
+{
+    color: #b1b1b8;
+}
+.dxucErrorCell_MyCdsc
+{
+	color: Red;
+	text-align: left;
+}
+.dxucButton_MyCdsc,
+.dxucButton_MyCdsc a
+{
+	color: #1B3F91;
+	text-decoration: none;
+}
+.dxucButton_MyCdsc a:hover
+{
+	text-decoration: underline;
+}
+.dxucBrowseButton_MyCdsc,
+.dxucBrowseButton_MyCdsc a
+{
+	color: #201F35;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_MyCdsc .dxucBrowseButton_MyCdsc a
+{
+	color: #201F35;
+}
+.dxucControl_MyCdsc a[unselectable=on]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_MyCdsc
+{
+	padding: 4px 15px;
+	border: 1px solid #A9ACB5;
+	background: #EBEDF2 url('ucButtonBack.png') repeat-x;
+}
+.dxucBrowseButton_MyCdsc.dxbf
+{
+    padding: 4px 14px;
+}
+.dxucBrowseButton_MyCdsc.dxbf a
+{
+    border: 1px dotted black;
+}
+.dxucBrowseButtonHover_MyCdsc
+{
+	background: #DDE6FE url('ucButtonHoverBack.png') repeat-x;
+}
+.dxucBrowseButtonPressed_MyCdsc
+{
+	border: 1px solid #9DA0AA;
+	background: #DBDDE2 url('ucButtonPressedBack.png') repeat-x;
+}
+.dxucControl_MyCdsc .dxucBrowseButtonPressed_MyCdsc
+{
+    color: #3C3C3C;
+}
+.dxuc-IE7 .dxucTextBox_MyCdsc .dxucEditArea_MyCdsc
+{
+    margin-left: -3px;
+}
+/* ProgressBar */
+.dxucProgressBar_MyCdsc,
+.dxucProgressBar_MyCdsc td.dx
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+}
+.dxucProgressBar_MyCdsc .dxucPBMainCell,
+.dxucProgressBar_MyCdsc td.dx
+{
+	padding: 0;
+}
+.dxucProgressBar_MyCdsc
+{
+	background: #f3f4f5 url('ucProgressBack.png') repeat-x left top;
+	border: 1px solid #b9bac3;
+}
+.dxucProgressBarIndicator_MyCdsc
+{
+	background: #edd0f4 url('ucProgressIndicatorBack.png') repeat-x left top;
+}
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_MyCdsc {
+	font: 9px Verdana, Geneva, sans-serif;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_MyCdsc td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_MyCdsc a {
+	color: #1B3F91;
+}
+/* Disabled */
+.dxucDisabled_MyCdsc,
+.dxucDisabled_MyCdsc a
+{
+	font-size: 11px;
+	color: #B1B1B8;
+	cursor: default;
+}
+.dxucTextBoxDisabled_MyCdsc
+{
+	border-color: #D9DAE0;
+}
+.dxucButtonDisabled_MyCdsc a,
+.dxucButtonDisabled_MyCdsc a:hover
+{
+	text-decoration: none;
+}
+.dxucControl_MyCdsc .dxucBrowseButtonDisabled_MyCdsc a
+{
+	color: #BABAC1;
+}
+.dxucBrowseButtonDisabled_MyCdsc
+{
+	border-color: #E1E2E5;
+	background: #F8F9FA url('ucButtonDisabledBack.png') repeat-x;
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_MyCdsc,
+.dxsplVSeparator_MyCdsc,
+.dxsplHSeparator_MyCdsc
+{
+	background-color: White;
+}
+.dxsplVSeparator_MyCdsc,
+.dxsplHSeparator_MyCdsc
+{
+	font-size: 0;
+}
+.dxsplControl_MyCdsc,
+.dxsplVSeparator_MyCdsc,
+.dxsplHSeparator_MyCdsc,
+.dxsplPane_MyCdsc,
+.dxsplPaneCollapsed_MyCdsc,
+.dxsplVSeparator_MyCdsc,
+.dxsplHSeparator_MyCdsc,
+.dxsplVSeparatorCollapsed_MyCdsc,
+.dxsplHSeparatorCollapsed_MyCdsc
+{
+	border: 0px solid #9598a1;
+}
+.dxsplPane_MyCdsc,
+.dxsplPaneCollapsed_MyCdsc
+{
+	border-width: 1px;
+}
+.dxsplPaneCollapsed_MyCdsc
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparator_MyCdsc,
+.dxsplHSeparator_MyCdsc
+{
+	background-color: #ebecef;
+}
+.dxsplVSeparator_MyCdsc
+{
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparator_MyCdsc
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+.dxsplVSeparatorHover_MyCdsc
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_MyCdsc
+{
+	cursor: n-resize;
+}
+.dxsplVSeparatorCollapsed_MyCdsc
+{
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparatorCollapsed_MyCdsc
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+.dxsplVSeparatorCollapsed_MyCdsc,
+.dxsplHSeparatorCollapsed_MyCdsc
+{
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_MyCdsc
+{
+	cursor: pointer;
+	padding: 3px 0;
+}
+.dxsplHSeparatorButton_MyCdsc
+{
+	cursor: pointer;
+	padding: 0 3px;
+}
+.dxsplDisabled_MyCdsc .dxsplVSeparatorButton_MyCdsc,
+.dxsplDisabled_MyCdsc .dxsplHSeparatorButton_MyCdsc
+{
+	cursor: default;
+}
+.dxsplVSeparatorHover_MyCdsc,
+.dxsplVSeparatorButtonHover_MyCdsc
+{
+	background-image: url('splVSepHBack.png');
+}
+.dxsplHSeparatorHover_MyCdsc,
+.dxsplHSeparatorButtonHover_MyCdsc
+{
+	background-image: url('splHSepHBack.png');
+}
+.dxsplVSeparatorHover_MyCdsc,
+.dxsplHSeparatorHover_MyCdsc,
+.dxsplVSeparatorButtonHover_MyCdsc,
+.dxsplHSeparatorButtonHover_MyCdsc
+{
+	background-color: #e3ebfe;
+}
+.dxsplResizingPointer_MyCdsc
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0px;
+	line-height: 0px;
+}
+.dxsplLCC
+{
+	padding: 8px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_MyCdsc
+{
+	float: left;
+}
+.dxtvControl_MyCdsc li
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	overflow-y: hidden;
+}
+.dxtvControl_MyCdsc ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+.dxtvControl_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxtvControl_MyCdsc .dxtv-ln
+{
+	vertical-align: top;
+}
+.dxtvControl_MyCdsc .dxtv-nd
+{
+	color: #201f35;
+	float: left;
+	display: block;
+	text-decoration: none;
+	padding: 3px 5px 4px;
+	margin: 1px 1px 1px 0;
+	cursor: pointer;
+	outline: 0 none;
+}
+.dxtvControl_MyCdsc .dxtv-elbNoLn,
+.dxtvControl_MyCdsc .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+.dxtvControl_MyCdsc .dxtv-btn
+{
+	margin-left: 8px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.dxtvControl_MyCdsc .dxtv-subnd
+{
+	margin-left: 22px;
+}
+.dxtvControl_MyCdsc .dxtv-ndImg
+{
+	margin:  0 4px 0 2px;
+	cursor: pointer;
+}
+.dxtvControl_MyCdsc .dxtv-ndTxt
+{
+	white-space: nowrap;
+	cursor: pointer;
+}
+.dxtvControl_MyCdsc .dxtv-ndChk
+{
+	cursor: default;
+	margin:  0 6px 0 2px;
+} 
+.dxtvControl_MyCdsc .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+.dxtvControl_MyCdsc .dxtv-ndSel,
+.dxtvControl_MyCdsc .dxtv-ndHov
+{
+    padding: 2px 4px 3px;
+}
+.dxtvControl_MyCdsc .dxtv-ndSel
+{
+	background: #e9eaee url('mItemSBack.png') repeat-x left top;
+	border: 1px solid #9da0aa;
+	cursor: default;
+}
+
+.dxtv-ndSel .dxtv-ndTxt,
+.dxtv-ndSel .dxtv-ndImg
+{
+	cursor: default;
+}
+.dxtvControl_MyCdsc .dxtv-ndHov
+{
+	background: #e3ebff url('mSubItemHBack.png') repeat-x left top;
+	border: 1px solid #a6a9b2;
+	cursor: pointer;
+}
+.dxtv-ndHov .dxtv-ndTxt,
+.dxtv-ndHov .dxtv-ndImg
+{
+	cursor: pointer;
+}
+
+.dxtvControl_MyCdsc .dxtv-clr,
+.dxtvControl_MyCdsc .dxtv-clrIE7
+{
+	clear: both;
+	font-size: 0;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	width: 0;
+} 
+
+.dxtvControl_MyCdsc .dxtv-clr
+{
+	line-height: 0;
+}
+
+.dxtvControl_MyCdsc.dxtvRtl,
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-nd,
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-elb,
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-ndTmpl
+{
+	float: right;
+}
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-nd
+{
+	margin: 1px 0 1px 1px;
+}
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-elb,
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-ln
+{
+	background-position: right top;
+}
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-btn
+{
+	margin: 3px 8px 0 0;
+}
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-subnd
+{
+	margin: 0 22px 0 0;
+}
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-ndImg
+{
+	margin: 0 2px 0 4px;
+}
+.dxtvControl_MyCdsc.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+	margin: 5px 10px 0 0;
+}
+.dxtvControl_MyCdsc.dxtvRtl .dxtv-ndChk
+{
+	margin: 0 2px 0 6px;
+}
+.dxtvControl_MyCdsc.dxtvRtl.OperaRtlFix .dxtv-subnd
+{
+	overflow-x: hidden;
+}
+
+.dxtvDisabled_MyCdsc,
+.dxtvControl_MyCdsc .dxtvDisabled,
+.dxtvDisabled_MyCdsc a,
+.dxtvDisabled_MyCdsc .dxtv-ndTxt,
+.dxtvDisabled_MyCdsc .dxtv-ndImg,
+.dxtvDisabled_MyCdsc .dxtv-btn,
+.dxtvDisabled_MyCdsc .dxtv-nd
+{
+	color: #b1b1b8;
+	cursor: default;
+} 
+
+.dxtvLoadingPanelWithContent_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxtvLoadingPanelWithContent_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+
+/* ASPxFileManager */
+.dxfmControl_MyCdsc 
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	outline: 0px;
+}
+.dxfmDisabled_MyCdsc
+{
+	color: #ACACAC;
+}
+
+/* FileManager - TreeView */
+.dxfmControl_MyCdsc .dxtvControl_MyCdsc 
+{
+	margin-left: -5px;
+}
+.dxfmControl_MyCdsc .dxtvControl_MyCdsc .dxfm-folderSI
+{
+	border: 1px dotted #888888;
+	padding: 2px 4px 3px;
+}
+
+/* FileManager - File */
+.dxfmControl_MyCdsc div.dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px;
+	margin: 4px;
+}
+.dxfmControl_MyCdsc.dxfm-rtl div.dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled_MyCdsc .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_MyCdsc div.dxfm-fileSI
+{
+	border: 1px dotted #888888;
+}
+.dxfmControl_MyCdsc div.dxfm-fileSA
+{
+	border: 1px solid #888888;
+}
+
+
+.dxfmControl_MyCdsc div.dxfm-fileSA
+{
+	background: #E9EAEE url('mItemSBack.png') repeat-x left top;
+	border: 1px solid #9DA0AA;
+}
+.dxfmControl_MyCdsc div.dxfm-fileH,
+.dxfmControl_MyCdsc div.dxfm-fileF
+{
+	background: #E3EBFF url('mSubItemHBack.png') repeat-x left top;
+    border: 1px solid #A6A9B2;
+}
+.dxfmControl_MyCdsc td.dxgv .dxfm-fileName
+{
+    padding: 2px 0;
+}
+.dxfmControl_MyCdsc .dxfm-content
+{
+	overflow: hidden;
+}
+.dxfmControl_MyCdsc .dxfm-content div
+{
+	overflow: hidden;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	height: 18px;
+}
+.dxfmControl_MyCdsc .dxfm-file .dxfm-highlight
+{
+	background-color: #E2EAFD;
+	background-repeat: repeat;
+	color: #201F35;
+	font-weight: bold;
+}
+.dxfmControl_MyCdsc .fileContainer
+{
+    margin: 4px;
+}
+
+/* FileManager - GridView */
+.dxfmControl_MyCdsc .dxgvTable_MyCdsc  td.dxgv 
+{
+    border-bottom-width: 0px;
+}
+.dxfmControl_MyCdsc  .dxgvControl_MyCdsc 
+{
+    background-color: White; 
+    outline: none;
+}
+.dxfmControl_MyCdsc .dxgvTable_MyCdsc tr.dxfm-fileSA
+{
+    background: #EFF0F2;
+}     
+.dxfmControl_MyCdsc .dxgvTable_MyCdsc tr.dxfm-fileSI
+{
+    background: #F0F0F0;
+}
+.dxfmControl_MyCdsc .dxfm-fileF.dxgvFocusedRow_MyCdsc
+{
+    background: #E8E9EC;
+}
+.dxfmControl_MyCdsc .dxgvTable_MyCdsc tr.dxfm-fileH
+{
+    background: #E2EAFD;
+}
+.dxfmControl_MyCdsc tr.dxgvFocusedRow_MyCdsc
+{
+    background: White;
+}
+.dxgvHeader_MyCdsc.dxfmGridHeader
+{
+    background: White;
+    border-color: #D9DAE0;
+}
+.dxfm-file .dxgv.dxgvCommandColumn_MyCdsc
+{
+	text-overflow: clip;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_MyCdsc .dxfm-toolbar
+{
+	background: #F2F2F7 url('mItemBack.png') repeat-x top left;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxfmControl_MyCdsc.dxfm-rtl .dxfm-toolbar .dxfm-filter 
+{
+	text-align: left;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar .dxfm-filter input
+{
+	border: 1px solid #9DA0AA #C2C4CB #D9DAE0;
+	margin: 4px 4px 0px 3px;
+	width: 130px;
+	height: 16px;
+	font: 11px Verdana, Geneva, sans-serif;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar .dxfm-path input
+{
+	border: 1px solid #9DA0AA #C2C4CB #D9DAE0;
+	width: 230px;
+	height: 16px;
+	font: 11px Verdana, Geneva, sans-serif;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_MyCdsc .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar .dxmLite_MyCdsc .dxm-main
+{
+	margin-top: 1px;
+	border-width: 0px;
+	background: transparent none;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar .dxmLite_MyCdsc .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar .dxmLite_MyCdsc .dxfm-path 
+{
+	padding-left: 2px;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar .dxmLite_MyCdsc .dxfm-path input
+{
+	margin: 1px 8px 0px 4px;
+}
+.dxfmControl_MyCdsc.dxfm-rtl .dxfm-toolbar .dxmLite_MyCdsc .dxfm-path input
+{
+	margin: 1px 4px 0px 8px;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar .dxmLite_MyCdsc .dxm-item .dxm-content 
+{
+	padding-top: 4px;
+}
+.dxfmControl_MyCdsc .dxfm-toolbar .dxmLite_MyCdsc .dxm-item .dxm-content .dxm-image {
+	margin: 0px;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_MyCdsc .dxfm-uploadPanel 
+{
+	background-color: #EBECEF;
+	text-align: right;
+}
+.dxfmControl_MyCdsc.dxfm-rtl .dxfm-uploadPanel 
+{
+	text-align: left;
+}
+.dxfmControl_MyCdsc .dxfm-uploadPanel table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 2px;
+	margin-top: 1px;
+}
+.dxfmControl_MyCdsc .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_MyCdsc 
+{
+	margin-right: 10px;
+	margin-top: 4px;
+}
+.dxfmControl_MyCdsc.dxfm-rtl .dxfm-uploadPanel table.dxfm-uploadPanelTable .dxucControl_MyCdsc 
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_MyCdsc .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+	color: #1B3F91;
+	text-decoration: none;
+}
+.dxfmControl_MyCdsc .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a:hover
+{
+	text-decoration: underline;
+}
+.dxfmControl_MyCdsc .dxfm-uploadPanel table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable 
+{
+	color: #777777;
+	text-decoration: none;
+	cursor: default;
+}
+.dxfmControl_MyCdsc .dxfm-uploadPanel.dxsplPane_MyCdsc .dxucTextBox_MyCdsc 
+{
+	padding: 0px 2px;
+}
+.dxfmControl_MyCdsc .dxfm-uploadPanel.dxsplPane_MyCdsc .dxucBrowseButton_MyCdsc 
+{
+	padding: 2px 8px 3px;
+}
+.dxfmControl_MyCdsc .dxfm-uploadPanel.dxsplPane_MyCdsc .dxucBrowseButton_MyCdsc.dxbf
+{
+    padding: 2px 7px 3px;
+}
+.dxfmControl_MyCdsc .dxfm-uploadPanel.dxsplPane_MyCdsc .dxucSilverlightPluginLinkPanel_MyCdsc 
+{
+	margin-top: -8px;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_MyCdsc .dxsplControl_MyCdsc
+{
+	border-width: 1px;
+	border-color: #9DA0AA;
+}
+.dxfmControl_MyCdsc .dxsplPane_MyCdsc
+{
+	border-width: 0px;
+}
+.dxfmControl_MyCdsc .dxsplLCC {
+	outline-width: 0px;
+	padding: 4px;
+}
+.dxfmControl_MyCdsc.dxfm-dst .dxsplVSeparator_MyCdsc
+{
+	width: 3px;
+	background: url('fmSplitterSeparator.gif') repeat-y right;
+	border-width: 0px;
+}
+.dxfmControl_MyCdsc.dxfm-dst.dxfm-rtl .dxsplVSeparator_MyCdsc 
+{
+	background-position-x: left;
+}
+.dxfmControl_MyCdsc.dxfm-tch .dxsplVSeparator_MyCdsc
+{
+	border-width: 0 1px;
+	border-color: #ABACB9;
+}
+.dxfmControl_MyCdsc .dxsplHSeparator_MyCdsc
+{
+	border-width: 0px;
+	background: #ABACB9 none;
+}
+.dxfmControl_MyCdsc .dxfm-filePane .dxsplLCC
+{
+    padding: 0;
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_MyCdsc .dxfm-cInput,
+.dxfmControl_MyCdsc .dxfm-rInput
+{
+	border: 1px solid #9DA0AA #C2C4CB #D9DAE0;
+	padding: 1px;
+	font: 11px Verdana, Geneva, sans-serif;
+	outline-width: 0px;
+	margin: 0px;
+}
+
+/* FileManager - LoadingPanel */
+.dxfmControl_MyCdsc .dxfmLoadingPanel_MyCdsc 
+{
+	background-color: White;
+	background-repeat: repeat;
+	border: 1px solid #9DA0AA;
+	color: #201F35;
+	font: 11px Verdana, Geneva, sans-serif;
+}
+.dxfmControl_MyCdsc .dxfmLoadingPanel_MyCdsc td.dx {
+	padding: 7px 10px;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxfmControl_MyCdsc .dxfmLoadingDiv_MyCdsc
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+
+/* FileManager - Move PopupControl */
+.dxfmControl_MyCdsc .dxpc-content
+{
+	padding: 5px 0px 0px;
+}
+.dxfmControl_MyCdsc .dxpc-content .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_MyCdsc .dxpc-content .dxfm-mpButtonC
+{
+	margin-top: 5px;
+	border-top: 1px solid #ABACB9;
+	text-align: right;
+	background-color: #EBECEF;
+	padding: 10px 15px 10px 10px;
+}
+.dxfmControl_MyCdsc .dxpc-content .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #1B3F91;
+}
+.dxfmControl_MyCdsc .dxfm-filter > label /*Bootstrap correction*/
+{
+    font-size: 11px;
+}
+
+/* ASPxImageSlider */
+.dxisControl_MyCdsc
+{
+    width: 660px;
+    height: 505px;
+    outline: 0;
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxisControl_MyCdsc .dxis-playPauseBtnWrapper
+{
+    top: 0;
+    right: 0;
+    padding: 6px 12px 6px 14px;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+*[dir="rtl"].dxisControl_MyCdsc .dxis-playPauseBtnWrapper {
+    right: auto;
+    left: 0;
+}
+.dxisControl_MyCdsc > .dxis-passePartout
+{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height:100%;
+}
+.dxisControl_MyCdsc .dxis-imageArea
+{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dxisControl_MyCdsc .dxis-slidePanel,
+.dxisControl_MyCdsc .dxis-nbSlidePanel,
+.dxisControl_MyCdsc .dxis-nbSlidePanelWrapper
+{
+    position: absolute;
+}
+.dxisControl_MyCdsc .dxis-nbSlidePanelWrapper
+{
+    overflow: hidden;
+}
+.dxisControl_MyCdsc .dxis-nbTop,
+.dxisControl_MyCdsc .dxis-nbBottom,
+.dxisControl_MyCdsc .dxis-nbLeft,
+.dxisControl_MyCdsc .dxis-nbRight,
+.dxisControl_MyCdsc .dxis-nbDotsBottom,
+.dxisControl_MyCdsc .dxis-nbDotsTop,
+.dxisControl_MyCdsc .dxis-nbDotsLeft,
+.dxisControl_MyCdsc .dxis-nbDotsRight
+{
+    position: relative;
+}
+.dxisControl_MyCdsc .dxis-nbTop
+{
+    padding-bottom: 5px;
+}
+.dxisControl_MyCdsc .dxis-nbBottom
+{
+    padding-top: 5px;
+}
+.dxisControl_MyCdsc .dxis-nbLeft
+{
+    padding-right: 5px;
+}
+.dxisControl_MyCdsc .dxis-nbRight
+{
+    padding-left: 5px;
+}
+.dxisControl_MyCdsc .dxis-nbDotsBottom,
+.dxisControl_MyCdsc .dxis-nbDotsTop
+{
+    padding: 20px 0;
+}
+.dxisControl_MyCdsc .dxis-nbDotsLeft
+{
+    padding-right: 20px;
+}
+.dxisControl_MyCdsc .dxis-nbDotsRight
+{
+    padding-left: 20px;
+}
+.dxisControl_MyCdsc .dxis-nbLeft,
+.dxisControl_MyCdsc .dxis-nbRight,
+.dxisControl_MyCdsc .dxis-nbDotsLeft,
+.dxisControl_MyCdsc .dxis-nbDotsRight
+{
+    float: left;
+}
+.dxisControl_MyCdsc .dxis-item,
+.dxisControl_MyCdsc .dxis-nbItem
+{
+    background-image: url('isLoading.gif');
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.dxisControl_MyCdsc .dxis-nbItem .dxis-nbHoverItem
+{
+    display: none;
+    position: absolute;
+    border: 2px solid #9f9f9f;
+}
+.dxisControl_MyCdsc .dxis-nbItem .dxis-nbHoverItem > div
+{
+    border: 2px solid #ffffff;
+}
+.dxisControl_MyCdsc .dxis-nbItem.dxis-hover .dxis-nbHoverItem
+{
+    display: block;
+}
+.dxisControl_MyCdsc .dxis-item,
+.dxisControl_MyCdsc .dxis-nbItem,
+.dxisControl_MyCdsc .dxis-nbDotItem
+{
+    position: absolute;
+    overflow: hidden;
+}
+.dxisControl_MyCdsc .dxis-nbItem,
+.dxisControl_MyCdsc .dxis-nbDotItem
+{
+    cursor: pointer;
+}
+.dxisControl_MyCdsc .dxis-nbDotItemSelected,
+.dxisControl_MyCdsc .dxis-nbDotItemDisabled
+{
+    cursor: default;
+}
+.dxisControl_MyCdsc .dxis-nbItem
+{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+}
+.dxisControl_MyCdsc .dxis-itemTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+    padding: 22px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxisControl_MyCdsc .dxis-nbSelectedItem
+{
+    z-index: 1;
+    cursor: default;
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+.dxisControl_MyCdsc .dxis-nbSelectedItem > div
+{
+    border: 2px solid White;
+}
+.dxisControl_MyCdsc .dxis-prevBtnVertWrapper,
+.dxisControl_MyCdsc .dxis-nextBtnVertWrapper,
+.dxisControl_MyCdsc .dxis-prevBtnHorWrapper,
+.dxisControl_MyCdsc .dxis-nextBtnHorWrapper
+{
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.dxisControl_MyCdsc .dxis-prevBtnHorWrapperDisabled,
+.dxisControl_MyCdsc .dxis-nextBtnHorWrapperDisabled,
+.dxisControl_MyCdsc .dxis-prevBtnVertWrapperDisabled,
+.dxisControl_MyCdsc .dxis-nextBtnVertWrapperDisabled
+{
+    cursor: default;
+}
+.dxisControl_MyCdsc .dxis-prevBtnHorWrapper
+{
+    left: 0px;
+}
+.dxisControl_MyCdsc .dxis-nextBtnHorWrapper
+{
+    right: 0px;
+}
+.dxisControl_MyCdsc .dxis-prevBtnVertWrapper
+{
+    top: 0px;
+}
+.dxisControl_MyCdsc .dxis-nextBtnVertWrapper
+{
+    bottom: 0px;
+}
+.dxisControl_MyCdsc > .dxis-passePartout > .dxis-prevBtnHorWrapper,
+.dxisControl_MyCdsc > .dxis-passePartout > .dxis-nextBtnHorWrapper
+{
+    top: 50%;
+    margin-top: -32px;
+}
+.dxisControl_MyCdsc > .dxis-passePartout > .dxis-prevBtnVertWrapper,
+.dxisControl_MyCdsc > .dxis-passePartout > .dxis-nextBtnVertWrapper
+{
+    left: 50%;
+    margin-left: -30px;
+}
+.dxisControl_MyCdsc .dxis-prevBtnHor
+{
+    margin: 16px 12px 16px 8px;
+}
+.dxisControl_MyCdsc .dxis-nextBtnHor
+{
+    margin: 16px 8px 16px 12px;
+}
+.dxisControl_MyCdsc .dxis-prevBtnVert
+{
+    margin: 8px 16px 12px 16px;
+}
+.dxisControl_MyCdsc .dxis-nextBtnVert
+{
+    margin: 12px 16px 8px 16px;
+}
+.dxisControl_MyCdsc > .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxisControl_MyCdsc > .dxis-nbBottom > .dxis-nextBtnHorWrapper,
+.dxisControl_MyCdsc > .dxis-nbTop > .dxis-prevBtnHorWrapper,
+.dxisControl_MyCdsc > .dxis-nbTop > .dxis-nextBtnHorWrapper
+{
+    height: inherit;
+}
+.dxisControl_MyCdsc > .dxis-nbLeft > .dxis-prevBtnVertWrapper,
+.dxisControl_MyCdsc > .dxis-nbLeft > .dxis-nextBtnVertWrapper,
+.dxisControl_MyCdsc > .dxis-nbRight > .dxis-prevBtnVertWrapper,
+.dxisControl_MyCdsc > .dxis-nbRight > .dxis-nextBtnVertWrapper
+{
+    width: inherit;
+}
+.dxisControl_MyCdsc .dxis-prevPageBtnHor,
+.dxisControl_MyCdsc .dxis-nextPageBtnHor
+{
+    top: 50%;
+    position: relative;
+    margin: -11px 7px 0 7px;
+}
+.dxisControl_MyCdsc .dxis-prevPageBtnVert,
+.dxisControl_MyCdsc .dxis-nextPageBtnVert
+{
+    margin: 7px auto 6px;
+}
+.dxisControl_MyCdsc .dxis-prevBtnHorWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_MyCdsc .dxis-nextBtnHorWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_MyCdsc .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_MyCdsc .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_MyCdsc .dxis-prevBtnVertWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_MyCdsc .dxis-nextBtnVertWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_MyCdsc .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_MyCdsc .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_MyCdsc .dxis-prevBtnVertPressed,
+.dxisControl_MyCdsc .dxis-nextBtnVertPressed,
+.dxisControl_MyCdsc .dxis-nextBtnHorPressed,
+.dxisControl_MyCdsc .dxis-prevBtnHorPressed,
+.dxisControl_MyCdsc .dxis-prevPageBtnVertPressed,
+.dxisControl_MyCdsc .dxis-nextPageBtnVertPressed,
+.dxisControl_MyCdsc .dxis-prevPageBtnHorPressed,
+.dxisControl_MyCdsc .dxis-nextPageBtnHorPressed,
+.dxisControl_MyCdsc .dxis-prevBtnVertDisabled,
+.dxisControl_MyCdsc .dxis-nextBtnVertDisabled,
+.dxisControl_MyCdsc .dxis-nextBtnHorDisabled,
+.dxisControl_MyCdsc .dxis-prevBtnHorDisabled,
+.dxisControl_MyCdsc .dxis-prevPageBtnVertDisabled,
+.dxisControl_MyCdsc .dxis-nextPageBtnVertDisabled,
+.dxisControl_MyCdsc .dxis-prevPageBtnHorDisabled,
+.dxisControl_MyCdsc .dxis-nextPageBtnHorDisabled
+{
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+}
+
+/* ASPxImageGallery */
+.dxigControl_MyCdsc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	border: 1px solid #9da0aa;
+}
+.dxigControl_MyCdsc td.dxigCtrl
+{
+	padding: 0;
+	background-color: #f1f2f6;
+}
+.dxigLoadingPanel_MyCdsc
+{
+	font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+	background-color: White;
+	border: 1px solid #9da0aa;
+}
+.dxigLoadingPanel_MyCdsc td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 7px 10px;
+}
+.dxigLoadingDiv_MyCdsc
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxigContent_MyCdsc
+{
+	padding: 4px;
+    background-color: #f1f2f6;
+}
+.dxigEmptyData_MyCdsc
+{
+	color: #201f35;
+	padding: 12px 40px;
+}
+.dxigEmptyItem_MyCdsc
+{
+	text-align: left;
+	vertical-align: top;
+}
+.dxigFlowItem_MyCdsc
+{
+    float: left;
+}
+.dxigItem_MyCdsc
+{
+    background-color: #E8EDF1;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image: url('igLoading.gif');
+}
+.dxigItem_MyCdsc a
+{
+    outline: 0;
+}
+.dxigItem_MyCdsc a > img
+{
+    display: block;
+}
+.dxigPagerPanel_MyCdsc
+{
+	padding: 2px 9px;
+	background: #f1f2f6 url('dvPagerPanelBack.png') repeat-x left top;
+}
+.dxigControl_MyCdsc .dxigPPSpacing
+{
+	background: url('dvPagerPanelSpacingBack.png') no-repeat center top;
+}
+.dxigItem_MyCdsc .dxig-thumbnailBorder
+{
+    top: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.dxigItem_MyCdsc .dxig-thumbnailWrapper,
+.dxigFlowItem_MyCdsc
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+}
+.dxigControl_MyCdsc .dxig-thumbnailTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+}
+.dxigControl_MyCdsc .dxpcControl,
+.dxigControl_MyCdsc .dxpcLite .dxpc-mainDiv
+{
+    border: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dxigControl_MyCdsc .dxpcLite .dxpc-content
+{
+    padding: 0;
+}
+.dxigControl_MyCdsc .dxig-imageSliderWrapper
+{
+    overflow: hidden;
+    padding: 50px 65px;
+}.dxigControl_MyCdsc.dxTouchUI .dxig-imageSliderWrapper
+{
+    padding: 0;
+}
+.dxigControl_MyCdsc .dxig-imageSliderWrapper .dxisControl .dxis-item > img
+{
+    box-shadow: 0 0 50px rgb(0,0,0);
+    -moz-box-shadow: 0 0 50px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 50px rgb(0,0,0);
+}
+.dxigControl_MyCdsc .dxig-bottomPanel
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.dxigControl_MyCdsc .dxig-overflowPanel
+{
+    overflow: hidden;
+}
+.dxigControl_MyCdsc .dxig-bottomPanel .dxisControl_MyCdsc
+{
+    position: relative;
+}
+.dxigControl_MyCdsc .dxisControl_MyCdsc > .dxis-passePartout
+{
+    background-color: transparent;
+}
+.dxigControl_MyCdsc .dxisControl_MyCdsc .dxis-nbBottom
+{
+    padding: 4px 4px 0 4px;
+}
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    width: 43px;
+    background: url('igNavBtnsBack.png') repeat-y;
+}
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper
+{
+    background-position: 0 0;
+}
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    background-position: -39px 0;
+}
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapperDisabled,
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapperDisabled
+{
+    display: none;
+}
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor,
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    position: absolute;
+}
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor
+{
+}
+.dxigControl_MyCdsc .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    right: 0;
+}
+.dxigControl_MyCdsc .dxig-fullscreenViewerTextArea
+{
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dxigControl_MyCdsc .dxig-prevButtonArea,
+.dxigControl_MyCdsc .dxig-nextButtonArea
+{
+    top: 0;
+    position: absolute;
+}
+.dxigControl_MyCdsc .dxig-prevButtonArea
+{
+    left: 0;
+}
+.dxigControl_MyCdsc .dxig-nextButtonArea
+{
+    right: 0;
+}
+.dxigControl_MyCdsc .dxig-prevButton,
+.dxigControl_MyCdsc .dxig-nextButton
+{
+    top: 50%;
+    cursor: pointer;
+    position: relative;
+    margin: -32px 11px 0;
+}
+.dxigControl_MyCdsc .dxig-prevButtonDisabled,
+.dxigControl_MyCdsc .dxig-nextButtonDisabled
+{
+    cursor: auto;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+}
+.dxigControl_MyCdsc .dxig-closeButtonWrapper,
+.dxigControl_MyCdsc .dxig-playPauseButtonWrapper
+{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.dxigControl_MyCdsc .dxig-closeButtonWrapper
+{
+    top: 4px;
+    right: 7px;
+}
+.dxigControl_MyCdsc .dxig-closeButtonWrapper > .dxig-closeButton
+{
+    z-index: 1;
+}
+.dxigControl_MyCdsc .dxig-playPauseButtonWrapper
+{
+    top: 2px;
+    right: 48px;
+}
+*[dir="rtl"].dxigControl_MyCdsc .dxig-closeButtonWrapper {
+    left: 7px;
+    right: auto;
+}
+*[dir="rtl"].dxigControl_MyCdsc .dxig-playPauseButtonWrapper {
+    left: 48px;
+    right: auto;
+}
+.dxigControl_MyCdsc .dxig-overflowPanel .dxig-navigationBarMarker
+{
+    left: 50%;
+    bottom: 0;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxigControl_MyCdsc .dxisControl_MyCdsc .dxis-nbSelectedItem
+{
+    border: 2px solid #fff;
+}
+.dxigControl_MyCdsc .dxisControl_MyCdsc .dxis-nbHoverItem
+{
+    border: 2px solid #9F9F9F
+}
+.dxigControl_MyCdsc .dxisControl_MyCdsc .dxis-nbSelectedItem > div,
+.dxigControl_MyCdsc .dxisControl_MyCdsc .dxis-nbHoverItem > div
+{
+    border: 2px solid #000;
+}
+.dxigControl_MyCdsc .dxisControl_MyCdsc .dxis-nbBottom,
+.dxigControl_MyCdsc .dxig-fullscreenViewerTextArea
+{
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dxigEPContainer_MyCdsc
+{
+    height: 48px;
+	text-align: center;
+}
+.dxigEPContainer_MyCdsc div
+{
+	padding-top: 12px;
+}
+.dxigEPContainer_MyCdsc a
+{
+	color: #1b3f91;
+	text-decoration: none;
+}
+.dxigEPContainer_MyCdsc a:hover
+{
+	text-decoration: underline;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_MyCdsc,
+.dxnbGroupHeader_MyCdsc,
+.dxnbGroupHeaderCollapsed_MyCdsc,
+.dxnbGroupContent_MyCdsc > TABLE > TBODY > TR,
+.dxtcTab_MyCdsc,
+.dxtcActiveTab_MyCdsc,
+.dxtv-nd_MyCdsc
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Form Layout */
+.dxflFormLayout_MyCdsc {
+    display: table;
+}
+.dxflFormLayout_MyCdsc,
+.dxflCaptionCell_MyCdsc,
+.dxflNestedControlCell_MyCdsc,
+div.dxflItem_MyCdsc {
+    font: 11px Verdana, Geneva, sans-serif;
+	color: #201f35;
+}
+
+.dxflButtonItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 4px; }
+.dxflButtonItemSys .dxflVAMSys.dxflCaptionCell_MyCdsc { padding-bottom: 1px; }
+.dxflTextItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 0px; }
+.dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 3px; }
+.dxflCheckBoxItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 3px; }
+.dxflRadioButtonItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 3px; }
+.dxflCheckBoxListItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 11px; }
+.dxflRadioButtonListItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 11px; }
+.dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 2px; }
+.dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 2px; }
+.dxflProgressBarItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 3px; }
+.dxflMemoItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 3px; }
+.dxflCustomItemSys .dxflVATSys.dxflCaptionCell_MyCdsc { padding-top: 5px; padding-bottom: 5px; }
+
+.dxflCLTSys .dxflCaptionCell_MyCdsc,
+.dxflCLBSys .dxflCaptionCell_MyCdsc {
+    padding: 3px 0;
+}
+
+.dxflCLLSys .dxflCaptionCell_MyCdsc,
+*[dir="rtl"].dxflFormLayout_MyCdsc .dxflCLRSys .dxflCaptionCell_MyCdsc {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.dxflCLRSys .dxflCaptionCell_MyCdsc,
+*[dir="rtl"].dxflFormLayout_MyCdsc .dxflCLLSys .dxflCaptionCell_MyCdsc {
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.dxflCaptionCell_MyCdsc {
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+    width: 1%;
+}
+.dxflNestedControlCell_MyCdsc {
+    height: 0;
+}
+
+.dxflEmptyItem_MyCdsc {
+    height: 21px;
+}
+
+.dxflItem_MyCdsc { padding: 2px 0; width: 100%; }
+.dxflItem_MyCdsc > table.dxflItemTable_MyCdsc { width: 100%; }
+.dxflGroup_MyCdsc { padding: 6px 5px; width: 100%;}
+.dxflGroup_MyCdsc > table.dxflGroupTable_MyCdsc { width: 100%; }
+.dxflGroupCell_MyCdsc { padding: 0 8px; }
+
+.dxflGroupBox_MyCdsc {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border: 1px Solid #C2C4CB;
+    border-radius: 4px;
+    padding: 0 0 12px;
+    margin: 10px 0; 
+}
+.dxflGroupBox_MyCdsc.dxflHeadingLineGroupBoxSys {
+    border-width: 1px 0 0;
+    border-radius: 0px;
+}
+.dxflGroupBox_MyCdsc.dxflHeadingLineGroupBoxSys.dxflWithCaptionSys {
+    margin-top: 22px!important;
+}
+.dxflHeadingLineGroupBoxSys > .dxflGroup_MyCdsc {
+    margin-top: -6px;
+}
+
+.dxflGroupCell_MyCdsc > .dxtcControl_MyCdsc { margin: 0px; }
+
+.dxflGroupBox_MyCdsc > .dxflGroup_MyCdsc { margin-top: -9px; padding: 0 4px; }
+.dxflGroupBox_MyCdsc > .dxflGroup_MyCdsc tr:first-child > .dxflGroupCell_MyCdsc > .dxflItem_MyCdsc { padding-top: 9px; }
+.dxflGroupBox_MyCdsc > .dxflGroup_MyCdsc tr:first-child > .dxflGroupCell_MyCdsc > .dxtcControl_MyCdsc { margin-top: 10px; }
+.dxflGroupBox_MyCdsc > .dxflGroup_MyCdsc tr:last-child > .dxflGroupCell_MyCdsc > .dxflItem_MyCdsc { padding-bottom: 0px; }
+
+.dxflGroup_MyCdsc tr:first-child > .dxflGroupCell_MyCdsc > .dxflGroupBox_MyCdsc { margin-top: 13px; }
+.dxflGroup_MyCdsc tr:last-child > .dxflGroupCell_MyCdsc > .dxflGroupBox_MyCdsc { margin-bottom: 0px; }
+
+.dxtcPageContent_MyCdsc > div > .dxflGroup_MyCdsc { padding-top: 0px; padding-bottom: 0px; }
+.dxtcPageContent_MyCdsc > div > .dxflGroup_MyCdsc tr:first-child > .dxflGroupCell_MyCdsc > .dxflItem_MyCdsc { padding-top: 12px; }
+.dxtcPageContent_MyCdsc > div > .dxflGroup_MyCdsc tr:last-child > .dxflGroupCell_MyCdsc > .dxflItem_MyCdsc { padding-bottom: 12px; }
+
+.dxflGroupBoxCaption_MyCdsc {
+    background-color: White;
+    display: inline-block;  
+    left: 9px;
+    line-height: 16px;
+    padding: 0px 3px 0px 3px;  
+    position: relative;
+    top: -9px;
+}
+
+*[dir="rtl"].dxflFormLayout_MyCdsc .dxflGroupBoxCaption_MyCdsc {
+    padding: 0px 3px 0px 7px;
+    left: 0px;
+    right: 9px;
+}
+
+.dxflGroupBox_MyCdsc > div.dxflGroup_MyCdsc:first-child,
+.dxflGroupBox_MyCdsc > table.dxflGroup_MyCdsc:first-child {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+.dxflHeadingLineGroupBoxSys > .dxflGroupBoxCaption_MyCdsc {
+    top: -19px;
+}
+
+.dxflOptional_MyCdsc {
+	color: gray;
+	font-style: normal;
+}
+.dxflRequired_MyCdsc {
+	color: green;
+	font-style: normal;
+}
+.dxflInternalEditorTable_MyCdsc {
+    width: 100%;
+}
+.dxflHelpText_MyCdsc {
+    color: #9F9F9F;
+    font: 10px Verdana, Geneva, sans-serif;
+}
+.dxflHelpText_MyCdsc.dxflHHelpTextSys {
+    padding: 0 6px;
+}
+.dxflHelpText_MyCdsc.dxflTHelpTextSys {
+    padding: 6px 0 2px;
+}
+.dxflHelpText_MyCdsc.dxflBHelpTextSys {
+    padding: 2px 0 6px;
+}
+
+/* Ribbon */
+.dxrControl_MyCdsc .dxr-tabContent {
+    font: 11px Verdana, Geneva, sans-serif;
+    border: 1px solid #9da0aa;
+    border-top-width: 0px;
+    height: 95px;
+    background: #FFFFFF;
+}
+.dxrControl_MyCdsc.dxr-tabsHidden .dxr-tabContent {
+    border-top-width: 1px;
+}
+.dxrControl_MyCdsc.dxr-grLabelsHidden .dxr-tabContent {
+    height: 81px;
+}
+.dxrControl_MyCdsc, 
+.dxrControl_MyCdsc a {
+    color: #201f35;
+}
+.dxrControl_MyCdsc .dxr-itemDisabled.dxr-item,
+.dxrControl_MyCdsc .dxr-groupLabelDisabled.dxr-groupLabel,
+.dxrControl_MyCdsc .dxr-grExpBtnDisabled.dxr-grExpBtn,
+.dxrControl_MyCdsc .dxr-grExpBtnDisabled.dxr-grExpBtn .dxr-img32,
+.dxrControl_MyCdsc .dxr-minBtn.dxr-minBtnDisabled,
+.dxrControl_MyCdsc .dxr-tmplItem.dxr-tmplItemDisabled {
+    cursor: default;
+    color: #b1b1b8;
+}
+
+/* Ribbon Popup */
+.dxrControl_MyCdsc .dxr-minPopupWindow {
+    padding: 0;
+}
+.dxrControl_MyCdsc .dxr-minPopup .dxpc-mainDiv {
+    border: 0;
+}
+.dxrControl_MyCdsc .dxr-groupPopup .dxpc-mainDiv {
+    border: 1px solid #9DA0AA;
+}
+
+/* Ribbon Group List */
+.dxrControl_MyCdsc .dxr-groupList {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.dxrControl_MyCdsc .dxr-groupList .dxr-groupSep {
+    height: 100%;
+    list-style: none;
+}
+
+.dxrControl_MyCdsc .dxr-groupList .dxr-groupSep b {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #e9eaec url('rGroupSepBack.png') repeat-x bottom;
+}
+
+/* Ribbon Groups */
+.dxrControl_MyCdsc .dxr-groupList .dxr-group {
+    margin: 3px 3px 0 3px;
+}
+.dxrControl_MyCdsc .dxr-groupContent {
+    height: 75px;
+}
+.dxrControl_MyCdsc .dxr-groupLabel {
+    text-align: center;
+    color: #000000;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 0px 5px 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dxrControl_MyCdsc .dxr-grExpBtn,
+.dxrControl_MyCdsc .dxr-grExpBtn .dxr-img32 {
+    cursor: pointer;
+}
+.dxrControl_MyCdsc .dxr-grExpBtn {
+    border: 1px solid transparent;
+    height: 87px;
+    text-align: center;
+}
+.dxrControl_MyCdsc .dxr-groupPopupWindow {
+    padding: 2px 3px;
+}
+
+/* Ribbon Item Separator */
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-itemSep,
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-itemSep {
+    width: 3px;
+}
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-itemSep b,
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-itemSep b {
+    display: block;
+    background: #9da0aa;
+    width: 1px;
+}
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-itemSep b {
+    margin: 3px auto;
+    height: 19px;
+}
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-itemSep b {
+    margin: 4px auto;
+    height: 67px;
+}
+
+/* Ribbon Item */
+.dxrControl_MyCdsc .dxr-item {
+    border: 1px solid transparent;
+}
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-item,
+.dxrControl_MyCdsc.dxr-grLabelsHidden .dxr-grExpBtn {
+    text-align: center;
+    height: 73px;
+}
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-item,
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-item {
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-item {
+    overflow: hidden;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-item {
+    margin: 0 3px 0 3px;
+}
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-item .dxr-lblText {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-item .dxr-popOut {
+    height: 100%;
+    margin-left: 1px;
+}
+
+/* Ribbon Item Label */
+.dxrControl_MyCdsc .dxr-item .dxr-label {
+    line-height: 14px;
+}
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-item .dxr-label {
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-item .dxr-label .dxr-lblContent {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-item .dxr-label .dxr-lblContent {
+    font-size: 0;
+}
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-item .dxr-label .dxr-lblContent .dxr-lblText {
+    font-size: 11px;
+}
+
+/* Ribbon Item Label PopOut */
+.dxrControl_MyCdsc .dxr-item .dxr-label .dxr-popOut {
+    line-height: 0;
+}
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-item .dxr-label .dxr-popOut,
+.dxrControl_MyCdsc .dxr-grExpBtn .dxr-popOut {
+    margin: 0 3px;
+}
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-item .dxr-popOut {
+    padding: 10px 3px 9px 3px;
+    border-left: 1px solid transparent;
+    font-size: 0px;
+}
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label,
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label {
+    border-top: 1px solid #a6a9b2;
+}
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #a6a9b2;
+}
+
+/* Ribbon Editors Item */
+.dxrControl_MyCdsc .dxr-item.dxr-edtItem {
+    border: 0;
+    height: 21px;
+    padding: 2px 0;
+}
+.dxrControl_MyCdsc .dxr-item.dxr-edtItem .dxr-label {
+    padding-right: 3px;
+}
+
+/* Ribbon Item Types */
+.dxrControl_MyCdsc .dxr-buttonItem {
+    cursor: pointer;
+}
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-buttonItem,
+.dxrControl_MyCdsc .dxr-grExpBtn {
+    max-width: 60px;
+    min-width: 42px;
+}
+.dxrControl_MyCdsc .dxr-buttonItem.dxr-itemChecked {
+    background: #e9eaee url('mItemSBack.png') repeat-x left top;
+    border: 1px solid #ABAEB6;
+}
+.dxrControl_MyCdsc .dxr-buttonItem.dxr-itemPressed {
+    background: #e9eaee url('mItemSBack.png') repeat-x left top;
+    border: 1px solid #ABAEB6;
+}
+.dxrControl_MyCdsc .dxr-buttonItem.dxr-itemHover,
+.dxrControl_MyCdsc .dxr-grExpBtn.dxr-grExpBtnHover {
+    background: #e3ebff url('rItemHBack.png') repeat-x left top;
+    border-color: #a6a9b2;
+}
+.dxrControl_MyCdsc .dxr-img32,
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    width: 32px;
+    height: 32px;
+    margin: 2px auto 1px auto;
+}
+.dxrControl_MyCdsc .dxr-img16,
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16,
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 {
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+}
+.dxrControl_MyCdsc .dxr-ddImageContainer {
+    display: inline-block;
+}
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-ddImageContainer {
+    width: 100%;
+}
+
+/* Ribbon Color Button */
+.dxrControl_MyCdsc .dxr-colorBtn .dxr-colorDiv {
+    height: 4px;
+    width: 16px;
+    display: block;
+    margin: -7px auto 2px;
+    position: relative;
+}
+
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-colorBtn {
+    line-height: 0;
+}
+
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-colorBtn .dxr-colorDiv {
+    width: 32px;
+    margin: -5px auto 4px;
+}
+
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dxrControl_MyCdsc .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 .dxr-colorDiv,
+.dxrControl_MyCdsc .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv,
+.dxrControl_MyCdsc .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.dxrControl_MyCdsc .dxpc-content.dxr-itemDDPopup {
+    padding: 0;
+}
+
+.dxrControl_MyCdsc .dxeColorTable_MyCdsc {
+    border: none;
+}
+
+.dxrControl_MyCdsc .dxr-minBtn {
+    cursor: pointer;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    font-size: 0;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.dxrControl_MyCdsc .dxr-minBtn img {
+    vertical-align: middle;
+}
+
+/* Ribbon TabControl */
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtcLiteDisabled_MyCdsc .dxtc-text {
+    color: #B1B1B8;
+}
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-tab.dxr-fileTab {
+    background: #ebedf2 url('rFileTabBack.png') repeat-x;
+    border-color: #9da0aa;
+    border-width: 1px;
+}
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-tabHover.dxr-fileTab {
+    background: #dde6fe url('rFileTabHoverBack.png') repeat-x;
+}
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxr-fileTabPressed.dxr-fileTab {
+    background: #dbdde2 url('rFileTabPressedBack.png') repeat-x;
+}
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-leftIndent, 
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-spacer, 
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-rightIndent, 
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-sbWrapper, 
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-sbIndent, 
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-sbSpacer
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-spacer.dxr-fileTabSpacing {
+    border-bottom-color: #9da0aa;
+}
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-tab {
+    background: transparent;
+    border-top-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-tab.dxtc-tabHover
+{
+	background: #e1e8fd url('tcTabHoverBack.png') repeat-x center top;
+    border-left-color: #7c7c94;
+    border-right-color: #7c7c94;
+    border-top-color: #7c7c94;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-tab .dxtc-link {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxr-fileTab .dxtc-link,
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxr-fileTab.dxtc-tabHover .dxtc-link {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-tab .dxtc-link,
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-leftIndent {
+    width: 0px;
+}
+
+.dxrControl_MyCdsc .dxtcLite_MyCdsc.dxtc-top .dxtc-rightIndent {
+    text-align: right;
+}

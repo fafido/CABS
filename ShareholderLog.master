@@ -1,0 +1,112 @@
+<%@ Master Language="VB" CodeFile="ShareholderLog.master.vb" Inherits="Custodian" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Shareholder Menu</title>
+    
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="main.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #Table_01
+        {
+            width: 1074px;
+        }
+        .style1
+        {
+            background-color: #E4E4E4;
+            background-image: url('~/images/CDS-System_02.png');
+            background-repeat: repeat-y;
+            width: 201px;
+        }
+        .style2
+        {
+            width: 201px;
+             background-color: #E4E4E4;
+        }
+    </style>
+</head>
+ <form id="form1" runat="server">
+
+<table height="555" border="0" align="center" cellpadding="0" cellspacing="0" 
+     id="Table_01">
+	<tr>
+		<td colspan="2" align="left" valign="top">
+			<img src="../images/CDS-System_01.png" height="105" alt="" 
+                style="width: 1109px"></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style1">
+                                <asp:TreeView id="TreeView1" runat="server" backcolor="#C0C0FF" 
+                                    font-names="Verdana" font-size="Small" ShowLines="True" 
+                                    ExpandImageUrl="~/Images/CDS-System_side.png">
+                                    <Nodes>
+                                        <asp:TreeNode Text="Sign Out" Value="Sign Out" NavigateUrl="~/LoginSystem.aspx"></asp:TreeNode>
+                                        <asp:TreeNode Text="Enquiries" Value="Enquiries">
+                                            <asp:TreeNode Text="Registration Details" Value="Account Details Enquiry"></asp:TreeNode>
+                                            <asp:TreeNode Text="Portfolio holding" 
+                                                Value="Shareholder Trading Enquiry"></asp:TreeNode>
+                                            <asp:TreeNode Text="Transaction Movement" Value="Transaction Movement">
+                                            </asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Accounts Maintenance" Value="Accounts Maintenance">
+                                            <asp:TreeNode Text="Account Details Update Request" 
+                                                Value="New Accounts Creation">
+                                            </asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Reports" Value="Reporting">
+                                            <asp:TreeNode 
+                                                Text="Dividend Reports" Value="Company Schedule"></asp:TreeNode>
+                                            <asp:TreeNode 
+                                                Text="Rights Issue" Value="Shareholders Names Schedule">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode 
+                                                Text="Bonus Issue" Value="Dividend Enquiries"></asp:TreeNode>
+                                            <asp:TreeNode 
+                                                Text="Annual Reports" Value="Rights Issue Enquiries"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Transaction Request" Value="Transaction Request">
+                                            <asp:TreeNode Text="Share Transfer Request" Value="Share Transfer Request">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Market Order Request" Value="Market Order Request">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Pledge Order Request" Value="Pledge Order Request">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Lending &amp; Borrowing Request" 
+                                                Value="Lending &amp; Borrowing Request"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Help" Value="Help">
+                                            <asp:TreeNode Text="Complaints and Suggestions" 
+                                                Value="Complaints and Suggestions"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                    </Nodes>
+                                    <HoverNodeStyle backcolor="MidnightBlue" />
+                                    <LeafNodeStyle font-names="Arial" font-size="Small" />
+                                </asp:TreeView>
+                             </td>
+		<td rowspan="3" align="left" valign="top" class="content"><p>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p style="width: 835px">&nbsp;</p></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style2">
+			<img src="../images/CDS-System_04.png" height="173" alt="" style="width: 237px"></td>
+	</tr>
+	<tr>
+		<td class="style2">
+			<img src="../images/CDS-System_05.png" width="197" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top" class="footerBg"><a href="#"><span class="footercopyright"><asp:Label 
+                id="Label1" runat="server" font-bold="True" font-names="Arial" 
+                font-size="x-Small" Text="Shareholder Level Access" visible="True"></asp:Label></span></a><em class="footercopyright">Copyright &copy; 2012 ecsrowsystems all rights reserved</em></td>
+	</tr>
+</table>
+
+</form>

@@ -1,0 +1,264 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_MyCdsc
+{
+    background: White;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_MyCdsc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #201f35;
+}
+.dxheLoadingPanel_MyCdsc td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.dxheControl_MyCdsc
+{
+    border: 1px solid #9da0aa;
+}
+
+/* Area */
+.dxheContentArea_MyCdsc
+{
+    padding: 0;
+    background-color: #ebecef;
+}
+.dxheContentArea_MyCdsc .dxheErrorFrame_MyCdsc
+{
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #fbc7c7;
+    border-bottom: solid 1px #dec0c0;
+}
+.dxheContentArea_MyCdsc .dxheErrorFrame_MyCdsc .dxhe {
+    padding: 5px;
+}
+.dxheContentArea_MyCdsc .dxheErrorFrame_MyCdsc .dxhe td {
+    padding: 0px;
+}
+.dxheContentArea_MyCdsc .dxheErrorFrame_MyCdsc .dxheErrorFrameCloseButton_MyCdsc {
+    cursor: pointer;
+}
+.dxheControl_MyCdsc .dxheViewArea_MyCdsc
+{
+    border-width: 0;
+}
+.dxheContentArea_MyCdsc td.dxheViewArea_MyCdsc {
+    font-size: 0;
+}
+
+.dxheHtmlViewArea_MyCdsc,
+.dxheDesignViewArea_MyCdsc,
+.dxhePreviewArea_MyCdsc
+{
+    margin: 0px;
+    background-color: White;
+    background-image: none;
+    font-size: smaller;
+    font: normal 12px Arial, Helvetica, sans-serif;
+}
+.dxheContentArea_MyCdsc .dxeMemo_MyCdsc td, 
+body.dxheDesignViewArea_MyCdsc, 
+body.dxhePreviewArea_MyCdsc
+{
+    padding: 4px 4px 0 4px;
+}
+.dxheControl_MyCdsc .dxheContentArea_MyCdsc .dxeMemo_MyCdsc td
+{
+    padding-top: 0;
+    padding-right: 0;
+}
+.dxheContentArea_MyCdsc .dxeMemoEditArea_MyCdsc
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.dxheControl_MyCdsc.dxhe-rtl .dxheContentArea_MyCdsc .dxeMemo_MyCdsc td
+{
+	padding: 0 4px 0 1px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .dxheControl_MyCdsc.dxhe-rtl .dxheContentArea_MyCdsc .dxeMemo_MyCdsc td
+    {
+	    padding: 0 0 0 4px;
+    }
+}
+.dxheControl_MyCdsc .dxeMemo_MyCdsc textarea 
+{
+	resize:none;
+}
+.dxheControl_MyCdsc input.dxeEditArea_MyCdsc
+{
+    padding-bottom: 0px;
+    margin-top: -1px;
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_MyCdsc table.dxEmptyBorderTable,
+body.dxheDesignViewArea_MyCdsc table.dxEmptyBorderTable td
+{
+    border: 1px dotted Gray;
+}
+@media print
+{
+	body.dxheDesignViewArea_MyCdsc table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_MyCdsc table.dxEmptyBorderTable td
+	{
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_MyCdsc pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+/* Status Bar */
+.dxheStatusBar_MyCdsc
+{
+}
+.dxheStatusBar_MyCdsc .dxheStatusBarTab_MyCdsc
+{
+    border-bottom-width: 0 !important;
+    border-left-width: 0 !important;
+}
+.dxheControl_MyCdsc.dxhe-rtl .dxheStatusBar_MyCdsc .dxheStatusBarTab_MyCdsc
+{
+    border-left-style: solid !important;
+    border-left-width: 1px !important;
+    border-right-width: 0 !important;
+}
+.dxheStatusBar_MyCdsc .dxheStatusBarTab_MyCdsc .dxtc-link
+{
+    padding: 4px 35px 5px 34px;
+}
+.dxheStatusBarActiveTab_MyCdsc
+{
+}
+.dxHtmlEditor_heSizeGrip_MyCdsc
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_MyCdsc
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_MyCdsc
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -13px;
+}
+.dxheControl_MyCdsc.dxhe-rtl .dxheSizeGripContainer_MyCdsc
+{
+	text-align: left;
+}
+.dxheStatusBar_MyCdsc .dxtc-bottom .dxtc-tab
+{
+    background: #f1f2f6 url('SBTabBack.png') repeat-x left top;
+}
+.dxheStatusBar_MyCdsc .dxtc-bottom .dxtc-tabHover
+{
+    background: #f7f9fe url('SBTabHoverBack.png') repeat-x left top;
+}
+.dxheStatusBar_MyCdsc .dxtc-rightIndent
+{
+    background: #f1f2f6 url('SBTabBack.png') repeat-x left top;
+}
+
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_MyCdsc .dxheDlgFooter,
+.dxpcLite_MyCdsc .dxheCustomDialog_MyCdsc .dxhecd-Buttons
+{
+    background-color: #ebecef;
+    border-top: 1px solid #abacb9;
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_MyCdsc.dxRtl .dxheDlgFooter,
+.dxpcLite_MyCdsc.dxRtl .dxheCustomDialog_MyCdsc .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_MyCdsc .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_MyCdsc.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_MyCdsc .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #737373;
+    border: 1px dashed #cac8c8;
+}
+.dxpcLite_MyCdsc .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: 1px solid #9da0aa;
+}
+
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_MyCdsc
+{
+	height: 1px;
+}
+.dxtbControl_MyCdsc
+{
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #201f35;
+    background: #f1f2f6 url('ToolbarBack.png') no-repeat right top;
+    width: 100%;
+    border-bottom: 1px solid #9da0aa;
+}
+.dxheControl_MyCdsc.dxhe-rtl .dxtbControl_MyCdsc 
+{
+	background: #f1f2f6 url('ToolbarBackRtl.png') no-repeat left top;
+}
+.dxtbControl_MyCdsc td.dxmMenu_MyCdsc
+{
+	border: 0;
+}
+.dxtbComboBoxMenuItem_MyCdsc
+{
+    padding: 2px 2px 1px;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_MyCdsc .dxmLite_MyCdsc .dxm-main
+{
+    border-width: 0;
+}
+.dxmLite_MyCdsc .dxhetipControl_MyCdsc img
+{
+	vertical-align: top;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_MyCdsc
+{
+}
+.dxtcbColorDiv_MyCdsc
+{
+	width: 16px;
+	height: 3px;
+	font-size: 0px;
+	background-color: Transparent;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_MyCdsc .dxrpcontent
+{
+    padding: 9px 8px;
+}
+

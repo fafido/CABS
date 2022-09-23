@@ -1,0 +1,222 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="vwEndOfDayTrade">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DealingBroker" type="xs:string" minOccurs="0" />
+                <xs:element name="BrokerNane" type="xs:string" minOccurs="0" />
+                <xs:element name="OrderNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="Company" type="xs:string" minOccurs="0" />
+                <xs:element name="CompanyName" type="xs:string" minOccurs="0" />
+                <xs:element name="CDS_Number" type="xs:string" minOccurs="0" />
+                <xs:element name="Surname" type="xs:string" minOccurs="0" />
+                <xs:element name="Middlename" type="xs:string" minOccurs="0" />
+                <xs:element name="Forenames" type="xs:string" minOccurs="0" />
+                <xs:element name="Order_Quantity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OrderValue" type="xs:decimal" minOccurs="0" />
+                <xs:element name="OrderType" type="xs:string" minOccurs="0" />
+                <xs:element name="Status" type="xs:string" minOccurs="0" />
+                <xs:element name="BasePrice" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TradeType" type="xs:string" minOccurs="0" />
+                <xs:element name="OrderDate" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>ESCR00410158</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00245049</CDS_Number>
+    <Surname>DICK</Surname>
+    <Middlename />
+    <Forenames>JAIROS</Forenames>
+    <Order_Quantity>321</Order_Quantity>
+    <OrderValue>6.42</OrderValue>
+    <OrderType>BUY</OrderType>
+    <Status>C</Status>
+    <BasePrice>0.02</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>ESCR00410163</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00245185</CDS_Number>
+    <Surname>REDMAN</Surname>
+    <Middlename />
+    <Forenames>IAN HILTON</Forenames>
+    <Order_Quantity>1000</Order_Quantity>
+    <OrderValue>1000.00</OrderValue>
+    <OrderType>BUY</OrderType>
+    <Status>C</Status>
+    <BasePrice>1.00</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>BUYORD1</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00245185</CDS_Number>
+    <Surname>REDMAN</Surname>
+    <Middlename />
+    <Forenames>IAN HILTON</Forenames>
+    <Order_Quantity>23000</Order_Quantity>
+    <OrderValue>0.00</OrderValue>
+    <OrderType>BUY
+</OrderType>
+    <Status>FUNDS_VERIFIED</Status>
+    <BasePrice>0.00</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>ESCR00410165</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00245187</CDS_Number>
+    <Surname>APPELS</Surname>
+    <Middlename />
+    <Forenames>SHEILA ANN</Forenames>
+    <Order_Quantity>500</Order_Quantity>
+    <OrderValue>0.00</OrderValue>
+    <OrderType>SELL</OrderType>
+    <Status>C</Status>
+    <BasePrice>0.00</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004 </DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>TRADCAPTURE002</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00245435 </CDS_Number>
+    <Surname>MOYO-DEHWA</Surname>
+    <Middlename />
+    <Forenames>ROCKSANA</Forenames>
+    <Order_Quantity>125</Order_Quantity>
+    <OrderValue>71.25</OrderValue>
+    <OrderType>BUY</OrderType>
+    <Status>NEW</Status>
+    <BasePrice>0.57</BasePrice>
+    <TradeType>REGULAR TRADE</TradeType>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>ESCR00410159</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00245628</CDS_Number>
+    <Surname>OWEN</Surname>
+    <Middlename />
+    <Forenames> ANN PAMELA</Forenames>
+    <Order_Quantity>700</Order_Quantity>
+    <OrderValue>14.00</OrderValue>
+    <OrderType>BUY</OrderType>
+    <Status>C</Status>
+    <BasePrice>0.02</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>ESCR00410165</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00246065</CDS_Number>
+    <Surname>PFUMO</Surname>
+    <Middlename />
+    <Forenames>JOHN</Forenames>
+    <Order_Quantity>500</Order_Quantity>
+    <OrderValue>0.00</OrderValue>
+    <OrderType>SELL</OrderType>
+    <Status>C</Status>
+    <BasePrice>0.00</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>ESCR00410168</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00246065</CDS_Number>
+    <Surname>PFUMO</Surname>
+    <Middlename />
+    <Forenames>JOHN</Forenames>
+    <Order_Quantity>800</Order_Quantity>
+    <OrderValue>0.00</OrderValue>
+    <OrderType>BUY</OrderType>
+    <Status>C</Status>
+    <BasePrice>0.00</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>ESCR00410167</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00246274</CDS_Number>
+    <Surname>PFUMAYARAMBA</Surname>
+    <Middlename />
+    <Forenames>JESICA</Forenames>
+    <Order_Quantity>100</Order_Quantity>
+    <OrderValue>0.00</OrderValue>
+    <OrderType>SELL</OrderType>
+    <Status>C</Status>
+    <BasePrice>0.00</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>ESCR00410169</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00246274</CDS_Number>
+    <Surname>PFUMAYARAMBA</Surname>
+    <Middlename />
+    <Forenames>JESICA</Forenames>
+    <Order_Quantity>70</Order_Quantity>
+    <OrderValue>0.00</OrderValue>
+    <OrderType>SELL</OrderType>
+    <Status>C</Status>
+    <BasePrice>0.00</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+  <vwEndOfDayTrade>
+    <DealingBroker>ESCR004</DealingBroker>
+    <BrokerNane>ESCROW BROKERS</BrokerNane>
+    <OrderNumber>ESCR00410164</OrderNumber>
+    <Company>OMZIL</Company>
+    <CompanyName>OLD MUTUAL ZIMBABWE LIMITED</CompanyName>
+    <CDS_Number>CUST00246384</CDS_Number>
+    <Surname>MUSARURWA</Surname>
+    <Middlename />
+    <Forenames>BERNARD</Forenames>
+    <Order_Quantity>120</Order_Quantity>
+    <OrderValue>2.40</OrderValue>
+    <OrderType>SELL</OrderType>
+    <Status>C</Status>
+    <BasePrice>0.02</BasePrice>
+    <OrderDate>2014-09-01T00:25:34.863+02:00</OrderDate>
+  </vwEndOfDayTrade>
+</NewDataSet>

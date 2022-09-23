@@ -1,0 +1,156 @@
+<%@ Master Language="VB" CodeFile="CDSAdmin.master.vb" Inherits="CDSMain" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>CDS Loginh</title>
+    
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="main.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #Table_01
+        {
+            width: 1074px;
+        }
+        .style1
+        {
+            background-color: #E4E4E4;
+            background-image: url('~/images/CDS-System_02.png');
+            background-repeat: repeat-y;
+            width: 201px;
+        }
+        .style2
+        {
+            width: 201px;
+             background-color: #E4E4E4;
+        }
+        .style3
+        {
+            height: 106px;
+        }
+    </style>
+</head>
+ <form id="form1" runat="server">
+<table height="555" border="0" align="center" cellpadding="0" cellspacing="0" 
+     id="Table_01">
+	<tr>
+		<td colspan="2" align="left" valign="top" class="style3">
+			<img src="../images/CDS-System_01.png" height="105" alt="" 
+                style="width: 1109px"></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style1">
+                                <asp:TreeView id="TreeView1" runat="server" backcolor="Gainsboro" 
+                                    font-names="Verdana" font-size="Small" ExpandDepth="0" forecolor="#095382" 
+                                    ShowLines="True">
+                                    <Nodes>
+                                        <asp:TreeNode Text="Sign Out" Value="Sign Out" NavigateUrl="~/LoginSystem.aspx"></asp:TreeNode>
+                                        <asp:TreeNode Text="System User Accounts" Value="System User Accounts">
+                                            <asp:TreeNode Text="Participants" Value="Participants" 
+                                                NavigateUrl="~/Parameters/ClientCompanySetup.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="System Users" 
+                                                Value="System Users" 
+                                                NavigateUrl="~/CDSMode/UserAccountsManagement.aspx"></asp:TreeNode>
+                                            <asp:TreeNode 
+                                                Text="User Permissions" Value="User Permissions" NavigateUrl="~/CDSMode/UserPermissions.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="System Access" 
+                                            Value="System Access">
+                                            <asp:TreeNode Text="System Access Times" 
+                                                Value="System Access Times" NavigateUrl="~/Parameters/SystemAccessTimes.aspx"></asp:TreeNode>
+                                            <asp:TreeNode 
+                                                Text="Password Management" Value="Password Management" NavigateUrl="~/Parameters/PasswordManagement.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Parameters Setup" Value="Parameters Setup">
+                                            <asp:TreeNode Text="Countries and Cities" Value="Countries and Cities" NavigateUrl="~/Parameters/CountryandCities.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Banks and Branches" Value="Banks and Branches" NavigateUrl="~/Parameters/BankingParameters.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Transaction Charges" Value="Transaction Charges"></asp:TreeNode>
+                                            <asp:TreeNode Text="Identity Documents" Value="Identity Documents"></asp:TreeNode>
+                                            <asp:TreeNode Text="Industry and Tax Codes" Value="Industry and Tax Codes"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/BrokerMode/LendingandBorrowingPara.aspx" Text="Lending and Borrowing Rules" Value="Lending and Borrowing Rules"></asp:TreeNode>
+                                            
+                                            <asp:TreeNode NavigateUrl="~/Parameters/GuaranteeFundsAccessRules.aspx" Text="Guarantee Funds Access Rules" Value="Guarantee Funds Access Rules"></asp:TreeNode>
+                                           <asp:TreeNode NavigateUrl="~/Parameters/SettlementParameters.aspx" Text="Settlement Parameters" Value="Settlement Cycle"></asp:TreeNode>
+                                              <asp:TreeNode NavigateUrl="~/Parameters/MessaginProtocolDefinations.aspx" Text="Settlement Banks Setup" Value="Messaging Protocols Setup"></asp:TreeNode>
+                                           
+                                             <asp:TreeNode NavigateUrl="~/Parameters/SettlementPoolAccount.aspx" Text="Transitory Account" Value="Settlement Pool Account(s)"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/BrokerMode/SettlementRules.aspx" Text="Settlement Messaging Options" Value="Clearing and Settlement Rules"></asp:TreeNode>
+                                           
+                                            <asp:TreeNode NavigateUrl="~/Parameters/TradingDataProcessing.aspx" Text="Trading Data Processing" Value="Trading Data Processing"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/OrderOptionsParameters.aspx" Text="OTC" Value="Order Options"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/MakerChecker.aspx" Text="Transactions Authorizations" Value="Transactions Authorizations"></asp:TreeNode>
+                                            
+                                            
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/InstrumentsSetUp.aspx" Text="Security Setup" Value="Instruments Setup"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/InstrumentsSetUp2.aspx" Text="Cross Listed Security Setup" Value="Cross Listed Security Setup"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/BillingPara.aspx" Text="Billing" Value="Billing"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/CurrencySetup.aspx" Text="Setup Currencies" Value="Setup Currencies"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/ConversionRates.aspx" Text="Setup Conversion Rates" Value="Setup Conversion Rates"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/RiskManagementDashBoard.aspx" Text="Risk Management" Value="Risk Management"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/CreditRatingForm2.aspx" Text="Credit Rating" Value="Credit Rating"></asp:TreeNode>
+
+
+
+                                            <asp:TreeNode NavigateUrl="~/Parameters/BrokerFees.aspx" Text="Broker Fees" Value="Broker Fees">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/frmBank.aspx" Text="Bank" Value="Bank"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/frmBranch.aspx" Text="Branch" Value="Branch">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/frmBrokers.aspx" Text="Broker" Value="Broker">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/frmCompany.aspx" Text="Counters" Value="Counters">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/FRMcOUNTRY.aspx" Text="Countries" Value="Countries">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/frmIndustry.aspx" Text="Industry" Value="Industry">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/frmTax.aspx" Text="Tax" Value="Tax"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/frmstockexchange.aspx" Text="Stock Exchanges" Value="Stock Exchanges"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Parameters/Interfaces.aspx" Text="System Interfaces" Value="System Interfaces"></asp:TreeNode>
+<asp:TreeNode NavigateUrl="~/Parameters/SystemEvents.aspx" Text="System Events" Value="System Events"></asp:TreeNode>
+
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Audit" Value="Audit">
+                                            <asp:TreeNode Text="System Access Report" NavigateUrl="~/CDSMode/accessreport.aspx" Value="System Access Report"></asp:TreeNode>
+                                            <asp:TreeNode Text="User Accounts Reports" Value="User Accounts Reports" NavigateUrl="~/CDSMode/useraccountsreport.aspx"></asp:TreeNode>
+                                           <%-- <asp:TreeNode Text="Per User Activities Log" Value="Per User Activities Log"></asp:TreeNode>--%>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Utilities" Value="Utilities">
+                                            <asp:TreeNode NavigateUrl="~/BrokerMode/EventsManagement.aspx" Text="Events Diary" Value="Events Diary"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/BrokerMode/SystemCalender.aspx" Text="System Calender" Value="System Calender"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/BrokerMode/SystemBackUp.aspx" Text="System Back Ups" Value="System Back Ups"></asp:TreeNode>
+                                              <asp:TreeNode NavigateUrl="~/BrokerMode/accountsupload.aspx" Text="Upload Accounts" Value="Upload Accounts"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                       
+                                    </Nodes>
+                                   <HoverNodeStyle backcolor="Gray" />
+                                    <LeafNodeStyle font-names="Arial" font-size="Small" />
+                                </asp:TreeView>
+                            </td>
+		<td rowspan="3" align="left" valign="top" class="content"><p>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p style="width: 835px">&nbsp;</p></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style2">
+			<img src="../images/CDS-System_04.png" height="173" alt="" style="width: 237px"></td>
+	</tr>
+	<tr>
+		<td class="style2">
+			<img src="../images/CDS-System_05.png" width="197" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top" class="footerBg"><a href="#"><span class="footercopyright"><asp:Label 
+                id="Label1" runat="server" font-bold="True" font-names="Arial" 
+                font-size="x-Small" Text="CDS Level Access" visible="True"></asp:Label></span></a><em class="footercopyright">Copyright &copy; 2012 ecsrowsystems all rights reserved</em></td>
+	</tr>
+</table>
+
+</form>

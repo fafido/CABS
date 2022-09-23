@@ -1,0 +1,161 @@
+<%@ Master Language="VB" CodeFile="CDSMain.master.vb" Inherits="CDSMain" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>CDS Loginh</title>
+    
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="main.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #Table_01
+        {
+            width: 1074px;
+        }
+        .style1
+        {
+            background-color: #E4E4E4;
+            background-image: url('~/images/CDS-System_02.png');
+            background-repeat: repeat-y;
+            width: 201px;
+        }
+        .style2
+        {
+            width: 201px;
+             background-color: #E4E4E4;
+        }
+        .style3
+        {
+            height: 106px;
+        }
+    </style>
+</head>
+ <form id="form1" runat="server">
+<table height="555" border="0" align="center" cellpadding="0" cellspacing="0" 
+     id="Table_01">
+	<tr>
+		<td colspan="2" align="left" valign="top" class="style3">
+			<img src="../images/CDS-System_01.png" height="105" alt="" 
+                style="width: 1109px"></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style1">
+                                <asp:TreeView id="TreeView1" runat="server" backcolor="Gainsboro" 
+                                    font-names="Verdana" font-size="Small" ExpandDepth="0" forecolor="#095382" 
+                                    ShowLines="True">
+                                    <Nodes>
+                                        <asp:TreeNode Text="Sign Out" Value="Sign Out" NavigateUrl="~/LoginSystem.aspx"></asp:TreeNode>
+                                        <asp:TreeNode Text="Enquiries" Value="1">
+                                            <asp:TreeNode Text="Account Details Enquiry" Value="Account Details Enquiry" 
+                                                NavigateUrl="~/CDSMode/NameEnquiry.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Account Portfolio Enquiry" 
+                                                Value="Shareholder Trading Enquiry" 
+                                                NavigateUrl="~/CDSMode/AccountEnquiryStatement.aspx"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/CertificatesTracking.aspx" 
+                                                Text="Certificates Enquiries" Value="Certificates Tracking"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/PostedOrders.aspx" Text="Orders" 
+                                                Value="Orders"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/TradesEnquiries.aspx" 
+                                                Text="Trades Enquiries" Value="Trades Enquiries"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Corporate Events Enquiries" 
+                                            Value="Corporate Events Enquiries">
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/DividendEnquiries.aspx" Text="Divinded " 
+                                                Value="Divinded "></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/RightsIssuesEnquiries.aspx" 
+                                                Text="Rights Issue" Value="Rights Issue"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/BonusIssueEnquiries.aspx" 
+                                                Text="Bonus Issue" Value="Bonus Issue"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Batch Transactions" Value="2">
+                                            <asp:TreeNode Text="Depository" Value="Batch Receipting" 
+                                                NavigateUrl="~/CDSMode/DepositoryVerification.aspx">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Immobilizations" Value="Immobilizations" 
+                                                NavigateUrl="~/CDSMode/ImmobilizationVerification.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Transfers" Value="Transfers" 
+                                                NavigateUrl="~/CDSMode/TransfersVerifications.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Allotments" Value="Allotments" 
+                                                NavigateUrl="~/CDSMode/AllotmentsVerifications.aspx"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/Trading/RegisterImport.aspx" Text="Register Upload" Value="Register Upload"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Settlement" Value="Settlement">
+                                            <asp:TreeNode Text="Trades File Import" Value="Trades File Import" 
+                                                NavigateUrl="~/CDSMode/TradesFileImport.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Trades Summary Report" Value="Trades Summary Report" 
+                                                NavigateUrl="~/CDSMode/TradesSummary.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Settlement Report" Value="Settlement Report" 
+                                                NavigateUrl="~/CDSMode/SettlementSummary.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Delivery Report" 
+                                                Value="Delivery Report" NavigateUrl="~/CDSMode/DeliverySummary.aspx"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Auditing" Value="6">
+                                            <asp:TreeNode Text="User Activity" Value="User Activity" 
+                                                NavigateUrl="~/CDSMode/Auditlog.aspx"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/UserLoginTrail.aspx" 
+                                                Text="User Activity Details" Value="User Activity Details"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Parameter Setting" Value="Parameter Setting">
+                                        <asp:TreeNode 
+                                                Text="Counters Creation" Value="Counters Creation" 
+                                                NavigateUrl="~/CDSMode/frmCompany.aspx"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/CompanyAccountsCreation.aspx" 
+                                                Text="Company Codes" Value="Company Codes"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/CDSAdminUserAccounts.aspx" 
+                                                Text="Accounts Creation" 
+                                                Value="Administration Accounts Creation"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/UserAccountsPermissionsManage.aspx" 
+                                                Text="Permissions Management" Value="System Accounts Creations">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="User Account Management" Value="Usermanagement" 
+                                                NavigateUrl="~/CDSMode/Frmuserpermissions.aspx"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/CDSUserAccountsAuthorization.aspx" 
+                                                Text="Systems Accounts Authorizations" Value="Systems Accounts Authorizations">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode Text="Password Management" Value="Password Management" 
+                                                NavigateUrl="~/CDSMode/PasswordManagement.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Settlement Instructions" Value="Settlement Instructions" 
+                                                NavigateUrl="~/CDSMode/SettlementInstructions.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Domicile Codes" Value="Domicile Codes" 
+                                                NavigateUrl="~/CDSMode/FRMcOUNTRY.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Industry &amp; Tax codes" Value="Industry &amp; Tax codes" 
+                                                NavigateUrl="~/CDSMode/frmIndustry.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Banks &amp; Branch Codes" Value="Banks &amp; Branch Codes" 
+                                                NavigateUrl="~/CDSMode/frmBank.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="User permissions" Value="User permissions"></asp:TreeNode>
+                                            
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/SystemCalender.aspx" 
+                                                Text="Events Calender" Value="Events Calender"></asp:TreeNode>
+                                            
+                                        </asp:TreeNode>
+                                    </Nodes>
+                                   <HoverNodeStyle backcolor="Gray" />
+                                    <LeafNodeStyle font-names="Arial" font-size="Small" />
+                                </asp:TreeView>
+                            </td>
+		<td rowspan="3" align="left" valign="top" class="content"><p>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p style="width: 835px">&nbsp;</p></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style2">
+			<img src="../images/CDS-System_04.png" height="173" alt="" style="width: 237px"></td>
+	</tr>
+	<tr>
+		<td class="style2">
+			<img src="../images/CDS-System_05.png" width="197" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top" class="footerBg"><a href="#"><span class="footercopyright"><asp:Label 
+                id="Label1" runat="server" font-bold="True" font-names="Arial" 
+                font-size="x-Small" Text="CDS Level Access" visible="True"></asp:Label></span></a><em class="footercopyright">Copyright &copy; 2012 ecsrowsystems all rights reserved</em></td>
+	</tr>
+</table>
+
+</form>

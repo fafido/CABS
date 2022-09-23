@@ -1,0 +1,106 @@
+<%@ Master Language="VB" CodeFile="BrokerAdmin.master.vb" Inherits="BrokerAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Broker Menu</title>
+    
+     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="main.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #Table_01
+        {
+            width: 1074px;
+        }
+        .style1
+        {
+            background-color: #E4E4E4;
+            background-image: url('~/images/CDS-System_02.png');
+            background-repeat: repeat-y;
+            width: 201px;
+        }
+        .style2
+        {
+            width: 201px;
+             background-color: #E4E4E4;
+        }
+    </style>
+</head>
+ <form id="form1" runat="server">
+
+<table height="555" border="0" align="center" cellpadding="0" cellspacing="0" 
+     id="Table_01">
+	<tr>
+		<td colspan="2" align="left" valign="top">
+			<img src="../images/CDS-System_01.png" height="105" alt="" 
+                style="width: 1109px"></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style1">
+
+    <asp:TreeView id="TreeView1" runat="server" backcolor="Gainsboro" font-names="Verdana" 
+                font-size="Small" forecolor="#095382">
+                                    <Nodes>
+                                        <asp:TreeNode Text="Sign Out" Value="Sign Out" NavigateUrl="~/LoginSystem.aspx"></asp:TreeNode>
+                                        <asp:TreeNode NavigateUrl="~/BrokerMode/FrmUsermanagement.aspx" 
+                                            Text="Usermanagement" Value="Usermanagement">
+                                            <asp:TreeNode NavigateUrl="~/BrokerMode/Frmuserpermissions.aspx" 
+                                                Text="System Permissions" Value="System Permissions"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/CDSMode/UserAccountsManagement2.aspx" 
+                                                Text="User Accounts Creations" Value="User Accounts Creations">
+                                            </asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/BrokerMode/BrokerUserAccountsAuthorization2.aspx" 
+                                                Text="Accounts Authorization" Value="Accounts Authorization"></asp:TreeNode>
+                                        </asp:TreeNode>
+                                        <asp:TreeNode Text="Auditing" Value="8">
+                                            <asp:TreeNode Text="Audit Log" Value="Audit Log" NavigateUrl=""></asp:TreeNode>
+                                            
+                                        </asp:TreeNode>
+                                         <asp:TreeNode Text="Authorizations" Value="10">
+                                            <%--<asp:TreeNode Text="New Accounts Authorization" Value="auth1" NavigateUrl="~/BrokerMode/AccountApproval.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="User Access" Value="auth2" NavigateUrl="~/Reporting/UserAccessReporting.aspx"></asp:TreeNode>--%>
+                                              <asp:TreeNode NavigateUrl="~/Approvals/approve_pledge.aspx" Text="Pledge Approve" Value="Pledge Approve"></asp:TreeNode>
+                                              <asp:TreeNode NavigateUrl="~/Approvals/approve_pledge_release.aspx" Text="Pledge Release Approve" Value="Pledge Release Approve"></asp:TreeNode>
+                                             <asp:TreeNode NavigateUrl="~/Approvals/approve_pledge_transfer.aspx" Text="Pledge Transfer Approve" Value="Pledge Transfer Approve"></asp:TreeNode>
+                                          
+                                             <asp:TreeNode NavigateUrl="~/Transfersec/borrowersrequest_authorization.aspx" Text="Authorize Lending" Value="Authorize Lending"></asp:TreeNode>
+                                           <asp:TreeNode Text="Accounts Authorizations" Value="New Accounts Authorization" NavigateUrl="~/TransferSec/AccountsVerification.aspx"></asp:TreeNode>
+                                            <asp:TreeNode Text="Batch Verifications" Value="Batch Verifications" NavigateUrl="~/TransferSec/BatchAuthorizations.aspx"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/TransferSec/AccountsTransferAuthorization.aspx" Text="Accounts Transfers" Value="Accounts Transfers"></asp:TreeNode>
+                                            <asp:TreeNode NavigateUrl="~/TransferSec/PledgeAuthorization.aspx" Text="Pledge Authorization" Value="Pledge Authorization"></asp:TreeNode>
+                                              <asp:TreeNode NavigateUrl="~/approvals/broker_transfer.aspx" Text="Authorize Broker Transfer" Value="Authorize Broker Transfe"></asp:TreeNode>
+                                             <asp:TreeNode NavigateUrl="~/Transfersec/interdepository_authorization.aspx" Text="Authorize Interdepository" Value="Authorize Interdepository"></asp:TreeNode>
+                                            <%--<asp:TreeNode NavigateUrl="~/TransferSec/UserAccountsAuthorizations.aspx" Text="User Accounts" Value="User Accounts"></asp:TreeNode>--%>
+                                        </asp:TreeNode>
+                                        
+                                    </Nodes>
+                                    <HoverNodeStyle backcolor="Gray" />
+                                    <LeafNodeStyle font-names="Arial" font-size="Small" />
+                                </asp:TreeView>
+         </td>
+		<td rowspan="3" align="left" valign="top" class="content"><p>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p>&nbsp;</p>
+	    <p style="width: 835px">&nbsp;</p></td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" class="style2">
+			<img src="../images/CDS-System_04.png" height="173" alt="" style="width: 237px"></td>
+	</tr>
+	<tr>
+		<td class="style2">
+			<img src="../images/CDS-System_05.png" width="197" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="top" class="footerBg"><a href="#"><span class="footercopyright"><asp:Label 
+                id="Label1" runat="server" font-bold="True" font-names="Arial" 
+                font-size="X-Small" Text="Broker Admin Level Access"></asp:Label></span></a><em class="footercopyright">Copyright &copy; 2012 ecsrowsystems all rights reserved</em></td>
+	</tr>
+</table>
+
+</form>
